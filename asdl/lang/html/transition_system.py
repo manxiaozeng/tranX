@@ -1,10 +1,11 @@
 # coding=utf-8
 import ast
 from bs4 import BeautifulSoup
-from asdl.transition_system import TransitionSystem
+from asdl.transition_system import TransitionSystem, GenTokenAction
 from asdl.asdl_ast import RealizedField, AbstractSyntaxTree
 from asdl.asdl import ASDLGrammar
 from common.registerable import Registrable
+from asdl.hypothesis import Hypothesis
 
 
 @Registrable.register('html')
@@ -62,6 +63,23 @@ class HtmlTransitionSystem(TransitionSystem):
         body.append(el)
         return str(el)
 
+    def get_primitive_field_actions(self, realized_field):
+        # Mostly copy/pasted from the python example
+        # But with the complexities removed, like handling cardinality > 1
+        actions = []
+        if realized_field.value is not None:
+            field_values = [realized_field.value]
+            tokens = []
+            if realized_field.type.name == 'string':
+                for field_val in field_values:
+                    tokens.extend(field_val.split(' ') + ['</primitive>'])
+            else:
+                for field_val in field_values:
+                    tokens.append(field_val)
+
+            for tok in tokens:
+                actions.append(GenTokenAction(tok))
+        return actions
 
 if __name__ == '__main__':
     #
@@ -76,4 +94,16 @@ if __name__ == '__main__':
 
     src_html_from_asdl = transition_sys.ast_to_surface_code(asdl_ast)
 
-    assert src_html == src_html_from_asdl
+    assert src_html == src_html_from_asdl, "Could not go from src to ast and back again"
+
+    #
+    # Test get_actions and hypothesis generation
+    #
+    actions = transition_sys.get_actions(asdl_ast)
+    hypothesis = Hypothesis()
+    for t, action in enumerate(actions, 1):
+        hypothesis.apply_action(action)
+    src_from_hyp_tree = transition_sys.ast_to_surface_code(hypothesis.tree).strip()
+    assert src_html == src_html_from_asdl == src_from_hyp_tree, "Generated source codes did not all match"
+
+    print("Success")
