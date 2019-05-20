@@ -1,6 +1,7 @@
 # coding=utf-8
 from __future__ import print_function
 
+import pdb
 import os
 from six.moves import xrange as range
 import math
@@ -682,7 +683,6 @@ class Parser(nn.Module):
 
             top_new_hyp_scores, top_new_hyp_pos = torch.topk(new_hyp_scores,
                                                              k=min(new_hyp_scores.size(0), beam_size - len(completed_hypotheses)))
-
             live_hyp_ids = []
             new_hypotheses = []
             for new_hyp_score, new_hyp_pos in zip(top_new_hyp_scores.data.cpu(), top_new_hyp_pos.data.cpu()):
@@ -764,6 +764,8 @@ class Parser(nn.Module):
                 new_hyp.score = new_hyp_score
 
                 if new_hyp.completed:
+                    print("New completed hyp below: ")
+                    print([[f.name, f.value] for f in new_hyp.tree.fields])
                     completed_hypotheses.append(new_hyp)
                 else:
                     new_hypotheses.append(new_hyp)
@@ -781,6 +783,7 @@ class Parser(nn.Module):
 
         completed_hypotheses.sort(key=lambda hyp: -hyp.score)
 
+        print("Found ", len(completed_hypotheses), "completed hypothesis (above) for ", src_sent)
         return completed_hypotheses
 
     def save(self, path):

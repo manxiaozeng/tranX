@@ -1,6 +1,7 @@
 # coding=utf-8
 from __future__ import print_function
 
+import pdb
 import argparse
 from itertools import chain
 
@@ -28,29 +29,24 @@ from model import nn_utils, utils
 
 from model.parser import Parser
 from model.utils import GloveHelper, get_parser_class
-
 if six.PY3:
     # import additional packages for wikisql dataset (works only under Python 3)
     from model.wikisql.dataset import WikiSqlExample, WikiSqlTable, TableColumn
     from model.wikisql.parser import WikiSqlParser
     from datasets.wikisql.dataset import Query, DBEngine
 
-
 def init_config():
     args = arg_parser.parse_args()
-
     # seed the RNG
     torch.manual_seed(args.seed)
     if args.cuda:
         torch.cuda.manual_seed(args.seed)
     np.random.seed(int(args.seed * 13 / 7))
-
     return args
 
 
 def train(args):
     """Maximum Likelihood Estimation"""
-
     # load in train/dev set
     train_set = Dataset.from_bin_file(args.train_file)
 
@@ -68,7 +64,8 @@ def train(args):
     model.train()
 
     evaluator = Registrable.by_name(args.evaluator)(transition_system, args=args)
-    if args.cuda: model.cuda()
+    if args.cuda:
+        model.cuda()
 
     optimizer_cls = eval('torch.optim.%s' % args.optimizer)  # FIXME: this is evil!
     optimizer = optimizer_cls(model.parameters(), lr=args.lr)
@@ -202,7 +199,8 @@ def train(args):
             # load model
             params = torch.load(args.save_to + '.bin', map_location=lambda storage, loc: storage)
             model.load_state_dict(params['state_dict'])
-            if args.cuda: model = model.cuda()
+            if args.cuda:
+                model = model.cuda()
 
             # load optimizers
             if args.reset_optimizer:
@@ -239,14 +237,18 @@ def test(args):
     eval_results, decode_results = evaluation.evaluate(test_set.examples, parser, evaluator, args,
                                                        verbose=args.verbose, return_decode_result=True)
     print(eval_results, file=sys.stderr)
+    input_utterances = [e.src_sent for e in test_set.examples]
+    result_code = [transition_system.ast_to_surface_code(res[0].tree) for res in decode_results]
+    for input, output in zip(input_utterances, result_code):
+        print(' '.join(input))
+        print(output)
+        print('\n')
     if args.save_decode_to:
         pickle.dump(decode_results, open(args.save_decode_to, 'wb'))
-
 
 if __name__ == '__main__':
     arg_parser = init_arg_parser()
     args = init_config()
-    print(args, file=sys.stderr)
     if args.mode == 'train':
         train(args)
     elif args.mode == 'test':

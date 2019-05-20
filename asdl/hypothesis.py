@@ -1,9 +1,9 @@
 # coding=utf-8
 
+import pdb
 from .asdl import *
 from .asdl_ast import AbstractSyntaxTree
 from .transition_system import *
-
 
 class Hypothesis(object):
     def __init__(self):
@@ -45,11 +45,32 @@ class Hypothesis(object):
                     end_primitive = False
                     if self.frontier_field.type.name == 'string':
                         if action.is_stop_signal():
+                            num_bools = len(filter(lambda v: isinstance(v, bool), self._value_buffer))
+                            if num_bools > 0:
+                                print("Failure, see below. Current hypothesis field names/values: ")
+                                print([[f.name, f.value] for f in self.tree.fields])
+                                print("Value buffer: ", self._value_buffer)
+                                print("frontier_field: ", self.frontier_field)
+                                print("frontier_node: ", self.frontier_node)
+                                print("score: ", self.score)
+                                raise Exception("Found booleans in string value buffer: ", self, action)
                             self.frontier_field.add_value(' '.join(self._value_buffer))
                             self._value_buffer = []
 
                             end_primitive = True
                         else:
+                            if not isinstance(action.token, str):
+                                # For some reason the model outputs bools as predictions of fields of type string.
+                                # To work around this we coerce the token to a string and print a warinng.
+                                print("*** WARNING Adding a non-string to _value_buffer")
+                                print("Token to be added: ", action.token)
+                                print("Going to stringify it and add it instead")
+                                print([[f.name, f.value] for f in self.tree.fields])
+                                print("Value buffer: ", self._value_buffer)
+                                print("frontier_field: ", self.frontier_field)
+                                print("frontier_node: ", self.frontier_node)
+                                print("score: ", self.score)
+                                action.token = str(action.token)
                             self._value_buffer.append(action.token)
                     else:
                         self.frontier_field.add_value(action.token)

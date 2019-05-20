@@ -1,19 +1,19 @@
 # TranX
 
-A general-purpose **Tran**sition-based abstract synta**X** parser 
-that maps natural language queries into machine executable 
+A general-purpose **Tran**sition-based abstract synta**X** parser
+that maps natural language queries into machine executable
 source code (e.g., Python) or logical forms (e.g., lambda calculus). **[Online Demo](http://moto.clab.cs.cmu.edu:8081/)**.
 
 ## System Architecture
 
-For technical details please refer to our [ACL '18 paper](https://arxiv.org/abs/1806.07832) and [EMNLP '18 demo paper](https://arxiv.org/abs/1810.02720). 
-To cope with different 
-domain specific logical formalisms (e.g., SQL, Python, lambda-calculus, 
-prolog, etc.), TranX uses abstract syntax trees (ASTs) defined in the 
+For technical details please refer to our [ACL '18 paper](https://arxiv.org/abs/1806.07832) and [EMNLP '18 demo paper](https://arxiv.org/abs/1810.02720).
+To cope with different
+domain specific logical formalisms (e.g., SQL, Python, lambda-calculus,
+prolog, etc.), TranX uses abstract syntax trees (ASTs) defined in the
 Abstract Syntax Description Language (ASDL) as intermediate meaning
 representation.
 
-![Sysmte Architecture](doc/system.png)
+![System Architecture](doc/system.png)
 
 Figure 1 gives a brief overview of the system.
 
@@ -23,7 +23,7 @@ Figure 1 gives a brief overview of the system.
 
 3. The intermediate AST is finally transformed to a domain-specific representation (e.g., Python source code) using customly-defined conversion functions.
 
-**File Structure** tranX is mainly composed of two components: 
+**File Structure** tranX is mainly composed of two components:
 
 1. A general-purpose transition system that defines the generation process of an AST `z`
  using a sequence of tree-constructing actions `a_0, a_1, ..., a_T`.
@@ -47,12 +47,12 @@ Here is a detailed map of the file strcuture:
 ## Supported Language and Datasets
 
 TranX officially supports the following grammatical formalism and datasets.
-More languages (C#) are coming! 
+More languages (C#) are coming!
 
 Language | Transition System | Grammar Specification | Example Datasets
----------|--------------------| -------- | -------- 
+---------|--------------------| -------- | --------
 Python 2   | `asdl.PythonTransitionSystem` | `asdl/lang/py/py_asdl.txt` | Django (Oda et al., 2015)
-Python 3 | `asdl.Python3TransitionSystem` | `asdl/lang/py3/py3_asdl.simplified.txt` | CoNaLa (Yin et al., 2018) 
+Python 3 | `asdl.Python3TransitionSystem` | `asdl/lang/py3/py3_asdl.simplified.txt` | CoNaLa (Yin et al., 2018)
 Lambda Calculus| `asdl.LambdaCalculusTransitionSystem` | `asdl/lang/lambda_asdl.txt` | ATIS, GeoQuery (Zettlemoyer and Collins, 2005)
 Prolog | `asdl.PrologTransitionSystem` | `asdl/lang/prolog_asdl.txt`  | Jobs (Zettlemoyer and Collins, 2005)
 SQL | `asdl.SqlTransitionSystem` | `asdl/lang/sql/sql_asdl.txt` | WikiSQL (Zhong et al., 2017)
@@ -93,7 +93,7 @@ conda env create -f config/env/tranx.yml  # create conda Python environment.
 
 ### Web Server/HTTP API
 
-`tranX` also ships with a web server for demonstraction and interactive debugging perpuse. It also exposes an HTTP API for online semantic parsing/code generation.
+`tranX` also ships with a web server for demonstration and interactive debugging purpose. It also exposes an HTTP API for online semantic parsing/code generation.
 
 
 To start the web server, simply run:
@@ -119,7 +119,7 @@ http://<IP Address>:8081/parse/<dataset_name>/<utterance>
 
 ### Conda Environments
 
-TranX supports both Python 2.7 and 3.5. Please note that 
+TranX supports both Python 2.7 and 3.5. Please note that
 some datasets only support Python 2.7 (e.g., Django) or Python 3+ (e.g., WikiSQL).
 The main example conda environment (`config/env/tranx.yml`) supports Python 3, but
 we also provide one for Python 2 (`config/env/tranx-py2.yml`).
@@ -133,16 +133,16 @@ conda env create -f config/env/(tranx.yml,tranx-py2.yml)
 
 #### How to adapt to a new programming language or logical form?
 
-You need to implement the 
-`TransitionSystem` class with a bunch of custom functions which (1) convert between 
-domain-specific logical forms and intermediate ASTs used by TranX, (2) predictors which 
+You need to implement the
+`TransitionSystem` class with a bunch of custom functions which (1) convert between
+domain-specific logical forms and intermediate ASTs used by TranX, (2) predictors which
 check if a hypothesis parse if correct during beam search decoding.
 You may take a look at the examples in `asdl/lang/*`.
 
 #### How to generate those pickled datasets (.bin files)?
 
-Please refer to `datasets/<lang>/dataset.py` for code snippets that converts 
-a dataset into pickled files. 
+Please refer to `datasets/<lang>/dataset.py` for code snippets that converts
+a dataset into pickled files.
 
 #### How to run without CUDA?
 

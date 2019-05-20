@@ -52,5 +52,4 @@ if __name__ == '__main__':
     src1 = astor.to_source(py_ast).strip()
     src2 = astor.to_source(py_ast_reconstructed).strip()
     src3 = astor.to_source(asdl_ast_to_python_ast(hypothesis.tree, grammar)).strip()
-
     assert src1 == src2 == src3 == "pandas.read('file.csv', nrows=100)"
