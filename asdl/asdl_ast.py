@@ -12,7 +12,8 @@ class AbstractSyntaxTree(object):
     def __init__(self, production, realized_fields=None):
         self.production = production
 
-        # a child is essentially a *realized_field*
+        # RealizedFields[]. These are the children
+        # of the root node and are instantiations of the abstract Field.
         self.fields = []
 
         # record its parent field to which it's attached
@@ -43,7 +44,7 @@ class AbstractSyntaxTree(object):
 
     def sanity_check(self):
         if len(self.production.fields) != len(self.fields):
-            raise ValueError('filed number must match')
+            raise ValueError('field number must match')
         for field, realized_field in zip(self.production.fields, self.fields):
             assert field == realized_field.field
         for child in self.fields:

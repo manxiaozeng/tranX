@@ -17,6 +17,7 @@ class Evaluator(object):
     def evaluate_dataset(self, examples, decode_results, fast_mode=False):
         correct_array = []
         oracle_array = []
+        print("Inside evaluator evaluate_dataset")
         for example, hyp_list in zip(examples, decode_results):
             if fast_mode:
                 hyp_list = hyp_list[:1]

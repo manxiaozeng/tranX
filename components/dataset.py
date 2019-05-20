@@ -224,5 +224,3 @@ class Batch(object):
             aggregated_primitive_tokens = OrderedDict()
             for token_pos, token in enumerate(e.src_sent):
                 aggregated_primitive_tokens.setdefault(token, []).append(token_pos)
-
-

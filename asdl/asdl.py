@@ -1,9 +1,7 @@
 # coding=utf-8
 from collections import OrderedDict, Counter
 from itertools import chain
-
 from .utils import remove_comment
-
 
 class ASDLGrammar(object):
     """
@@ -312,4 +310,3 @@ cmp_op = GreaterThan | Equal | LessThan
 
     grammar = ASDLGrammar.from_text(asdl_desc)
     print(ASDLCompositeType('1') == ASDLPrimitiveType('1'))
-

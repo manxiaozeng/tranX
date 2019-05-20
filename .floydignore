@@ -1,0 +1,23 @@
+
+#
+decodes/Directories and files to ignore when uploading code to floyd
+
+.git
+.eggs
+eggs
+lib
+lib64
+parts
+sdist
+var
+*.pyc
+*.swp
+.DS_Store
+
+# Exclude everything but html files
+data/
+!data/html
+decodes/
+!decodes/html
+saved_models/
+!saved_models/html

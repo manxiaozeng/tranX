@@ -1,10 +1,9 @@
 # coding=utf-8
 from __future__ import print_function
-
 import sys
 import traceback
 from tqdm import tqdm
-
+import pdb
 
 def decode(examples, model, args, verbose=False, **kwargs):
     ## TODO: create decoder for each dataset
@@ -23,7 +22,11 @@ def decode(examples, model, args, verbose=False, **kwargs):
         if is_wikisql:
             hyps = model.parse(example.src_sent, context=example.table, beam_size=args.beam_size)
         else:
-            hyps = model.parse(example.src_sent, context=None, beam_size=args.beam_size)
+            try:
+                hyps = model.parse(example.src_sent, context=None, beam_size=args.beam_size)
+            except Exception as e:
+                print("Exception: ", e)
+                raise e
         decoded_hyps = []
         for hyp_id, hyp in enumerate(hyps):
             got_code = False
@@ -57,7 +60,6 @@ def decode(examples, model, args, verbose=False, **kwargs):
 
 def evaluate(examples, parser, evaluator, args, verbose=False, return_decode_result=False, eval_top_pred_only=False):
     decode_results = decode(examples, parser, args, verbose=verbose)
-
     eval_result = evaluator.evaluate_dataset(examples, decode_results, fast_mode=eval_top_pred_only)
 
     if return_decode_result:

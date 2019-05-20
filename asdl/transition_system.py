@@ -1,6 +1,4 @@
 # coding=utf-8
-
-
 class Action(object):
     pass
 
@@ -144,5 +142,8 @@ class TransitionSystem(object):
         elif lang == 'wikisql':
             from .lang.sql.sql_transition_system import SqlTransitionSystem
             return SqlTransitionSystem
+        elif lang == 'html':
+            from .lang.html.transition_system import HtmlTransitionSystem
+            return HtmlTransitionSystem
 
         raise ValueError('unknown language %s' % lang)
