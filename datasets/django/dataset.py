@@ -1,8 +1,7 @@
 # coding=utf-8
 
 from __future__ import print_function
-
-import torch
+import pdb
 import re
 import pickle
 import ast
@@ -196,7 +195,12 @@ class Django(object):
         from components.vocab import Vocab, VocabEntry
         from components.dataset import Example
 
+        # TODO XXX this is debug code
+        count = 0
         for idx, (src_query, tgt_code) in enumerate(zip(open(annot_file), open(code_file))):
+            if count > 10:
+                break
+            count += 1
             src_query = src_query.strip()
             tgt_code = tgt_code.strip()
 
@@ -247,12 +251,12 @@ class Django(object):
 
             # print('first pass, processed %d' % idx, file=sys.stderr)
 
+
         train_examples = []
         dev_examples = []
         test_examples = []
 
         action_len = []
-
         for idx, e in enumerate(loaded_examples):
             src_query_tokens = e['src_query_tokens'][:max_query_len]
             tgt_actions = e['tgt_actions']
@@ -292,6 +296,7 @@ class Django(object):
 
         # generate vocabulary for the code tokens!
         code_tokens = [tokenize_code(e.tgt_code, mode='decoder') for e in train_examples]
+
         code_vocab = VocabEntry.from_corpus(code_tokens, size=5000, freq_cutoff=vocab_freq_cutoff)
 
         vocab = Vocab(source=src_vocab, primitive=primitive_vocab, code=code_vocab)
@@ -308,7 +313,8 @@ class Django(object):
         (train, dev, test), vocab = Django.parse_django_dataset(annot_file, code_file,
                                                                 'asdl/lang/py/py_asdl.txt',
                                                                 vocab_freq_cutoff=vocab_freq_cutoff)
-
+        # TODO XXX remove this
+        return
         pickle.dump(train, open('data/django/train.bin', 'w'))
         pickle.dump(dev, open('data/django/dev.bin', 'w'))
         pickle.dump(test, open('data/django/test.bin', 'w'))
@@ -384,7 +390,8 @@ if __name__ == '__main__':
     # a = {f1: 1}
     # print(a[rf1])
     Django.process_django_dataset()
-    # generate_vocab_for_paraphrase_model('data/django/vocab.freq10.bin', 'data/django/vocab.para.freq10.bin')
+    # generate_vocab_for_paraphrase_model('data/django/vocab.freq10.bin', 'data/django/
+    #.para.freq10.bin')
 
     # py_ast = ast.parse("""sorted(asf, reverse='k' 'k', k='re' % sdf)""")
     # canonicalize_py_ast(py_ast)

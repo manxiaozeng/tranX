@@ -12,7 +12,6 @@ import pdb
 if __name__ == '__main__':
     # read in the grammar specification of Python 2.7, defined in ASDL
     asdl_text = open('py_asdl.txt').read()
-    print("asdl_text: ", asdl_text)
     grammar = ASDLGrammar.from_text(asdl_text)
 
     py_code = """pandas.read('file.csv', nrows=100)"""
@@ -22,7 +21,6 @@ if __name__ == '__main__':
 
     # convert the python AST into general-purpose ASDL AST used by tranX
     asdl_ast = python_ast_to_asdl_ast(py_ast.body[0], grammar)
-    pdb.set_trace()
     print('String representation of the ASDL AST: \n%s' % asdl_ast.to_string())
     print('Size of the AST: %d' % asdl_ast.size)
 
@@ -56,5 +54,4 @@ if __name__ == '__main__':
     src1 = astor.to_source(py_ast).strip()
     src2 = astor.to_source(py_ast_reconstructed).strip()
     src3 = astor.to_source(asdl_ast_to_python_ast(hypothesis.tree, grammar)).strip()
-    pdb.set_trace()
     assert src1 == src2 == src3 == "pandas.read('file.csv', nrows=100)"

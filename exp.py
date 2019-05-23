@@ -28,7 +28,6 @@ from model import nn_utils, utils
 
 from model.parser import Parser
 from model.utils import GloveHelper, get_parser_class
-
 if six.PY3:
     # import additional packages for wikisql dataset (works only under Python 3)
     from model.wikisql.dataset import WikiSqlExample, WikiSqlTable, TableColumn
@@ -244,10 +243,12 @@ def test(args):
 
 
 if __name__ == '__main__':
+    print("Within __main__ of expy.py")
     arg_parser = init_arg_parser()
     args = init_config()
     print(args, file=sys.stderr)
     if args.mode == 'train':
+        print("Mode is 'train'")
         train(args)
     elif args.mode == 'test':
         test(args)

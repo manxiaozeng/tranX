@@ -33,8 +33,6 @@ def python_ast_to_asdl_ast(py_ast_node, grammar):
     production = grammar.get_prod_by_ctr_name(py_node_name)
 
     fields = []
-    print("production: ", production)
-    print("production fields: ", production.fields)
     for field in production.fields:
         field_value = getattr(py_ast_node, field.name)
         asdl_field = RealizedField(field)

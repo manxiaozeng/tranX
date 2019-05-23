@@ -56,7 +56,7 @@ class HtmlTransitionSystem(TransitionSystem):
             raise NotImplementedError("Only supports tag_name field for now")
         tag_name = realized_field.value
 
-        # build up the soup
+        # build up the soup (and strip out the <html> etc tags, just leaving our node)
         soup = BeautifulSoup('', 'html5lib')
         body = soup.body
         el = soup.new_tag(tag_name)
@@ -104,6 +104,6 @@ if __name__ == '__main__':
     for t, action in enumerate(actions, 1):
         hypothesis.apply_action(action)
     src_from_hyp_tree = transition_sys.ast_to_surface_code(hypothesis.tree).strip()
-    assert src_html == src_html_from_asdl == src_from_hyp_tree, "Generated source codes did not all match"
 
+    assert src_html == src_html_from_asdl == src_from_hyp_tree, "Generated source codes did not all match"
     print("Success")

@@ -93,7 +93,7 @@ conda env create -f data/env/py3torch3cuda9.yml  # create conda Python environme
 
 ### Web Server/HTTP API
 
-`tranX` also ships with a web server for demonstraction and interactive debugging perpuse. It also exposes an HTTP API for online semantic parsing/code generation.
+`tranX` also ships with a web server for demonstration and interactive debugging purpose. It also exposes an HTTP API for online semantic parsing/code generation.
 
 
 To start the web server, simply run:
