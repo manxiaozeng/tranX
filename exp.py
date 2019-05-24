@@ -243,12 +243,10 @@ def test(args):
 
 
 if __name__ == '__main__':
-    print("Within __main__ of expy.py")
     arg_parser = init_arg_parser()
     args = init_config()
     print(args, file=sys.stderr)
     if args.mode == 'train':
-        print("Mode is 'train'")
         train(args)
     elif args.mode == 'test':
         test(args)
