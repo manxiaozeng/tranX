@@ -4,4 +4,4 @@ tagname
 
 element = Element(tagname tag_name)
 
-tagname = video
+tagname = video | div

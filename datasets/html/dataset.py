@@ -10,8 +10,8 @@ from components.vocab import Vocab, VocabEntry
 from asdl.lang.py.py_utils import tokenize_code
 
 def make_train_data(max_query_len=70, vocab_freq_cutoff=10):
-    english_file_path = 'datasets/html/dev-data/5h/english.txt'
-    html_file_path = 'datasets/html/dev-data/5h/html.txt'
+    english_file_path = 'datasets/html/dev-data/5h-vid-div/english.txt'
+    html_file_path = 'datasets/html/dev-data/5h-vid-div/html.txt'
     asdl_file_path = 'asdl/lang/html/html_asdl.txt'
 
     asdl_text = open(asdl_file_path).read()
@@ -81,10 +81,10 @@ def make_train_data(max_query_len=70, vocab_freq_cutoff=10):
 def process_dataset():
     vocab_freq_cutoff = 15  # TODO: found the best cutoff threshold
     (train, dev, test), vocab = make_train_data(vocab_freq_cutoff=vocab_freq_cutoff)
-    pickle.dump(train, open('data/html/5h/train.bin', 'w'))
-    pickle.dump(dev, open('data/html/5h/dev.bin', 'w'))
-    pickle.dump(test, open('data/html/5h/test.bin', 'w'))
-    pickle.dump(vocab, open('data/html/5h/vocab.freq%d.bin' % vocab_freq_cutoff, 'w'))
+    pickle.dump(train, open('data/html/5h-vid-div/train.bin', 'w'))
+    pickle.dump(dev, open('data/html/5h-vid-div/dev.bin', 'w'))
+    pickle.dump(test, open('data/html/5h-vid-div/test.bin', 'w'))
+    pickle.dump(vocab, open('data/html/5h-vid-div/vocab.freq%d.bin' % vocab_freq_cutoff, 'w'))
 
 if __name__ == '__main__':
     process_dataset()

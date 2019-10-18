@@ -237,7 +237,10 @@ def test(args):
     eval_results, decode_results = evaluation.evaluate(test_set.examples, parser, evaluator, args,
                                                        verbose=args.verbose, return_decode_result=True)
     print(eval_results, file=sys.stderr)
-    # pdb.set_trace()
+    input_utterances = [e.src_sent for e in test_set.examples]
+    result_code = [transition_system.ast_to_surface_code(res[0].tree) for res in decode_results]
+    print(input_utterances)
+    print(result_code)
     if args.save_decode_to:
         pickle.dump(decode_results, open(args.save_decode_to, 'wb'))
 

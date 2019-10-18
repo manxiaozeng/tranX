@@ -4,10 +4,10 @@ set -e
 # environment py2torch3
 
 seed=${1:-0}
-vocab="data/html/5h/vocab.freq15.bin"
-train_file="data/html/5h/train.bin"
-dev_file="data/html/5h/dev.bin"
-test_file="data/html/5h/test.bin"
+vocab="data/html/5h-vid-div/vocab.freq15.bin"
+train_file="data/html/5h-vid-div/train.bin"
+dev_file="data/html/5h-vid-div/dev.bin"
+test_file="data/html/5h-vid-div/test.bin"
 dropout=0.3
 hidden_size=256
 embed_size=128
@@ -46,6 +46,6 @@ python exp.py \
     --lr_decay ${lr_decay} \
     --beam_size ${beam_size} \
     --log_every 50 \
-    --save_to saved_models/html/5h/${model_name} 2>logs/html/${model_name}.log
+    --save_to saved_models/html/5h-vid-div/${model_name} 2>logs/html/${model_name}.log
 
-. my-scripts/html/test.sh saved_models/html/5h/${model_name}.bin 2>>logs/html/${model_name}.log
+. my-scripts/html/test.sh saved_models/html/5h-vid-div/${model_name}.bin 2>>logs/html/${model_name}.log
