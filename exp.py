@@ -1,6 +1,7 @@
 # coding=utf-8
 from __future__ import print_function
 
+import pdb
 import argparse
 from itertools import chain
 
@@ -37,13 +38,11 @@ if six.PY3:
 
 def init_config():
     args = arg_parser.parse_args()
-
     # seed the RNG
     torch.manual_seed(args.seed)
     if args.cuda:
         torch.cuda.manual_seed(args.seed)
     np.random.seed(int(args.seed * 13 / 7))
-
     return args
 
 
@@ -238,6 +237,7 @@ def test(args):
     eval_results, decode_results = evaluation.evaluate(test_set.examples, parser, evaluator, args,
                                                        verbose=args.verbose, return_decode_result=True)
     print(eval_results, file=sys.stderr)
+    # pdb.set_trace()
     if args.save_decode_to:
         pickle.dump(decode_results, open(args.save_decode_to, 'wb'))
 

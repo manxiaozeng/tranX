@@ -1,4 +1,7 @@
+# https://html.spec.whatwg.org/multipage/syntax.html
 # primitives
-string
+tagname
 
-element = Element(string tag_name)
+element = Element(tagname tag_name)
+
+tagname = video

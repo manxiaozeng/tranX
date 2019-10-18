@@ -1,12 +1,13 @@
 #!/bin/bash
 set -e
 
-source activate py2torch3
+# environment py2torch3
+
 seed=${1:-0}
-vocab="data/html/vocab.freq15.bin"
-train_file="data/html/train.bin"
-dev_file="data/html/dev.bin"
-test_file="data/html/test.bin"
+vocab="data/html/5h/vocab.freq15.bin"
+train_file="data/html/5h/train.bin"
+dev_file="data/html/5h/dev.bin"
+test_file="data/html/5h/test.bin"
 dropout=0.3
 hidden_size=256
 embed_size=128
@@ -26,7 +27,6 @@ python exp.py \
     --batch_size 2 \
     --asdl_file asdl/lang/html/html_asdl.txt \
     --transition_system html \
-    --evaluator html_evaluator \
     --train_file ${train_file} \
     --dev_file ${dev_file} \
     --vocab ${vocab} \
@@ -46,6 +46,6 @@ python exp.py \
     --lr_decay ${lr_decay} \
     --beam_size ${beam_size} \
     --log_every 50 \
-    --save_to saved_models/html/${model_name} 2>logs/html/${model_name}.log
+    --save_to saved_models/html/5h/${model_name} 2>logs/html/${model_name}.log
 
-. my-scripts/html/test.sh saved_models/html/${model_name}.bin 2>>logs/html/${model_name}.log
+. my-scripts/html/test.sh saved_models/html/5h/${model_name}.bin 2>>logs/html/${model_name}.log

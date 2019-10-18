@@ -195,12 +195,7 @@ class Django(object):
         from components.vocab import Vocab, VocabEntry
         from components.dataset import Example
 
-        # TODO XXX this is debug code
-        count = 0
         for idx, (src_query, tgt_code) in enumerate(zip(open(annot_file), open(code_file))):
-            if count > 10:
-                break
-            count += 1
             src_query = src_query.strip()
             tgt_code = tgt_code.strip()
 
@@ -313,8 +308,6 @@ class Django(object):
         (train, dev, test), vocab = Django.parse_django_dataset(annot_file, code_file,
                                                                 'asdl/lang/py/py_asdl.txt',
                                                                 vocab_freq_cutoff=vocab_freq_cutoff)
-        # TODO XXX remove this
-        return
         pickle.dump(train, open('data/django/train.bin', 'w'))
         pickle.dump(dev, open('data/django/dev.bin', 'w'))
         pickle.dump(test, open('data/django/test.bin', 'w'))

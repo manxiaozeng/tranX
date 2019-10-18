@@ -43,6 +43,7 @@ class Hypothesis(object):
                 if isinstance(action, GenTokenAction):
                     # only field of type string requires termination signal </primitive>
                     end_primitive = False
+                    # _TODO_ to get GenToken working I hardcoded the below if cond to False
                     if self.frontier_field.type.name == 'string':
                         if action.is_stop_signal():
                             self.frontier_field.add_value(' '.join(self._value_buffer))
@@ -52,6 +53,7 @@ class Hypothesis(object):
                         else:
                             self._value_buffer.append(action.token)
                     else:
+                        print('Adding value to frontier_field: ', action.token)
                         self.frontier_field.add_value(action.token)
                         end_primitive = True
 

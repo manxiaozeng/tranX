@@ -1,4 +1,6 @@
 # coding=utf-8
+import pdb
+import pickle
 import ast
 from bs4 import BeautifulSoup
 from asdl.transition_system import TransitionSystem, GenTokenAction
@@ -7,12 +9,17 @@ from asdl.asdl import ASDLGrammar
 from common.registerable import Registrable
 from asdl.hypothesis import Hypothesis
 
-
 @Registrable.register('html')
 class HtmlTransitionSystem(TransitionSystem):
-    def tokenize_code(self, code, mode):
-        # Think this is required for producing datasets
-        raise NotImplementedError
+    def compare_ast(self, hyp_ast, ref_ast):
+        code1 = self.ast_to_surface_code(hyp_ast)
+        code2 = self.ast_to_surface_code(ref_ast)
+
+        soup1 = BeautifulSoup(code1, 'html.parser')
+        soup2 = BeautifulSoup(code2, 'html.parser')
+
+        return soup1 == soup2
+
 
     # Given source html, return an asdl ast
     # by first converting the html text to beatiful soup
@@ -23,9 +30,9 @@ class HtmlTransitionSystem(TransitionSystem):
         # I dont know why I need html.parser here, but
         # for going from ast to surface code I need html5lib
         soup_ast = BeautifulSoup(code, 'html.parser')
+
         #
         # TODO This is highly tailored to assume a single tag
-        #
         #
         soup_node = soup_ast.contents[0]
         element_production = self.grammar.get_prod_by_ctr_name('Element')
@@ -40,20 +47,10 @@ class HtmlTransitionSystem(TransitionSystem):
     # Given an asdl ast, return source html code
     # by first converting asdl to beatiful soup
     #
-    # NOTE: Assumes (for now) that we are dealing with a single tag
-    #
     def ast_to_surface_code(self, asdl_ast):
-        if asdl_ast.production.constructor.name != 'Element':
-            raise NotImplementedError("Only supports constructors of type Element")
-
-        if len(asdl_ast.fields) != 1:
-            raise NotImplementedError("Only supports html with a single tag")
-
         # Get the info for our tag
         realized_field = asdl_ast.fields[0]
         field = realized_field.field
-        if field.name != 'tag_name':
-            raise NotImplementedError("Only supports tag_name field for now")
         tag_name = realized_field.value
 
         # build up the soup (and strip out the <html> etc tags, just leaving our node)
@@ -107,3 +104,10 @@ if __name__ == '__main__':
 
     assert src_html == src_html_from_asdl == src_from_hyp_tree, "Generated source codes did not all match"
     print("Success")
+
+    # Test 5k dataset output
+    # _TODO_
+    # decodes = pickle.load(open('../../../decodes/html/5k/model.sup.html.lstm.hidden256.embed128.action128.field64.type64.dropout0.3.lr0.001.lr_decay0.5.beam_size15.vocab.freq15.bin.train.bin.glorot.par_state_w_field_embe.seed0.bin.test.decode'))
+    # print(len(decodes))
+    # print(decodes[0])
+    # pdb.set_trace()

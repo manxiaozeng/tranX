@@ -1,6 +1,7 @@
 # coding=utf-8
 from __future__ import print_function
 
+import pdb
 import os
 from six.moves import xrange as range
 import math
@@ -620,6 +621,8 @@ class Parser(nn.Module):
             applyrule_new_hyp_prod_ids = []
             applyrule_prev_hyp_ids = []
 
+            # What does this for loop do? Just create the continuations? Maket his a func?
+            # Seems only related to copying...
             for hyp_id, hyp in enumerate(hypotheses):
                 # generate new continuations
                 action_types = self.transition_system.get_valid_continuation_types(hyp)
@@ -682,9 +685,9 @@ class Parser(nn.Module):
 
             top_new_hyp_scores, top_new_hyp_pos = torch.topk(new_hyp_scores,
                                                              k=min(new_hyp_scores.size(0), beam_size - len(completed_hypotheses)))
-
             live_hyp_ids = []
             new_hypotheses = []
+            # What does this for loop do? Seems to create actions?
             for new_hyp_score, new_hyp_pos in zip(top_new_hyp_scores.data.cpu(), top_new_hyp_pos.data.cpu()):
                 action_info = ActionInfo()
                 if new_hyp_pos < len(applyrule_new_hyp_scores):
@@ -764,6 +767,7 @@ class Parser(nn.Module):
                 new_hyp.score = new_hyp_score
 
                 if new_hyp.completed:
+                    print("** SUCCESS found completed hyp: ", hyp.actions)
                     completed_hypotheses.append(new_hyp)
                 else:
                     new_hypotheses.append(new_hyp)
@@ -781,6 +785,7 @@ class Parser(nn.Module):
 
         completed_hypotheses.sort(key=lambda hyp: -hyp.score)
 
+        print("Found ", len(completed_hypotheses), "hypothesis for ", src_sent)
         return completed_hypotheses
 
     def save(self, path):

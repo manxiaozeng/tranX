@@ -1,4 +1,5 @@
 import pickle
+import math
 import nltk
 from asdl.asdl import ASDLGrammar
 from asdl.lang.html.transition_system import HtmlTransitionSystem
@@ -9,8 +10,8 @@ from components.vocab import Vocab, VocabEntry
 from asdl.lang.py.py_utils import tokenize_code
 
 def make_train_data(max_query_len=70, vocab_freq_cutoff=10):
-    english_file_path = 'datasets/html/dev-data/english.txt'
-    html_file_path = 'datasets/html/dev-data/html.txt'
+    english_file_path = 'datasets/html/dev-data/5h/english.txt'
+    html_file_path = 'datasets/html/dev-data/5h/html.txt'
     asdl_file_path = 'asdl/lang/html/html_asdl.txt'
 
     asdl_text = open(asdl_file_path).read()
@@ -37,6 +38,13 @@ def make_train_data(max_query_len=70, vocab_freq_cutoff=10):
                                 'tgt_actions': target_actions,
                                 'raw_code': target_code}) # Do I need a str_map?
 
+    num_examples = len(loaded_examples)
+    if num_examples < 10:
+        raise Exception("Require at least 10 examples but found ", num_examples)
+    num_for_train = math.floor(num_examples * 0.9)
+    num_for_dev = math.floor(num_examples * 0.05)
+    num_for_test = num_examples - num_for_train - num_for_dev
+
     train_examples = []
     dev_examples = []
     test_examples = []
@@ -49,9 +57,9 @@ def make_train_data(max_query_len=70, vocab_freq_cutoff=10):
                           meta={'raw_code': e['raw_code']})
 
         # train, valid, test split
-        if 0 <= idx < 4:
+        if 0 <= idx < num_for_train:
             train_examples.append(example)
-        elif 4 <= idx < 6:
+        elif num_for_train <= idx < (num_for_train + num_for_dev):
             dev_examples.append(example)
         else:
             test_examples.append(example)
@@ -73,10 +81,10 @@ def make_train_data(max_query_len=70, vocab_freq_cutoff=10):
 def process_dataset():
     vocab_freq_cutoff = 15  # TODO: found the best cutoff threshold
     (train, dev, test), vocab = make_train_data(vocab_freq_cutoff=vocab_freq_cutoff)
-    pickle.dump(train, open('data/html/train.bin', 'w'))
-    pickle.dump(dev, open('data/html/dev.bin', 'w'))
-    pickle.dump(test, open('data/html/test.bin', 'w'))
-    pickle.dump(vocab, open('data/html/vocab.freq%d.bin' % vocab_freq_cutoff, 'w'))
+    pickle.dump(train, open('data/html/5h/train.bin', 'w'))
+    pickle.dump(dev, open('data/html/5h/dev.bin', 'w'))
+    pickle.dump(test, open('data/html/5h/test.bin', 'w'))
+    pickle.dump(vocab, open('data/html/5h/vocab.freq%d.bin' % vocab_freq_cutoff, 'w'))
 
 if __name__ == '__main__':
     process_dataset()
