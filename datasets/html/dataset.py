@@ -8,10 +8,12 @@ from components.action_info import get_action_infos
 from components.dataset import Example
 from components.vocab import Vocab, VocabEntry
 from asdl.lang.py.py_utils import tokenize_code
+import argparse
+import os
 
-def make_train_data(max_query_len=70, vocab_freq_cutoff=10):
-    english_file_path = 'datasets/html/dev-data/5h-vid-div/english.txt'
-    html_file_path = 'datasets/html/dev-data/5h-vid-div/html.txt'
+def make_train_data(data_name, max_query_len=70, vocab_freq_cutoff=10):
+    english_file_path = 'datasets/html/dev-data/{0}/english.txt'.format(data_name)
+    html_file_path = 'datasets/html/dev-data/{0}/html.txt'.format(data_name)
     asdl_file_path = 'asdl/lang/html/html_asdl.txt'
 
     asdl_text = open(asdl_file_path).read()
@@ -78,13 +80,19 @@ def make_train_data(max_query_len=70, vocab_freq_cutoff=10):
 
     return (train_examples, dev_examples, test_examples), vocab
 
-def process_dataset():
+def process_dataset(data_name):
     vocab_freq_cutoff = 15  # TODO: found the best cutoff threshold
-    (train, dev, test), vocab = make_train_data(vocab_freq_cutoff=vocab_freq_cutoff)
-    pickle.dump(train, open('data/html/5h-vid-div/train.bin', 'w'))
-    pickle.dump(dev, open('data/html/5h-vid-div/dev.bin', 'w'))
-    pickle.dump(test, open('data/html/5h-vid-div/test.bin', 'w'))
-    pickle.dump(vocab, open('data/html/5h-vid-div/vocab.freq%d.bin' % vocab_freq_cutoff, 'w'))
+    (train, dev, test), vocab = make_train_data(data_name=data_name, vocab_freq_cutoff=vocab_freq_cutoff)
+    dump_dir = 'data/html/{0}'.format(data_name)
+    if not os.path.exists(dump_dir):
+        os.makedirs(dump_dir)
+    pickle.dump(train, open('data/html/{0}/train.bin'.format(data_name), 'w'))
+    pickle.dump(dev, open('data/html/{0}/dev.bin'.format(data_name), 'w'))
+    pickle.dump(test, open('data/html/{0}/test.bin'.format(data_name), 'w'))
+    pickle.dump(vocab, open('data/html/{0}/vocab.freq%d.bin'.format(data_name) % vocab_freq_cutoff, 'w'))
 
 if __name__ == '__main__':
-    process_dataset()
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument('--data_name', default=0, type=str, help='Name of directory in datasets/html/dev-data to use')
+    args = arg_parser.parse_args()
+    process_dataset(args.data_name)

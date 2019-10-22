@@ -53,7 +53,6 @@ class Hypothesis(object):
                         else:
                             self._value_buffer.append(action.token)
                     else:
-                        print('Adding value to frontier_field: ', action.token)
                         self.frontier_field.add_value(action.token)
                         end_primitive = True
 
