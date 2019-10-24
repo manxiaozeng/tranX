@@ -27,21 +27,21 @@ class HtmlTransitionSystem(TransitionSystem):
     # NOTE: Assumes (for now) that we are dealing with a single tag
     #
     def surface_code_to_ast(self, code):
-        # I dont know why I need html.parser here, but
-        # for going from ast to surface code I need html5lib
         soup_ast = BeautifulSoup(code, 'html.parser')
-
-        #
-        # TODO This is highly tailored to assume a single tag
-        #
-        soup_node = soup_ast.contents[0]
+        # Assumes we're just dealing with a single tag
+        tag = soup_ast.contents[0]
         element_production = self.grammar.get_prod_by_ctr_name('Element')
-        first_field = element_production.fields[0]
-        asdl_field = RealizedField(first_field)
-        field_value = soup_node.name
-        asdl_field.add_value(str(field_value))
 
-        asdl_node = AbstractSyntaxTree(element_production, realized_fields=[asdl_field])
+        tag_name_field = element_production.fields[0]
+        tag_name_realized_field = RealizedField(tag_name_field)
+        field_value = tag.name
+        tag_name_realized_field.add_value(str(field_value))
+
+        autoplay_field = element_production.fields[1]
+        autoplay_realized_field = RealizedField(autoplay_field)
+        autoplay_realized_field.add_value(tag.has_key('autoplay'))
+
+        asdl_node = AbstractSyntaxTree(element_production, realized_fields=[tag_name_realized_field, autoplay_realized_field])
         return asdl_node
 
     # Given an asdl ast, return source html code
@@ -49,14 +49,20 @@ class HtmlTransitionSystem(TransitionSystem):
     #
     def ast_to_surface_code(self, asdl_ast):
         # Get the info for our tag
-        realized_field = asdl_ast.fields[0]
-        field = realized_field.field
-        tag_name = realized_field.value
+        tag_name_realized_field = asdl_ast.fields[0]
+        tag_name = tag_name_realized_field.value
 
-        # build up the soup (and strip out the <html> etc tags, just leaving our node)
+        autoplay_realized_field = asdl_ast.fields[1]
+        autoplay_bool = autoplay_realized_field.value
+
+        # Build up the soup (and strip out the <html> etc tags, just leaving our node)
+        # TODO I'm not sure why I had to use html5lib here and html.parser in surface_code_to_ast
         soup = BeautifulSoup('', 'html5lib')
         body = soup.body
         el = soup.new_tag(tag_name)
+        if autoplay_bool:
+            # Use None so the output looks like 'autoplay' not 'autoplay=""'
+            el['autoplay'] = None
         body.append(el)
         return str(el)
 

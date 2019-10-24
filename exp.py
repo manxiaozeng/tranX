@@ -244,7 +244,6 @@ def test(args):
     if args.save_decode_to:
         pickle.dump(decode_results, open(args.save_decode_to, 'wb'))
 
-
 if __name__ == '__main__':
     arg_parser = init_arg_parser()
     args = init_config()

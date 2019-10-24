@@ -22,13 +22,10 @@ class Evaluator(object):
             if fast_mode:
                 hyp_list = hyp_list[:1]
 
-            if hyp_list: # _TODO_ THIS IS EMPTY
-                print("*** SUCESS: eavluator.py#evaluate_dataset *FOUND* hyp_list")
+            if hyp_list:
                 for hyp_id, hyp in enumerate(hyp_list):
-                    print("hyp_id: ", hyp_id)
                     try:
                         is_correct = self.is_hyp_correct(example, hyp)
-                        print('is_correct: ', is_correct)
                     except:
                         is_correct = False
 
