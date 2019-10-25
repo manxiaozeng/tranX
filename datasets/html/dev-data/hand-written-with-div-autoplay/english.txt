@@ -1,0 +1,107 @@
+a box
+a video
+a video automatically played
+video
+a div
+plain div
+empty box
+a video
+a box
+a video
+a video automatically played
+video
+a div
+plain div
+empty box
+a video
+show a div
+a video with autoplay
+play a video
+a regular div
+a regular box
+a video
+a video that plays immediately
+video with autoplay
+an empty div
+a box
+a video
+a video automatically played
+video
+a div
+plain div
+empty box
+a video
+a box
+a video
+a video automatically played
+video
+a div
+plain div
+empty box
+a video
+show a div
+a video with autoplay
+play a video
+a regular div
+a regular box
+a video
+a video that plays immediately
+video with autoplay
+an empty div
+autoplay a video
+normal div
+show a video
+a video
+a video automatically played
+autoplay a video
+play a video right away
+a video
+video
+a normal video
+a box
+a regular div
+a plain box
+an empty div
+a video that plays automatically
+autoplay a video
+a video
+a div
+a plain div
+normal video
+empty box
+a video that plays right away
+a plain div
+show a video
+a video
+video
+play a video automatically
+a video that plays right away
+show a video
+a video
+empty div
+empty box
+just a video
+video
+a box
+a div
+a plain div
+a normal video
+show a video
+play a video automatically
+a video that starts right away
+a normal video
+a video
+a plain box
+a normal div
+show a div
+autoplay a video
+just a div
+regular div
+autoplay a video
+play the video immediately
+a video that plays immediately
+regular div
+plain box
+autoplay a video
+a div that plays automatically
+a plain video
