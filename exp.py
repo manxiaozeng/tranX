@@ -239,8 +239,10 @@ def test(args):
     print(eval_results, file=sys.stderr)
     input_utterances = [e.src_sent for e in test_set.examples]
     result_code = [transition_system.ast_to_surface_code(res[0].tree) for res in decode_results]
-    print(input_utterances)
-    print(result_code)
+    for input, output in zip(input_utterances, result_code):
+        print(' '.join(input))
+        print(output)
+        print('\n')
     if args.save_decode_to:
         pickle.dump(decode_results, open(args.save_decode_to, 'wb'))
 
