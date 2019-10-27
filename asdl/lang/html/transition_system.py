@@ -41,7 +41,11 @@ class HtmlTransitionSystem(TransitionSystem):
         autoplay_realized_field = RealizedField(autoplay_field)
         autoplay_realized_field.add_value(tag.has_key('autoplay'))
 
-        asdl_node = AbstractSyntaxTree(element_production, realized_fields=[tag_name_realized_field, autoplay_realized_field])
+        loop_field = element_production.fields[2]
+        loop_realized_field = RealizedField(loop_field)
+        loop_realized_field.add_value(tag.has_key('loop'))
+
+        asdl_node = AbstractSyntaxTree(element_production, realized_fields=[tag_name_realized_field, autoplay_realized_field, loop_realized_field])
         return asdl_node
 
     # Given an asdl ast, return source html code
@@ -55,6 +59,9 @@ class HtmlTransitionSystem(TransitionSystem):
         autoplay_realized_field = asdl_ast.fields[1]
         autoplay_bool = autoplay_realized_field.value
 
+        loop_realized_field = asdl_ast.fields[2]
+        loop_bool = loop_realized_field.value
+
         # Build up the soup (and strip out the <html> etc tags, just leaving our node)
         # TODO I'm not sure why I had to use html5lib here and html.parser in surface_code_to_ast
         soup = BeautifulSoup('', 'html5lib')
@@ -63,6 +70,9 @@ class HtmlTransitionSystem(TransitionSystem):
         if autoplay_bool:
             # Use None so the output looks like 'autoplay' not 'autoplay=""'
             el['autoplay'] = None
+        if loop_bool:
+            # Use None so the output looks like 'autoplay' not 'autoplay=""'
+            el['loop'] = None
         body.append(el)
         return str(el)
 

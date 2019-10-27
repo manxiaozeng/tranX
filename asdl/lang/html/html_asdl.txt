@@ -3,6 +3,6 @@
 tagname, bool
 
 # For now just modeling attributes as individual optional nodes instead of as an attrs*
-element = Element(tagname tag_name, bool? autoplay)
+element = Element(tagname tag_name, bool? autoplay, bool? loop)
 
 tagname = video | div
