@@ -10,6 +10,7 @@ from components.vocab import Vocab, VocabEntry
 from asdl.lang.py.py_utils import tokenize_code
 import argparse
 import os
+import pdb
 
 def make_train_data(data_name, max_query_len=70, vocab_freq_cutoff=10):
     english_file_path = 'datasets/html/dev-data/{0}/english.txt'.format(data_name)

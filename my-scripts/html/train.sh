@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# environment py2torch3
+# conda environment py2torch3
 
 # data source
 data_name=${1} # dir name in datasets/html/dev-data

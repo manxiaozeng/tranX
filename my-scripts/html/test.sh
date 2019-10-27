@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# conda environment py2torch3
+
 data_name=${2}
 test_file="data/html/${data_name}/test.bin"
 
