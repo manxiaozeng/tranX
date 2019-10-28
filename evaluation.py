@@ -22,7 +22,11 @@ def decode(examples, model, args, verbose=False, **kwargs):
         if is_wikisql:
             hyps = model.parse(example.src_sent, context=example.table, beam_size=args.beam_size)
         else:
-            hyps = model.parse(example.src_sent, context=None, beam_size=args.beam_size)
+            try:
+                hyps = model.parse(example.src_sent, context=None, beam_size=args.beam_size)
+            except:
+                print("Exception: ")
+                # pdb.set_trace()
         decoded_hyps = []
         for hyp_id, hyp in enumerate(hyps):
             got_code = False

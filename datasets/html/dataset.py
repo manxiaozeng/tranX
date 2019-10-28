@@ -33,7 +33,7 @@ def make_train_data(data_name, max_query_len=70, vocab_freq_cutoff=10):
         gold_source = transition_system.ast_to_surface_code(target_ast)
         target_actions = transition_system.get_actions(target_ast)
 
-        # TODO XXX do the sanity check on Hypothesis in django/dataset.py
+        # _TODO_ XXX do the sanity check on Hypothesis in django/dataset.py
 
         loaded_examples.append({'src_query_tokens': src_tokens,
                                 'tgt_canonical_code': gold_source,
