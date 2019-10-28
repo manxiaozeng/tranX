@@ -1,8 +1,10 @@
 # https://html.spec.whatwg.org/multipage/syntax.html
 # primitives and ASDL builtin types
-tagname, bool
+tagname, bool, string
 
 # For now just modeling attributes as individual optional nodes instead of as an attrs*
-element = Element(tagname tag_name, bool? autoplay, bool? loop)
+element = Element(tagname tag_name, string? src, bool? autoplay, bool? loop)
 
 tagname = video | div
+
+bool = True | False

@@ -4,7 +4,6 @@ from .asdl import *
 from .asdl_ast import AbstractSyntaxTree
 from .transition_system import *
 
-
 class Hypothesis(object):
     def __init__(self):
         self.tree = None

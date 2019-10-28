@@ -35,17 +35,22 @@ class HtmlTransitionSystem(TransitionSystem):
             realized = RealizedField(field)
             if field.name == 'tag_name':
                 realized.add_value(str(tag.name))
+            elif field.name == 'src':
+                if tag.has_attr('src'):
+                    realized.add_value(str(tag['src']))
+                else:
+                    realized.add_value(None)
             elif field.name == 'autoplay':
-                realized.add_value(tag.has_key('autoplay'))
+                realized.add_value(tag.has_attr('autoplay'))
             elif field.name == 'loop':
-                realized.add_value(tag.has_key('loop'))
+                realized.add_value(tag.has_attr('loop'))
             else:
                 raise Exception("Warning: Found unrecognized field: {}".format(field.name))
             return realized
 
         element_production = self.grammar.get_prod_by_ctr_name('Element')
-        realized = [add_realized(field) for field in element_production.fields]
-        asdl_node = AbstractSyntaxTree(element_production, realized_fields=realized)
+        realized_fields = [add_realized(field) for field in element_production.fields]
+        asdl_node = AbstractSyntaxTree(element_production, realized_fields=realized_fields)
         return asdl_node
 
     # Given an asdl ast, return source html code
@@ -56,7 +61,10 @@ class HtmlTransitionSystem(TransitionSystem):
         body = soup.body
 
         def process_field(field, el):
-            if field.name == 'autoplay':
+            if field.name == 'src':
+                if field.value != None:
+                    el['src'] = field.value
+            elif field.name == 'autoplay':
                 if field.value:
                     # Use None so the output looks like 'autoplay' not 'autoplay=""'
                     el['autoplay'] = None
@@ -99,7 +107,7 @@ if __name__ == '__main__':
 
     asdl_text = open('./html_asdl.txt').read()
     grammar = ASDLGrammar.from_text(asdl_text)
-    src_html = '<video autoplay loop></video>'
+    src_html = '<video src="foo.com/vid.mp4" autoplay loop></video>'
     transition_sys = HtmlTransitionSystem(grammar)
     asdl_ast = transition_sys.surface_code_to_ast(src_html)
 

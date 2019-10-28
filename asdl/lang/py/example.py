@@ -7,8 +7,6 @@ from asdl.lang.py.py_transition_system import *
 from asdl.hypothesis import *
 import astor
 
-import pdb
-
 if __name__ == '__main__':
     # read in the grammar specification of Python 2.7, defined in ASDL
     asdl_text = open('py_asdl.txt').read()

@@ -3,7 +3,6 @@ from collections import OrderedDict, Counter
 from itertools import chain
 from .utils import remove_comment
 
-
 class ASDLGrammar(object):
     """
     Collection of types, constructors and productions
