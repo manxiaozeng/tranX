@@ -24,9 +24,9 @@ def decode(examples, model, args, verbose=False, **kwargs):
         else:
             try:
                 hyps = model.parse(example.src_sent, context=None, beam_size=args.beam_size)
-            except:
-                print("Exception: ")
-                # pdb.set_trace()
+            except Exception as e:
+                print("Exception: ", e)
+                continue
         decoded_hyps = []
         for hyp_id, hyp in enumerate(hyps):
             got_code = False
