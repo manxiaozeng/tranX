@@ -35,7 +35,6 @@ if six.PY3:
     from model.wikisql.parser import WikiSqlParser
     from datasets.wikisql.dataset import Query, DBEngine
 
-
 def init_config():
     args = arg_parser.parse_args()
     # seed the RNG
@@ -48,7 +47,6 @@ def init_config():
 
 def train(args):
     """Maximum Likelihood Estimation"""
-
     # load in train/dev set
     train_set = Dataset.from_bin_file(args.train_file)
 
@@ -66,7 +64,8 @@ def train(args):
     model.train()
 
     evaluator = Registrable.by_name(args.evaluator)(transition_system, args=args)
-    if args.cuda: model.cuda()
+    if args.cuda:
+        model.cuda()
 
     optimizer_cls = eval('torch.optim.%s' % args.optimizer)  # FIXME: this is evil!
     optimizer = optimizer_cls(model.parameters(), lr=args.lr)
@@ -200,7 +199,8 @@ def train(args):
             # load model
             params = torch.load(args.save_to + '.bin', map_location=lambda storage, loc: storage)
             model.load_state_dict(params['state_dict'])
-            if args.cuda: model = model.cuda()
+            if args.cuda:
+                model = model.cuda()
 
             # load optimizers
             if args.reset_optimizer:
@@ -249,7 +249,6 @@ def test(args):
 if __name__ == '__main__':
     arg_parser = init_arg_parser()
     args = init_config()
-    print(args, file=sys.stderr)
     if args.mode == 'train':
         train(args)
     elif args.mode == 'test':

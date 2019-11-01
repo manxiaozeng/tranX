@@ -31,21 +31,33 @@ class HtmlTransitionSystem(TransitionSystem):
         # Assumes we're just dealing with a single tag
         tag = soup_ast.contents[0]
 
+        def add_opt_str(attr_name, field, realized):
+            if tag.has_attr(attr_name):
+                realized.add_value(str(tag[attr_name]))
+            else:
+                realized.add_value(None)
+
         def add_realized(field):
             realized = RealizedField(field)
             if field.name == 'tag_name':
                 realized.add_value(str(tag.name))
             elif field.name == 'src':
-                if tag.has_attr('src'):
-                    realized.add_value(str(tag['src']))
-                else:
-                    realized.add_value(None)
+                add_opt_str('src', field, realized)
             elif field.name == 'autoplay':
                 realized.add_value(tag.has_attr('autoplay'))
             elif field.name == 'loop':
                 realized.add_value(tag.has_attr('loop'))
+            elif field.name == 'muted':
+                realized.add_value(tag.has_attr('muted'))
+            elif field.name == 'poster':
+                add_opt_str('poster', field, realized)
+            elif field.name == 'width':
+                add_opt_str('width', field, realized)
+            elif field.name == 'height':
+                add_opt_str('height', field, realized)
             else:
-                raise Exception("Warning: Found unrecognized field: {}".format(field.name))
+                pdb.set_trace()
+                raise Exception("Warning: Found unrecognized field: {0}".format(field.name))
             return realized
 
         element_production = self.grammar.get_prod_by_ctr_name('Element')
@@ -60,10 +72,13 @@ class HtmlTransitionSystem(TransitionSystem):
         soup = BeautifulSoup('', 'html5lib')
         body = soup.body
 
+        def process_opt_str(field, el):
+            if field.value != None:
+                el[field.name] = field.value
+
         def process_field(field, el):
             if field.name == 'src':
-                if field.value != None:
-                    el['src'] = field.value
+                process_opt_str(field, el)
             elif field.name == 'autoplay':
                 if field.value:
                     # Use None so the output looks like 'autoplay' not 'autoplay=""'
@@ -72,9 +87,20 @@ class HtmlTransitionSystem(TransitionSystem):
                 if field.value:
                     # Use None so the output looks like 'autoplay' not 'autoplay=""'
                     el['loop'] = None
+            elif field.name == 'muted':
+                if field.value:
+                    # Use None so the output looks like 'autoplay' not 'autoplay=""'
+                    el['muted'] = None
+            elif field.name == 'poster':
+                process_opt_str(field, el)
+            elif field.name == 'width':
+                process_opt_str(field, el)
+            elif field.name == 'height':
+                process_opt_str(field, el)
             else:
-                raise Exception("Warning: Unrecognized field: {}".format(field.name))
+                raise Exception("Warning: Unrecognized field: {0}".format(field.name))
 
+        # First get the tag name, which we assume is always there
         for field in asdl_ast.fields:
             if field.name == 'tag_name':
                 el = soup.new_tag(field.value)
