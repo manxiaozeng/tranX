@@ -1,6 +1,7 @@
 # coding=utf-8
 from collections import OrderedDict
 
+import pdb
 import torch
 import numpy as np
 try:
@@ -224,5 +225,3 @@ class Batch(object):
             aggregated_primitive_tokens = OrderedDict()
             for token_pos, token in enumerate(e.src_sent):
                 aggregated_primitive_tokens.setdefault(token, []).append(token_pos)
-
-

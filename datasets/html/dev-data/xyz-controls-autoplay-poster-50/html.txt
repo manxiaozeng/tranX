@@ -1,0 +1,50 @@
+<video autoplay controls src="pressure.mp4"></video>
+<video autoplay controls poster="these.png" src="evening.mp4"></video>
+<video autoplay controls poster="night.png" src="move.mp4"></video>
+<video src="hold.mp4"></video>
+<video autoplay controls src="surface.mp4"></video>
+<video autoplay controls src="see.mp4"></video>
+<video controls src="up.mp4"></video>
+<video autoplay src="improve.mp4"></video>
+<video autoplay controls src="send.mp4"></video>
+<video controls poster="best.png" src="against.mp4"></video>
+<video autoplay controls poster="different.png" src="bit.mp4"></video>
+<video autoplay controls src="various.mp4"></video>
+<video controls poster="dinner.jpg" src="blue.mp4"></video>
+<video autoplay controls src="house.mp4"></video>
+<video controls poster="can.png" src="condition.mp4"></video>
+<video autoplay controls poster="sense.png" src="throw.mp4"></video>
+<video controls poster="glass.png" src="start.mp4"></video>
+<video autoplay controls poster="Democrat.png" src="thousand.mp4"></video>
+<video poster="decide.png" src="want.mp4"></video>
+<video controls src="along.mp4"></video>
+<video autoplay controls poster="lead.png" src="thought.mp4"></video>
+<video src="large.mp4"></video>
+<video autoplay controls src="other.mp4"></video>
+<video autoplay controls poster="near.png" src="simply.mp4"></video>
+<video controls poster="green.png" src="side.mp4"></video>
+<video autoplay src="music.mp4"></video>
+<video autoplay src="reach.mp4"></video>
+<video controls poster="agree.jpg" src="once.mp4"></video>
+<video autoplay controls src="side.mp4"></video>
+<video autoplay src="left.mp4"></video>
+<video controls src="soldier.mp4"></video>
+<video autoplay src="car.mp4"></video>
+<video controls poster="land.png" src="respond.mp4"></video>
+<video controls poster="way.jpg" src="especially.mp4"></video>
+<video autoplay controls src="level.mp4"></video>
+<video autoplay controls poster="election.png" src="daughter.mp4"></video>
+<video controls src="interesting.mp4"></video>
+<video controls poster="minute.jpg" src="walk.mp4"></video>
+<video autoplay poster="enter.png" src="ok.mp4"></video>
+<video src="spend.mp4"></video>
+<video autoplay src="season.mp4"></video>
+<video controls poster="sometimes.jpg" src="store.mp4"></video>
+<video autoplay controls poster="and.jpg" src="statement.mp4"></video>
+<video controls src="year.mp4"></video>
+<video autoplay poster="clear.jpg" src="different.mp4"></video>
+<video controls src="year.mp4"></video>
+<video autoplay src="only.mp4"></video>
+<video autoplay controls src="return.mp4"></video>
+<video autoplay src="expert.mp4"></video>
+<video autoplay src="shake.mp4"></video>

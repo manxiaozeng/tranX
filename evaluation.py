@@ -26,7 +26,7 @@ def decode(examples, model, args, verbose=False, **kwargs):
                 hyps = model.parse(example.src_sent, context=None, beam_size=args.beam_size)
             except Exception as e:
                 print("Exception: ", e)
-                continue
+                raise e
         decoded_hyps = []
         for hyp_id, hyp in enumerate(hyps):
             got_code = False

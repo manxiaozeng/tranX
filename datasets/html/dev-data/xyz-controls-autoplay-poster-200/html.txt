@@ -1,0 +1,200 @@
+<video autoplay controls poster="environmental.png" src="without.mp4"></video>
+<video autoplay poster="world.png" src="stand.mp4"></video>
+<video poster="better.jpg" src="discover.mp4"></video>
+<video src="sometimes.mp4"></video>
+<video controls src="traditional.mp4"></video>
+<video autoplay controls src="task.mp4"></video>
+<video autoplay controls src="six.mp4"></video>
+<video autoplay controls src="seat.mp4"></video>
+<video autoplay src="today.mp4"></video>
+<video autoplay controls poster="range.jpg" src="collection.mp4"></video>
+<video controls src="again.mp4"></video>
+<video controls src="since.mp4"></video>
+<video autoplay controls src="capital.mp4"></video>
+<video autoplay src="heart.mp4"></video>
+<video poster="language.png" src="amount.mp4"></video>
+<video autoplay controls src="nearly.mp4"></video>
+<video autoplay controls poster="act.jpg" src="certain.mp4"></video>
+<video src="nation.mp4"></video>
+<video autoplay src="individual.mp4"></video>
+<video controls src="understand.mp4"></video>
+<video controls poster="use.png" src="yeah.mp4"></video>
+<video autoplay controls src="act.mp4"></video>
+<video controls poster="budget.jpg" src="all.mp4"></video>
+<video controls src="no.mp4"></video>
+<video poster="yes.png" src="value.mp4"></video>
+<video controls src="explain.mp4"></video>
+<video controls poster="medical.jpg" src="world.mp4"></video>
+<video controls poster="number.jpg" src="dark.mp4"></video>
+<video autoplay controls src="make.mp4"></video>
+<video controls src="manager.mp4"></video>
+<video autoplay src="reveal.mp4"></video>
+<video src="for.mp4"></video>
+<video autoplay controls poster="since.jpg" src="offer.mp4"></video>
+<video autoplay controls src="practice.mp4"></video>
+<video controls src="market.mp4"></video>
+<video autoplay controls poster="item.jpg" src="second.mp4"></video>
+<video controls poster="baby.png" src="true.mp4"></video>
+<video poster="inside.png" src="house.mp4"></video>
+<video poster="teach.png" src="want.mp4"></video>
+<video autoplay controls src="memory.mp4"></video>
+<video autoplay controls src="wonder.mp4"></video>
+<video autoplay poster="American.jpg" src="important.mp4"></video>
+<video autoplay controls poster="attorney.jpg" src="give.mp4"></video>
+<video controls poster="growth.png" src="country.mp4"></video>
+<video autoplay controls src="admit.mp4"></video>
+<video autoplay poster="wait.png" src="talk.mp4"></video>
+<video controls poster="position.png" src="individual.mp4"></video>
+<video autoplay controls poster="training.png" src="too.mp4"></video>
+<video autoplay controls src="sister.mp4"></video>
+<video controls poster="administration.jpg" src="ask.mp4"></video>
+<video controls src="would.mp4"></video>
+<video controls poster="carry.png" src="general.mp4"></video>
+<video controls src="different.mp4"></video>
+<video autoplay controls poster="star.png" src="entire.mp4"></video>
+<video autoplay poster="standard.png" src="treatment.mp4"></video>
+<video autoplay poster="religious.jpg" src="attack.mp4"></video>
+<video controls poster="look.jpg" src="sort.mp4"></video>
+<video autoplay controls src="PM.mp4"></video>
+<video autoplay controls src="hear.mp4"></video>
+<video autoplay controls src="born.mp4"></video>
+<video controls src="where.mp4"></video>
+<video controls src="easy.mp4"></video>
+<video controls src="after.mp4"></video>
+<video src="run.mp4"></video>
+<video controls src="prove.mp4"></video>
+<video poster="begin.jpg" src="ground.mp4"></video>
+<video controls src="grow.mp4"></video>
+<video poster="across.jpg" src="likely.mp4"></video>
+<video controls src="whether.mp4"></video>
+<video controls poster="read.jpg" src="production.mp4"></video>
+<video autoplay controls poster="leave.png" src="program.mp4"></video>
+<video controls src="these.mp4"></video>
+<video controls src="region.mp4"></video>
+<video autoplay controls poster="shake.jpg" src="section.mp4"></video>
+<video autoplay poster="order.png" src="along.mp4"></video>
+<video controls poster="produce.png" src="PM.mp4"></video>
+<video controls poster="occur.jpg" src="arm.mp4"></video>
+<video poster="despite.jpg" src="herself.mp4"></video>
+<video autoplay controls src="force.mp4"></video>
+<video autoplay poster="everything.png" src="event.mp4"></video>
+<video autoplay src="animal.mp4"></video>
+<video autoplay src="thank.mp4"></video>
+<video autoplay src="interesting.mp4"></video>
+<video autoplay controls poster="catch.png" src="build.mp4"></video>
+<video controls src="herself.mp4"></video>
+<video autoplay src="fear.mp4"></video>
+<video controls src="green.mp4"></video>
+<video autoplay poster="use.png" src="draw.mp4"></video>
+<video controls src="leader.mp4"></video>
+<video autoplay controls poster="bed.png" src="where.mp4"></video>
+<video controls poster="too.png" src="data.mp4"></video>
+<video autoplay poster="mention.png" src="pull.mp4"></video>
+<video autoplay controls src="section.mp4"></video>
+<video autoplay controls src="we.mp4"></video>
+<video controls poster="citizen.jpg" src="street.mp4"></video>
+<video autoplay controls src="share.mp4"></video>
+<video src="each.mp4"></video>
+<video poster="house.png" src="TV.mp4"></video>
+<video src="tough.mp4"></video>
+<video autoplay src="year.mp4"></video>
+<video autoplay controls src="son.mp4"></video>
+<video autoplay controls poster="mission.png" src="character.mp4"></video>
+<video autoplay controls poster="behavior.png" src="but.mp4"></video>
+<video controls poster="camera.jpg" src="beautiful.mp4"></video>
+<video poster="authority.png" src="represent.mp4"></video>
+<video autoplay controls src="laugh.mp4"></video>
+<video controls src="become.mp4"></video>
+<video controls src="drop.mp4"></video>
+<video autoplay src="manage.mp4"></video>
+<video autoplay src="office.mp4"></video>
+<video autoplay controls src="read.mp4"></video>
+<video autoplay poster="article.jpg" src="movie.mp4"></video>
+<video autoplay controls poster="phone.jpg" src="effort.mp4"></video>
+<video autoplay poster="event.png" src="maybe.mp4"></video>
+<video controls poster="possible.png" src="set.mp4"></video>
+<video controls src="along.mp4"></video>
+<video src="approach.mp4"></video>
+<video controls poster="interest.jpg" src="example.mp4"></video>
+<video src="relationship.mp4"></video>
+<video autoplay controls src="turn.mp4"></video>
+<video controls poster="bed.jpg" src="wonder.mp4"></video>
+<video controls poster="cold.png" src="loss.mp4"></video>
+<video controls src="idea.mp4"></video>
+<video autoplay controls src="commercial.mp4"></video>
+<video autoplay controls src="hit.mp4"></video>
+<video autoplay poster="common.png" src="these.mp4"></video>
+<video autoplay controls src="media.mp4"></video>
+<video autoplay controls src="many.mp4"></video>
+<video autoplay controls src="brother.mp4"></video>
+<video autoplay controls poster="figure.jpg" src="audience.mp4"></video>
+<video autoplay src="seat.mp4"></video>
+<video autoplay controls poster="place.png" src="account.mp4"></video>
+<video autoplay controls src="would.mp4"></video>
+<video autoplay controls src="me.mp4"></video>
+<video autoplay controls src="girl.mp4"></video>
+<video autoplay controls src="kitchen.mp4"></video>
+<video autoplay controls src="with.mp4"></video>
+<video autoplay controls poster="two.jpg" src="free.mp4"></video>
+<video autoplay controls poster="discussion.jpg" src="almost.mp4"></video>
+<video autoplay controls src="effort.mp4"></video>
+<video autoplay controls poster="score.jpg" src="thing.mp4"></video>
+<video autoplay controls poster="relate.jpg" src="movement.mp4"></video>
+<video autoplay controls src="idea.mp4"></video>
+<video controls src="office.mp4"></video>
+<video autoplay controls src="model.mp4"></video>
+<video controls src="later.mp4"></video>
+<video autoplay controls src="issue.mp4"></video>
+<video controls src="dream.mp4"></video>
+<video autoplay src="before.mp4"></video>
+<video src="yes.mp4"></video>
+<video autoplay controls poster="baby.png" src="five.mp4"></video>
+<video autoplay controls src="cost.mp4"></video>
+<video controls poster="none.png" src="doctor.mp4"></video>
+<video autoplay src="star.mp4"></video>
+<video controls src="deal.mp4"></video>
+<video autoplay controls src="benefit.mp4"></video>
+<video controls src="fish.mp4"></video>
+<video autoplay controls src="do.mp4"></video>
+<video controls src="floor.mp4"></video>
+<video autoplay controls poster="politics.jpg" src="high.mp4"></video>
+<video controls poster="analysis.jpg" src="coach.mp4"></video>
+<video autoplay controls poster="hotel.png" src="organization.mp4"></video>
+<video controls src="discover.mp4"></video>
+<video autoplay controls src="magazine.mp4"></video>
+<video autoplay poster="author.jpg" src="task.mp4"></video>
+<video autoplay src="hope.mp4"></video>
+<video autoplay poster="nice.png" src="individual.mp4"></video>
+<video controls src="body.mp4"></video>
+<video autoplay src="half.mp4"></video>
+<video autoplay controls src="family.mp4"></video>
+<video autoplay controls src="style.mp4"></video>
+<video autoplay controls src="cover.mp4"></video>
+<video controls poster="somebody.jpg" src="growth.mp4"></video>
+<video poster="language.png" src="suggest.mp4"></video>
+<video autoplay src="never.mp4"></video>
+<video controls src="option.mp4"></video>
+<video controls poster="pay.png" src="bed.mp4"></video>
+<video src="on.mp4"></video>
+<video autoplay controls poster="lead.png" src="different.mp4"></video>
+<video autoplay poster="under.jpg" src="star.mp4"></video>
+<video autoplay poster="number.png" src="anything.mp4"></video>
+<video autoplay poster="summer.jpg" src="different.mp4"></video>
+<video controls src="life.mp4"></video>
+<video autoplay poster="watch.jpg" src="movie.mp4"></video>
+<video autoplay src="risk.mp4"></video>
+<video poster="full.png" src="car.mp4"></video>
+<video src="issue.mp4"></video>
+<video autoplay src="it.mp4"></video>
+<video autoplay controls poster="cold.jpg" src="into.mp4"></video>
+<video autoplay controls poster="brother.png" src="fish.mp4"></video>
+<video autoplay controls src="economic.mp4"></video>
+<video autoplay poster="red.png" src="mother.mp4"></video>
+<video controls poster="summer.jpg" src="what.mp4"></video>
+<video controls poster="above.jpg" src="police.mp4"></video>
+<video controls src="discussion.mp4"></video>
+<video poster="check.png" src="wait.mp4"></video>
+<video autoplay poster="painting.jpg" src="trade.mp4"></video>
+<video controls poster="push.png" src="claim.mp4"></video>
+<video autoplay poster="left.jpg" src="toward.mp4"></video>
+<video controls src="church.mp4"></video>

@@ -1,0 +1,100 @@
+<video autoplay controls src="story.mp4"></video>
+<video autoplay poster="maintain.jpg" src="word.mp4"></video>
+<video autoplay controls poster="instead.png" src="movie.mp4"></video>
+<video controls poster="us.png" src="window.mp4"></video>
+<video autoplay controls poster="always.png" src="at.mp4"></video>
+<video autoplay poster="throw.png" src="leader.mp4"></video>
+<video controls src="machine.mp4"></video>
+<video autoplay controls src="always.mp4"></video>
+<video controls poster="open.png" src="minute.mp4"></video>
+<video autoplay controls poster="career.jpg" src="again.mp4"></video>
+<video controls src="perhaps.mp4"></video>
+<video controls poster="goal.png" src="interview.mp4"></video>
+<video controls poster="interview.png" src="account.mp4"></video>
+<video controls src="contain.mp4"></video>
+<video autoplay controls poster="economic.jpg" src="during.mp4"></video>
+<video autoplay controls src="expect.mp4"></video>
+<video src="quickly.mp4"></video>
+<video autoplay controls src="indeed.mp4"></video>
+<video autoplay src="pay.mp4"></video>
+<video autoplay controls src="free.mp4"></video>
+<video autoplay src="culture.mp4"></video>
+<video controls poster="enter.png" src="teacher.mp4"></video>
+<video autoplay poster="who.jpg" src="girl.mp4"></video>
+<video autoplay controls src="allow.mp4"></video>
+<video autoplay controls src="expect.mp4"></video>
+<video controls poster="quality.jpg" src="piece.mp4"></video>
+<video autoplay poster="card.png" src="fight.mp4"></video>
+<video src="though.mp4"></video>
+<video src="risk.mp4"></video>
+<video poster="blue.jpg" src="listen.mp4"></video>
+<video autoplay poster="side.jpg" src="join.mp4"></video>
+<video autoplay controls src="no.mp4"></video>
+<video controls poster="decision.jpg" src="of.mp4"></video>
+<video controls src="under.mp4"></video>
+<video poster="discussion.png" src="add.mp4"></video>
+<video poster="she.png" src="child.mp4"></video>
+<video autoplay controls src="miss.mp4"></video>
+<video controls src="paper.mp4"></video>
+<video poster="raise.png" src="put.mp4"></video>
+<video src="material.mp4"></video>
+<video poster="American.png" src="by.mp4"></video>
+<video autoplay controls src="same.mp4"></video>
+<video autoplay controls src="leg.mp4"></video>
+<video controls src="interview.mp4"></video>
+<video controls src="just.mp4"></video>
+<video autoplay controls src="visit.mp4"></video>
+<video src="protect.mp4"></video>
+<video autoplay controls src="carry.mp4"></video>
+<video controls poster="support.jpg" src="deep.mp4"></video>
+<video autoplay controls poster="while.png" src="green.mp4"></video>
+<video autoplay poster="leg.png" src="part.mp4"></video>
+<video autoplay poster="third.png" src="hear.mp4"></video>
+<video src="heart.mp4"></video>
+<video controls poster="happen.png" src="way.mp4"></video>
+<video controls poster="talk.jpg" src="when.mp4"></video>
+<video autoplay controls src="from.mp4"></video>
+<video controls src="policy.mp4"></video>
+<video controls src="bad.mp4"></video>
+<video autoplay controls src="work.mp4"></video>
+<video autoplay controls src="task.mp4"></video>
+<video autoplay controls src="Republican.mp4"></video>
+<video autoplay controls poster="full.png" src="lawyer.mp4"></video>
+<video poster="professor.png" src="air.mp4"></video>
+<video autoplay poster="group.png" src="doctor.mp4"></video>
+<video controls poster="friend.png" src="exist.mp4"></video>
+<video autoplay src="fight.mp4"></video>
+<video autoplay src="relate.mp4"></video>
+<video autoplay src="morning.mp4"></video>
+<video autoplay controls src="anything.mp4"></video>
+<video autoplay controls poster="issue.png" src="work.mp4"></video>
+<video src="machine.mp4"></video>
+<video autoplay src="maintain.mp4"></video>
+<video autoplay poster="clear.png" src="spend.mp4"></video>
+<video autoplay controls src="season.mp4"></video>
+<video controls src="stay.mp4"></video>
+<video autoplay controls src="my.mp4"></video>
+<video autoplay controls src="write.mp4"></video>
+<video poster="ok.png" src="win.mp4"></video>
+<video autoplay poster="painting.jpg" src="discover.mp4"></video>
+<video autoplay controls poster="become.png" src="write.mp4"></video>
+<video autoplay controls src="increase.mp4"></video>
+<video autoplay controls poster="director.jpg" src="experience.mp4"></video>
+<video autoplay controls src="there.mp4"></video>
+<video autoplay controls src="model.mp4"></video>
+<video controls poster="ready.png" src="detail.mp4"></video>
+<video autoplay controls poster="player.png" src="today.mp4"></video>
+<video autoplay controls poster="thus.jpg" src="all.mp4"></video>
+<video autoplay controls poster="should.png" src="find.mp4"></video>
+<video controls poster="television.jpg" src="whose.mp4"></video>
+<video autoplay poster="professional.jpg" src="process.mp4"></video>
+<video autoplay controls src="action.mp4"></video>
+<video controls poster="project.png" src="serious.mp4"></video>
+<video controls src="almost.mp4"></video>
+<video autoplay controls src="PM.mp4"></video>
+<video autoplay controls poster="hope.png" src="thousand.mp4"></video>
+<video controls poster="black.png" src="data.mp4"></video>
+<video controls poster="suggest.png" src="check.mp4"></video>
+<video controls src="space.mp4"></video>
+<video autoplay controls poster="organization.jpg" src="crime.mp4"></video>
+<video controls src="opportunity.mp4"></video>

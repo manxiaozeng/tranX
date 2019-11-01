@@ -1,0 +1,200 @@
+a video with a src of "without.mp4" with autoplay with controls with a poster of "environmental.png"
+a video with a src of "stand.mp4" with autoplay with a poster of "world.png"
+a video with a src of "discover.mp4" with a poster of "better.jpg"
+a video with a src of "sometimes.mp4"
+a video with a src of "traditional.mp4" with controls
+a video with a src of "task.mp4" with controls with autoplay
+a video with a src of "six.mp4" with controls with autoplay
+a video with a src of "seat.mp4" with controls with autoplay
+a video with a src of "today.mp4" with autoplay
+a video with a src of "collection.mp4" with autoplay with controls with a poster of "range.jpg"
+a video with a src of "again.mp4" with controls
+a video with a src of "since.mp4" with controls
+a video with a src of "capital.mp4" with controls with autoplay
+a video with a src of "heart.mp4" with autoplay
+a video with a src of "amount.mp4" with a poster of "language.png"
+a video with a src of "nearly.mp4" with controls with autoplay
+a video with a src of "certain.mp4" with autoplay with controls with a poster of "act.jpg"
+a video with a src of "nation.mp4"
+a video with a src of "individual.mp4" with autoplay
+a video with a src of "understand.mp4" with controls
+a video with a src of "yeah.mp4" with controls with a poster of "use.png"
+a video with a src of "act.mp4" with controls with autoplay
+a video with a src of "all.mp4" with controls with a poster of "budget.jpg"
+a video with a src of "no.mp4" with controls
+a video with a src of "value.mp4" with a poster of "yes.png"
+a video with a src of "explain.mp4" with controls
+a video with a src of "world.mp4" with controls with a poster of "medical.jpg"
+a video with a src of "dark.mp4" with controls with a poster of "number.jpg"
+a video with a src of "make.mp4" with controls with autoplay
+a video with a src of "manager.mp4" with controls
+a video with a src of "reveal.mp4" with autoplay
+a video with a src of "for.mp4"
+a video with a src of "offer.mp4" with autoplay with controls with a poster of "since.jpg"
+a video with a src of "practice.mp4" with controls with autoplay
+a video with a src of "market.mp4" with controls
+a video with a src of "second.mp4" with autoplay with controls with a poster of "item.jpg"
+a video with a src of "true.mp4" with controls with a poster of "baby.png"
+a video with a src of "house.mp4" with a poster of "inside.png"
+a video with a src of "want.mp4" with a poster of "teach.png"
+a video with a src of "memory.mp4" with controls with autoplay
+a video with a src of "wonder.mp4" with controls with autoplay
+a video with a src of "important.mp4" with autoplay with a poster of "American.jpg"
+a video with a src of "give.mp4" with autoplay with controls with a poster of "attorney.jpg"
+a video with a src of "country.mp4" with controls with a poster of "growth.png"
+a video with a src of "admit.mp4" with controls with autoplay
+a video with a src of "talk.mp4" with autoplay with a poster of "wait.png"
+a video with a src of "individual.mp4" with controls with a poster of "position.png"
+a video with a src of "too.mp4" with autoplay with controls with a poster of "training.png"
+a video with a src of "sister.mp4" with controls with autoplay
+a video with a src of "ask.mp4" with controls with a poster of "administration.jpg"
+a video with a src of "would.mp4" with controls
+a video with a src of "general.mp4" with controls with a poster of "carry.png"
+a video with a src of "different.mp4" with controls
+a video with a src of "entire.mp4" with autoplay with controls with a poster of "star.png"
+a video with a src of "treatment.mp4" with autoplay with a poster of "standard.png"
+a video with a src of "attack.mp4" with autoplay with a poster of "religious.jpg"
+a video with a src of "sort.mp4" with controls with a poster of "look.jpg"
+a video with a src of "PM.mp4" with controls with autoplay
+a video with a src of "hear.mp4" with controls with autoplay
+a video with a src of "born.mp4" with controls with autoplay
+a video with a src of "where.mp4" with controls
+a video with a src of "easy.mp4" with controls
+a video with a src of "after.mp4" with controls
+a video with a src of "run.mp4"
+a video with a src of "prove.mp4" with controls
+a video with a src of "ground.mp4" with a poster of "begin.jpg"
+a video with a src of "grow.mp4" with controls
+a video with a src of "likely.mp4" with a poster of "across.jpg"
+a video with a src of "whether.mp4" with controls
+a video with a src of "production.mp4" with controls with a poster of "read.jpg"
+a video with a src of "program.mp4" with autoplay with controls with a poster of "leave.png"
+a video with a src of "these.mp4" with controls
+a video with a src of "region.mp4" with controls
+a video with a src of "section.mp4" with autoplay with controls with a poster of "shake.jpg"
+a video with a src of "along.mp4" with autoplay with a poster of "order.png"
+a video with a src of "PM.mp4" with controls with a poster of "produce.png"
+a video with a src of "arm.mp4" with controls with a poster of "occur.jpg"
+a video with a src of "herself.mp4" with a poster of "despite.jpg"
+a video with a src of "force.mp4" with controls with autoplay
+a video with a src of "event.mp4" with autoplay with a poster of "everything.png"
+a video with a src of "animal.mp4" with autoplay
+a video with a src of "thank.mp4" with autoplay
+a video with a src of "interesting.mp4" with autoplay
+a video with a src of "build.mp4" with autoplay with controls with a poster of "catch.png"
+a video with a src of "herself.mp4" with controls
+a video with a src of "fear.mp4" with autoplay
+a video with a src of "green.mp4" with controls
+a video with a src of "draw.mp4" with autoplay with a poster of "use.png"
+a video with a src of "leader.mp4" with controls
+a video with a src of "where.mp4" with autoplay with controls with a poster of "bed.png"
+a video with a src of "data.mp4" with controls with a poster of "too.png"
+a video with a src of "pull.mp4" with autoplay with a poster of "mention.png"
+a video with a src of "section.mp4" with controls with autoplay
+a video with a src of "we.mp4" with controls with autoplay
+a video with a src of "street.mp4" with controls with a poster of "citizen.jpg"
+a video with a src of "share.mp4" with controls with autoplay
+a video with a src of "each.mp4"
+a video with a src of "TV.mp4" with a poster of "house.png"
+a video with a src of "tough.mp4"
+a video with a src of "year.mp4" with autoplay
+a video with a src of "son.mp4" with controls with autoplay
+a video with a src of "character.mp4" with autoplay with controls with a poster of "mission.png"
+a video with a src of "but.mp4" with autoplay with controls with a poster of "behavior.png"
+a video with a src of "beautiful.mp4" with controls with a poster of "camera.jpg"
+a video with a src of "represent.mp4" with a poster of "authority.png"
+a video with a src of "laugh.mp4" with controls with autoplay
+a video with a src of "become.mp4" with controls
+a video with a src of "drop.mp4" with controls
+a video with a src of "manage.mp4" with autoplay
+a video with a src of "office.mp4" with autoplay
+a video with a src of "read.mp4" with controls with autoplay
+a video with a src of "movie.mp4" with autoplay with a poster of "article.jpg"
+a video with a src of "effort.mp4" with autoplay with controls with a poster of "phone.jpg"
+a video with a src of "maybe.mp4" with autoplay with a poster of "event.png"
+a video with a src of "set.mp4" with controls with a poster of "possible.png"
+a video with a src of "along.mp4" with controls
+a video with a src of "approach.mp4"
+a video with a src of "example.mp4" with controls with a poster of "interest.jpg"
+a video with a src of "relationship.mp4"
+a video with a src of "turn.mp4" with controls with autoplay
+a video with a src of "wonder.mp4" with controls with a poster of "bed.jpg"
+a video with a src of "loss.mp4" with controls with a poster of "cold.png"
+a video with a src of "idea.mp4" with controls
+a video with a src of "commercial.mp4" with controls with autoplay
+a video with a src of "hit.mp4" with controls with autoplay
+a video with a src of "these.mp4" with autoplay with a poster of "common.png"
+a video with a src of "media.mp4" with controls with autoplay
+a video with a src of "many.mp4" with controls with autoplay
+a video with a src of "brother.mp4" with controls with autoplay
+a video with a src of "audience.mp4" with autoplay with controls with a poster of "figure.jpg"
+a video with a src of "seat.mp4" with autoplay
+a video with a src of "account.mp4" with autoplay with controls with a poster of "place.png"
+a video with a src of "would.mp4" with controls with autoplay
+a video with a src of "me.mp4" with controls with autoplay
+a video with a src of "girl.mp4" with controls with autoplay
+a video with a src of "kitchen.mp4" with controls with autoplay
+a video with a src of "with.mp4" with controls with autoplay
+a video with a src of "free.mp4" with autoplay with controls with a poster of "two.jpg"
+a video with a src of "almost.mp4" with autoplay with controls with a poster of "discussion.jpg"
+a video with a src of "effort.mp4" with controls with autoplay
+a video with a src of "thing.mp4" with autoplay with controls with a poster of "score.jpg"
+a video with a src of "movement.mp4" with autoplay with controls with a poster of "relate.jpg"
+a video with a src of "idea.mp4" with controls with autoplay
+a video with a src of "office.mp4" with controls
+a video with a src of "model.mp4" with controls with autoplay
+a video with a src of "later.mp4" with controls
+a video with a src of "issue.mp4" with controls with autoplay
+a video with a src of "dream.mp4" with controls
+a video with a src of "before.mp4" with autoplay
+a video with a src of "yes.mp4"
+a video with a src of "five.mp4" with autoplay with controls with a poster of "baby.png"
+a video with a src of "cost.mp4" with controls with autoplay
+a video with a src of "doctor.mp4" with controls with a poster of "none.png"
+a video with a src of "star.mp4" with autoplay
+a video with a src of "deal.mp4" with controls
+a video with a src of "benefit.mp4" with controls with autoplay
+a video with a src of "fish.mp4" with controls
+a video with a src of "do.mp4" with controls with autoplay
+a video with a src of "floor.mp4" with controls
+a video with a src of "high.mp4" with autoplay with controls with a poster of "politics.jpg"
+a video with a src of "coach.mp4" with controls with a poster of "analysis.jpg"
+a video with a src of "organization.mp4" with autoplay with controls with a poster of "hotel.png"
+a video with a src of "discover.mp4" with controls
+a video with a src of "magazine.mp4" with controls with autoplay
+a video with a src of "task.mp4" with autoplay with a poster of "author.jpg"
+a video with a src of "hope.mp4" with autoplay
+a video with a src of "individual.mp4" with autoplay with a poster of "nice.png"
+a video with a src of "body.mp4" with controls
+a video with a src of "half.mp4" with autoplay
+a video with a src of "family.mp4" with controls with autoplay
+a video with a src of "style.mp4" with controls with autoplay
+a video with a src of "cover.mp4" with controls with autoplay
+a video with a src of "growth.mp4" with controls with a poster of "somebody.jpg"
+a video with a src of "suggest.mp4" with a poster of "language.png"
+a video with a src of "never.mp4" with autoplay
+a video with a src of "option.mp4" with controls
+a video with a src of "bed.mp4" with controls with a poster of "pay.png"
+a video with a src of "on.mp4"
+a video with a src of "different.mp4" with autoplay with controls with a poster of "lead.png"
+a video with a src of "star.mp4" with autoplay with a poster of "under.jpg"
+a video with a src of "anything.mp4" with autoplay with a poster of "number.png"
+a video with a src of "different.mp4" with autoplay with a poster of "summer.jpg"
+a video with a src of "life.mp4" with controls
+a video with a src of "movie.mp4" with autoplay with a poster of "watch.jpg"
+a video with a src of "risk.mp4" with autoplay
+a video with a src of "car.mp4" with a poster of "full.png"
+a video with a src of "issue.mp4"
+a video with a src of "it.mp4" with autoplay
+a video with a src of "into.mp4" with autoplay with controls with a poster of "cold.jpg"
+a video with a src of "fish.mp4" with autoplay with controls with a poster of "brother.png"
+a video with a src of "economic.mp4" with controls with autoplay
+a video with a src of "mother.mp4" with autoplay with a poster of "red.png"
+a video with a src of "what.mp4" with controls with a poster of "summer.jpg"
+a video with a src of "police.mp4" with controls with a poster of "above.jpg"
+a video with a src of "discussion.mp4" with controls
+a video with a src of "wait.mp4" with a poster of "check.png"
+a video with a src of "trade.mp4" with autoplay with a poster of "painting.jpg"
+a video with a src of "claim.mp4" with controls with a poster of "push.png"
+a video with a src of "toward.mp4" with autoplay with a poster of "left.jpg"
+a video with a src of "church.mp4" with controls

@@ -1,16 +1,28 @@
 import pickle
 import math
 import nltk
+from components.action_info import get_action_infos
 from asdl.asdl import ASDLGrammar
 from asdl.lang.html.transition_system import HtmlTransitionSystem
 from asdl.transition_system import GenTokenAction
-from components.action_info import get_action_infos
 from components.dataset import Example
 from components.vocab import Vocab, VocabEntry
 from asdl.lang.py.py_utils import tokenize_code
 import argparse
 import os
 import pdb
+from bs4 import BeautifulSoup
+
+# Assumes we are dealing with a single tag
+def tokenize_html(html_str):
+    soup = BeautifulSoup(html_str, 'html5lib')
+    el = soup.body.contents[0]
+    tokens = [el.name]
+    for k,v in el.attrs.iteritems():
+        tokens.append(k)
+        if v != None and v != '':
+            tokens.append(v)
+    return tokens
 
 def make_train_data(data_name, max_query_len=70, vocab_freq_cutoff=10):
     english_file_path = 'datasets/html/dev-data/{0}/english.txt'.format(data_name)
@@ -26,8 +38,9 @@ def make_train_data(data_name, max_query_len=70, vocab_freq_cutoff=10):
     for idx, (src_english, target_code) in examples_enum:
         src_english = src_english.strip()
         target_code = target_code.strip()
-        # TODO In django dataset they do a fancy string replacement in canonicalize_query
-        src_tokens = nltk.word_tokenize(src_english)
+        # _TODO_ Is there a better way to tokenize the english? I stopped using nltk.word_tokenize b/class
+        # it was causing too many splits like "http://etc" would get split into 4 -- start quote, http, :, rest, end quote.
+        src_tokens = src_english.split(' ')
 
         target_ast = transition_system.surface_code_to_ast(target_code)
         gold_source = transition_system.ast_to_surface_code(target_ast)
@@ -67,22 +80,21 @@ def make_train_data(data_name, max_query_len=70, vocab_freq_cutoff=10):
         else:
             test_examples.append(example)
 
-    src_vocab = VocabEntry.from_corpus([e.src_sent for e in train_examples], size=5000, freq_cutoff=vocab_freq_cutoff)
+    src_vocab = VocabEntry.from_corpus([e.src_sent for e in train_examples], size=50000, freq_cutoff=vocab_freq_cutoff)
     primitive_tokens = [map(lambda a: a.action.token,
                         filter(lambda a: isinstance(a.action, GenTokenAction), e.tgt_actions))
                         for e in train_examples]
-    primitive_vocab = VocabEntry.from_corpus(primitive_tokens, size=5000, freq_cutoff=vocab_freq_cutoff)
+    primitive_vocab = VocabEntry.from_corpus(primitive_tokens, size=50000, freq_cutoff=vocab_freq_cutoff)
 
-    # Just using the python tokenize_code for now.
-    code_tokens = [tokenize_code(e.tgt_code, mode='decoder') for e in train_examples]
-    code_vocab = VocabEntry.from_corpus(code_tokens, size=5000, freq_cutoff=vocab_freq_cutoff)
+    code_tokens = [tokenize_html(e.tgt_code) for e in train_examples]
+    code_vocab = VocabEntry.from_corpus(code_tokens, size=50000, freq_cutoff=vocab_freq_cutoff)
 
     vocab = Vocab(source=src_vocab, primitive=primitive_vocab, code=code_vocab)
 
     return (train_examples, dev_examples, test_examples), vocab
 
 def process_dataset(data_name):
-    vocab_freq_cutoff = 15  # TODO: found the best cutoff threshold
+    vocab_freq_cutoff = 15 # _TODO_ how to use this properly?
     (train, dev, test), vocab = make_train_data(data_name=data_name, vocab_freq_cutoff=vocab_freq_cutoff)
     dump_dir = 'data/html/{0}'.format(data_name)
     if not os.path.exists(dump_dir):
