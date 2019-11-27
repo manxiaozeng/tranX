@@ -1,3 +1,4 @@
+# coding=utf-8
 import pickle
 import math
 import nltk
@@ -10,9 +11,17 @@ from components.vocab import Vocab, VocabEntry
 from asdl.lang.py.py_utils import tokenize_code
 import argparse
 import os
+# For utf-8 encoding dance
+import io
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 import pdb
 from bs4 import BeautifulSoup
 from random import shuffle
+
+SRC_ENCODING = 'UTF-8'
 
 # Assumes we are dealing with a single tag
 def tokenize_html(html_str):
@@ -25,6 +34,14 @@ def tokenize_html(html_str):
             tokens.append(v)
     return tokens
 
+def canonicalize_english(utterance):
+    res = utterance.strip()
+    # Since this is raw use rinput,
+    # exchange 'fancy' quotes (like from MS machines) for normal ones
+    # _TODO_ What else should be sanitized?
+    res = res.replace("“", '"').replace("”", '"')
+    return res
+
 def make_train_data(data_name, max_query_len=70, vocab_freq_cutoff=10):
     english_file_path = 'datasets/html/dev-data/{0}/english.txt'.format(data_name)
     html_file_path = 'datasets/html/dev-data/{0}/html.txt'.format(data_name)
@@ -35,10 +52,10 @@ def make_train_data(data_name, max_query_len=70, vocab_freq_cutoff=10):
     transition_system = HtmlTransitionSystem(grammar)
 
     loaded_examples = []
-    examples = zip(open(english_file_path), open(html_file_path))
+    examples = zip(io.open(english_file_path, encoding=SRC_ENCODING), io.open(html_file_path, encoding=SRC_ENCODING))
     shuffle(examples) # randomize order so file order doesnt impact distrubtion across test/train/dev sets
     for idx, (src_english, target_code) in enumerate(examples):
-        src_english = src_english.strip()
+        src_english = canonicalize_english(src_english)
         target_code = target_code.strip()
         # _TODO_ Is there a better way to tokenize the english? I stopped using nltk.word_tokenize b/class
         # it was causing too many splits like "http://etc" would get split into 4 -- start quote, http, :, rest, end quote.

@@ -52,6 +52,7 @@ exp_args=(
   --beam_size ${beam_size}
   --log_every 50
   --save_to saved_models/html/${data_name}/${model_name}
+  --print_floydhub_metrics 'Yes'
 )
 
 if [ ! -z "$cuda" ]; then

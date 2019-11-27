@@ -150,12 +150,17 @@ def train(args):
                                                    verbose=True, eval_top_pred_only=args.eval_top_pred_only)
                 dev_score = eval_results[evaluator.default_metric]
 
+                # report scores
                 print('[Epoch %d] evaluate details: %s, dev %s: %.5f (took %ds)' % (
                                     epoch, eval_results,
                                     evaluator.default_metric,
                                     dev_score,
                                     time.time() - eval_start), file=sys.stderr)
 
+                if args.print_floydhub_metrics == 'Yes':
+                    print("printing floydhub metrics")
+                    print('{{"metric": "{}", "value": {}, "epoch": {}}}'.format(
+                            evaluator.default_metric, dev_score, epoch))
                 is_better = history_dev_scores == [] or dev_score > max(history_dev_scores)
                 history_dev_scores.append(dev_score)
         else:

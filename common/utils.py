@@ -27,6 +27,7 @@ def init_arg_parser():
     #### General configuration ####
     arg_parser.add_argument('--seed', default=0, type=int, help='Random seed')
     arg_parser.add_argument('--cuda', action='store_true', default=False, help='Use gpu')
+    arg_parser.add_argument('--print_floydhub_metrics', type=str, default='No', help='Print training metrics in FloydHub formatting.')
     arg_parser.add_argument('--lang', choices=['python', 'lambda_dcs', 'wikisql', 'prolog', 'python3'], default='python',
                             help='[Deprecated] language to parse. Deprecated, use --transition_system and --parser instead')
     arg_parser.add_argument('--asdl_file', type=str, help='Path to ASDL grammar specification')

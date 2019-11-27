@@ -56,7 +56,6 @@ class HtmlTransitionSystem(TransitionSystem):
             elif field.name == 'height':
                 add_opt_str('height', field, realized)
             else:
-                pdb.set_trace()
                 raise Exception("Warning: Found unrecognized field: {0}".format(field.name))
             return realized
 
@@ -106,6 +105,7 @@ class HtmlTransitionSystem(TransitionSystem):
                 el = soup.new_tag(field.value)
                 break
         [process_field(field, el) for field in asdl_ast.fields if field.name != 'tag_name']
+        # _TODO_ does this need to support utf-8?
         return str(el)
 
     def get_primitive_field_actions(self, realized_field):

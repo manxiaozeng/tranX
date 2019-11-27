@@ -1,0 +1,1000 @@
+Display the video that is located at the url https://garcia.info/certain.mp4".The poster image is located at "https://johnson.com/along.jpg". Make the height 100% of the screen.
+Display the video that is located at the url "https://www.sanchez.info/international.mp4". When the application loads, automatically play the video. The video should be muted.
+Show a video that is at the url "http://www.jenkins.biz/east.mp4". And make the height of the video 75%.
+When the app is started, play the video. The video height is "50%". Show the poster image that is located at "http://dominguez.net/even.jpg". The video will not have sound. Show the video that is at the url "http://www.sellers.com/yes.mp4".
+Display the video that is located at the url "https://www.turner.com/development.mp4" and make the width of the video 100% and height 75%. The poster image of the video is located at "https://davis.info/reflect.png". And loop the video.
+Display a video that is 75% the width of the screen. The source of the video is located at "http://avila-rodriguez.com/interesting.mp4". The poster image is located at "http://www.smith.biz/church.png". The video should be muted. Loop the video.
+The width of the video will be "50%". Show the video with a height of "75%". Display a video from the source "http://pollard.com/upon.mp4". There should not be audio in the video.
+Display the video that is located at the url "https://ross.com/increase.mp4". The video should be muted and loop.
+The source for the video is "https://www.duffy-martinez.net/whatever.mp4". The image for the poster is at "http://www.kelly.com/oil.jpg". The video should be muted and loop automatically.
+Display the video that is located at the url "https://vang.net/role.mp4". The poster image of the video is located at "http://www.matthews.com/like.jpg". Automatically play the video when the app loads.
+The video is located at "https://proctor-smith.com/son.mp4". Play it on loading and make the width 25% and the height is 50%.
+Open the video located at the url "http://www.spencer.com/push.mp4". Autoplay the video when it loads. Loop the video when it ends. And make the width of the video 50% of the screen.
+Show a video that is at the url "http://www.smith.net/hot.mp4". And loop the video.
+Display the video located at the url "http://www.peterson.com/voice.mp4". Autoplay the video when it loads and Mute the video. And make the width of the video 50% and height 100% of the screen.
+Display the video that is located at the url "https://www.robinson.com/serve.mp4" and make the width 25% of the screen. Video needs to be muted and looped at the end.
+Display the video that is located at the url "https://ray-huff.com/election.mp4" and make it 25% the height of the screen. The video should loop.
+Show a video that is at the url "http://weaver-hood.info/camera.mp4" and loop the video. The poster image of the video is located at "https://martin.com/worker.png".
+Display the video that is located at the url "https://graves.com/road.mp4". The poster image of the video is located at "http://ryan-ryan.com/war.jpg". And loop the video.
+Display the video located at the url "https://wang.org/into.mp4". Autoplay the video when it loads. And loop the video when it ends.
+Display the video that is located at the url "http://vargas.com/country.mp4" The poster image is located at "http://bird.com/executive.png". The video needs to be muted with a loop at the end. Make it 25% width of the screen.
+Display the poster image that can be found at "http://banks.com/soon.jpg". Show the video at 100% height. When the app is started, play the video. Display a video from the url "https://may.com/shake.mp4".
+Show a video that is at the url "https://www.leonard.net/ago.mp4". When the application loads, automatically play the video.
+Show a video that is at the url "http://www.collins-ellison.org/fear.mp4". Automatically play the video when the app loads. And make the height of the video 100%.
+Display the video that is located at the url "http://roach.biz/radio.mp4". The poster image of the video is located at "https://gentry-williams.com/tonight.png". The video should be muted.
+Display the video located at url "https://www.adams.com/same.mp4". The poster image is located at "http://moody.com/good.png". When app loads, automatically play video. This video should be muted. Loop video at the end.
+The video is located at "https://lee.com/a.mp4" and it should be muted. It needs to loop and the width should be set to 25%.
+show the video that is located at url "http://miller.com/professor.mp4" and make it 100% the height of the screen. Automatically play the video when app loads. Loop the video at the end.
+The video is located at "http://henderson.com/world.mp4" and the poster image is at "http://johnson.com/consider.png". Make the height and width 50%.
+Te video is located at "https://savage.biz/article.mp4" and the image for the poster is at "http://marquez-garza.info/majority.png". The height needs to be at set at 50% and the video should autoplay on loading. It also needs to loop.
+Show a video that is at the url "https://johnson.info/tree.mp4". The poster image is located at "https://benson.com/threat.png". The video should loop. The video should be muted.
+Display a video that is located at the url "https://bird-taylor.biz/writer.mp4" and make the width of the video 25%. The poster image of the video is located at "https://www.matthews.com/catch.jpg". Automatically play the video when the app loads. The video should be muted. And loop the video.
+Display the video with a width of 100%. There will be no sound in the video. Show a video from the url "https://www.reese-hancock.info/American.mp4".
+Display the video that is located at the url "https://oliver.com/citizen.mp4" and make the width 800px and the height 100% of the screen. Automatically play at the start of the app and video must be muted. Repeat video at the end.
+Show a video that is at the url "http://www.robinson-chaney.org/culture.mp4". The video should be muted. And make the width of the video 75% and height 100%.
+Show a video that is at the url "https://www.parker-watson.com/send.mp4". The poster image is located at "https://www.rivera-burch.biz/research.png". The video will be looped.
+Display the video at 25% height of the screen and 50% of the width. Source of the video is located at "http://www.phillips-gray.info/teacher.mp4". Poster image is located at "http://hebert.com/officer.jpg". Automatically play video when app loads. Loop video at the end.
+Display the video that is located at the url "http://wheeler.com/focus.mp4". The poster image of the video is located at "https://rosario.com/on.jpg". Automatically play the video when the app loads. And the video should be muted.
+The video is located at "https://www.thomas.org/large.mp4" and make the width and height 25%. The image for the poster is located at "https://www.davis.com/past.jpg".
+Show the video that is located at the url "https://chapman-torres.net/several.mp4" and make it 25% the width of the screen. And make the video loop.
+Display the video located at the url "https://www.martin.biz/a.mp4". Autoplay the video when it loads and Mute the video. And loop the video when it ends.
+Show a video that is at the url "http://santana-sanchez.com/news.mp4". When the application loads, automatically play the video. And make the width and height of the video 25%.
+Display the video located at the url "http://guerra.com/bring.mp4". Autoplay the video when it loads and Mute the video.
+The width will be "75%". The video should be muted. Show the video that is at the url "https://sexton.com/serve.mp4" with poster image that is at "http://cortez.com/left.png".
+Display the video that is located at the url "https://www.stewart-miller.com/above.mp4" and make it 200px wide. The poster image is located at "https://www.smith.net/bring.jpg". The video should be muted. And make the video loop.
+Display the video that is located at the url "https://www.patel.org/capital.mp4". The poster image of the video is located at "http://hart.com/that.png". Automatically play the video when the app loads. The video should be muted.
+Display the video located at the url "http://www.bell-page.net/find.mp4". Autoplay the video when it loads and Mute the video.
+Show the poster image that is at "https://stewart.com/over.jpg". The video will play when the application loads. Show a video that is hosted at "https://www.hunter.com/industry.mp4".
+Show a video that is at the url "http://www.williams-flores.com/community.mp4". The video should be muted. And make the width of the video 75% and the height 25%. Play the video again when it is finished.
+Display a video that is located at "https://www.smith.info/among.mp4". The poster image is located at "http://www.thompson-zavala.com/although.jpg". Automatically play the video when the app loads. And make the video loop.
+Display the video that is located at the url "https://www.bond-odom.com/something.mp4" and make it 75% the height of the screen. The video should be muted. And make the video loop.
+Display a video that is 75% of the screen. The source of the video is located at "http://www.young.com/or.mp4". The poster image is located at "https://www.sawyer.com/age.jpg". Automatically go back to the beginning of the video after it has been played.
+The video will replay by itself. There will be no sound in the video. The video will start when the application is loaded. Show the video from "http://www.irwin-powell.com/specific.mp4".
+Display the video that is located at the url "https://www.smith.biz/large.mp4". When the application loads, automatically play the video. Loop the video. And make the height of the video 50% of the screen.
+Display the video located at the url "http://www.cooper.info/change.mp4". The video should be muted. Loop the video when it ends. And make the height of the video 75%.
+Show the video that is at the url "http://gill.com/safe.mp4". Automatically play the video when app loads. This video should be muted. Loop video at the end.
+Display a video that is located at the url "http://www.flores.com/industry.mp4" and make the width of the video 25%. Automatically play the video when the app loads.
+Display the video that is located at the url "https://martinez.biz/include.mp4" and automatically play at the start of the app. Repeat the video on loop
+Display the video that is located at the url "http://higgins.biz/official.mp4" and repeat at the end. Video must be muted.
+Display the video that is located at the url "https://www.clark.com/discussion.mp4" and make it 25% the width of the screen. When the application loads, automatically play the video.Loop the video at the end.
+Display a video that is 25% the width of the screen. The source of the video is located at "http://www.castro.net/culture.mp4". The poster image is located at "http://montgomery.info/thank.png".
+Display the video that is located at the url "http://hopkins.com/nor.mp4"" and make it 200px in height. When the application loads, automatically play the video. The poster image is located at "https://www.dunn.org/include.jpg".
+Display a video located at the url "http://howard.com/share.mp4". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the width of the video 25%.
+Show the video that is located at the url "https://www.henson-massey.com/table.mp4" and make it 50% the width of the screen. The video should be muted and should loop after it starts.
+Display the video that is located at the url "https://www.knox-martin.net/PM.mp4" and make it 50% the height of the screen. The poster image is located at "https://www.andrews.com/nor.jpg". When the application loads, automatically play the video.
+Show a video that is at the url "https://www.flynn-rodriguez.net/democratic.mp4". The video should be muted and it should have a width of 25%. The poster image is located at "https://www.welch.com/consumer.png". And make the video loop.
+Display the video that is located at the url "http://www.clarke.info/without.mp4". The poster image of the video is located at "https://lewis.com/couple.jpg". The video should be muted. And loop the video when it ends.
+Show a video from the url "http://obrien.org/executive.mp4". The height of the video is "75%". There will be no sound in the video. The video will automatically start.
+Display the video that is located at the url "http://www.peterson.com/any.mp4" and make the height of the video 50%. Automatically play the video when the app loads. The video should be muted. And loop the video.
+When the application loads, automatically play the video located at url "http://www.coleman.net/writer.mp4". The poster image is located at "http://pena.com/its.png". The video should be muted.
+Show a video that is at the url "https://morgan.com/if.mp4". Automatically play the video when the app loads and loop the video when it ends. The video should be muted. And make the width of the video 50% and height 75%.
+Show a video that is at the url "http://salazar-montgomery.com/current.mp4". Automatically play the video when the app loads. The video should be muted. And make the width of the video 100%.
+Show a video that is at the url "https://www.mendoza.com/mouth.mp4". Automatically play the video when the app loads. The video should be muted. And make the height of the video 50%.
+Display a video that is 25% the height of the screen and 100% the width. The source of the video is located at "http://martinez.com/care.mp4". The poster image is located at "https://collier.com/wear.png". The video should be muted. Loop the video when it reaches the end.
+Display the video that is located at the url "http://miller-owens.com/let.mp4". loop video at the end.
+Show a video that is at the url "http://davis-henderson.com/arrive.mp4". Automatically play the video when the app loads. The video should be muted. And make the width of the video 25% and height 75%.
+The video will be played on a loop. Show a video from "https://campbell.com/officer.mp4". The video will start when the application is loaded. Display the video with a half screen width.
+Show the video that is at the url "http://aguilar.com/amount.mp4". The video should be muted. Make the width of the video 75%. Automatically play the video when the app loads. Play the video again when finished.
+When the application loads, automatically play the video located at the url "http://johnson.com/receive.mp4". Make the height of the video 25%. The video should loop.
+Display the video that is located at the url "http://bishop-sanford.com/early.mp4".The poster image is located at "https://williams.net/behavior.jpg". Automatically play at the start of the app with a loop at the end.
+Display the video that is located at the url "https://www.kane.com/than.mp4" and make the height 100% of the screen. Video must be muted.
+Display the video located at the url "https://swanson-gordon.com/worker.mp4" and make the height of the screen 100%. Automatically play the video when app loads. This video is to be muted.
+Set the video width and height to "75%". Show the poster image that is found at "http://gordon.com/hope.png". The video will start when the app is loaded. Show the video that is at the url "https://booker-wang.com/movement.mp4". The video should be muted. The video will start over when it reaches the end.
+Display a video that is 25% the height of the screen, and 400px wide. The source of the video is located at "http://silva-allen.biz/hope.mp4". Automatically play the video when the app loads. The video should loop and be muted.
+Display the video that is located at the url "https://williams.net/war.mp4" and make the width of the video 100%. The poster image of the video is located at "http://rios.info/situation.png". Automatically play the video when the app loads.
+Display the video that is located at the url "http://www.stafford.biz/like.mp4". The poster image of the video is located at "https://www.morrow.com/whom.jpg". Autoplay the video when it loads and Mute the video. Make the width and height of the video 400px.
+Display the video that is located at the url "https://www.conner.com/movement.mp4" and make it 75% the width of the screen. The poster image is located at "http://www.wheeler.info/somebody.png". Automatically play the video when the app loads. The video should be muted.
+Show the video that is located at url "http://velazquez.biz/a.mp4" and make the height of the screen 100px. This video should be muted.
+Show a video from the source url "http://www.ramos-smith.com/entire.mp4". The video will not have audio. As soon as the application is loaded the video will start. The video will replay by itself. The height of the video is set to 50%.
+Display the video that is located at the url "http://www.anderson.com/short.mp4" and make it 100% the width of the screen and 75% the height. The video should be muted and loop.
+Display the video that is located at the url "https://www.kane.com/than.mp4" and has the poster image located at "https://www.maxwell.com/against.png". Make the width of the video 75%. The video should loop and be muted.
+Display a video that is 50% the width of the screen. The source of the video is located at "http://www.brown-zuniga.biz/born.mp4". The poster image is located at "https://miller.biz/at.jpg". The video should loop.
+Display the video that is located at the url "http://www.black.info/former.mp4" and make it with a height of 0px. The poster image is located at "http://cummings.com/reach.jpg". The video should be muted.
+Display the video that is located at the url "http://perez.com/organization.mp4" and make the width of the video 75% and height 100%. The poster image of the video is located at "https://adams.com/let.png". The video should be muted.
+Open the video that is located at the url "http://kennedy.com/character.mp4" and make the width of the video 100%. The poster image of the video is located at "http://brown-hernandez.com/hour.jpg". The video should be muted. And loop the video when it ends.
+Show a video that is at the url "https://www.edwards.net/marriage.mp4". When the application loads, automatically play the video.
+Show a video that is at the url "https://www.green.info/religious.mp4". Loop the video when it ends. And make the width of the video 100%.
+Show a video that is at the url "http://www.lewis.com/receive.mp4" and make it 50% the width of the screen and 50% the height. The video should loop.
+The video should not have audio. The video will play on a loop. Show the video with a full screen width. Show the poster image that is located at "http://donaldson.com/there.png". Show a video that is found at "https://www.maynard-meyer.com/position.mp4". The height will also be full screen.
+Show the video located at the url "http://hughes.com/return.mp4" and make the height of the screen 800px. The video should be muted. Loop the video at the end.
+When the application loads, automatically play the video located at the url "http://hays.com/itself.mp4". The video should be muted. And use the poster image located at "https://www.velez-nelson.com/consider.png".
+Display the video that is located at the url "http://morrison-smith.com/policy.mp4" and make it 50% the width of the screen and 25% the height. When the application loads, automatically play the video and mute the video.
+Show a video that is at the url "https://www.brown-briggs.org/film.mp4". The poster image is located at "https://www.allen.com/party.png". The video should be muted.
+Display the video at 25% the height of the screen. The source of the video is located at "https://www.campbell.com/short.mp4". The poster image is located at "https://www.campbell.org/growth.jpg". When app loads, automatically play video.This video is to be muted. Loop video at the end.
+Open the video that is located at the url "https://www.norton-hunt.com/reduce.mp4". And make the width of the video 50%.
+Show the video located at the url "https://www.arnold.biz/market.mp4". This video is to be muted. Loop the video at the end.
+Show a video that is at the url "http://howard.com/difficult.mp4". Automatically play the video when the app loads and loop the video when it ends. The video should be muted.
+Display the video that is located at the url "https://morris.com/crime.mp4" and make it 75% the width of the screen. When the application loads, automatically play the video. The poster image is located at "http://anderson.net/huge.png". The video should be muted.
+Display the video that is located at the url "https://johnson-thompson.com/practice.mp4" and make the width of the video 50%. The poster image of the video is located at "https://brown.net/treat.png". The video should be muted. And loop the video when it ends.
+Display the video found at the url "https://www.frank.com/bring.mp4". Play the video when the app is started. Display the poster image that is found at "https://cline.com/standard.jpg". Display the video with a quarter screen width.
+Show a video that is at the url "https://lawson-silva.biz/yet.mp4". And make the height of the video 75%.
+Display the video that is located at the url "http://dawson.com/lay.mp4" and make the width of the video 100% and height 400px. The poster image of the video is located at "https://kelley.com/official.jpg". And loop the video.
+Show a video that is at the url "http://butler.org/cut.mp4". Automatically play the video when the app loads and loop the video. And make the width of the video 100%.
+Open a video located at the url "https://www.kaiser.com/guy.mp4". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the width of the video 100% and height 25% of the screen.
+Display the video that is located at the url "https://www.miranda.com/place.mp4" and make the width of the video 25% and height of the video 100%. The poster image of the video is located at "https://www.french.biz/million.jpg". And loop the video.
+The width of the video will be "50%". Display the video found at "http://www.meadows-white.com/service.mp4". Mute the video. Display the poster image that can be found at "http://www.hernandez-smith.net/role.png". The video will play on a loop. The video will be started on its own.
+Display the video at half its height of the screen and 25% width. The source of the video is located at "https://gomez-brown.com/sit.mp4". The posted image is located at "https://conner.com/assume.png". This video should loop at the end.
+Show a video that is at the url "https://www.becker.org/alone.mp4". Loop the video. And make the width of the video 25% and height 600px.
+Display the video that is located at the url "http://www.frye-rollins.net/save.mp4" and make it 100% the width of the screen and 25% the height. The poster image is located at "https://www.williams.info/have.png".
+Display the video that is located at the url "https://www.cline.com/board.mp4" and video must be muted. Repeat the video at the end.
+Display a video that is at the url "http://www.smith.com/successful.mp4". The video should be muted.
+Display the video that is located at the url "http://santana.com/of.mp4" and make the width of the video 25% and height 50%. The poster image of the video is located at "https://www.murphy-mccarthy.com/lead.png". Automatically play the video when the app loads. And loop the video.
+Display the video that is located at the url "http://www.downs.com/animal.mp4" and make the width 75% of the screen. Video must be muted.
+Show a video from "https://www.sandoval-reynolds.com/general.mp4" with a width of "25%". The video will not have audio. As soon as the app is loaded the video will start.
+Show a video that is at the url "https://www.dyer-romero.info/information.mp4". The video should be muted. And make the width of the video 50%.
+Display a video that is located at the url "https://murphy.com/anyone.mp4". The poster image is located at "https://ewing-romero.com/other.png". Also loop the video.
+Display the video located at the url "https://charles.biz/likely.mp4". The video should be muted. And make the height of the video 75%.
+Display a video that is located at the url "http://griffith.org/during.mp4" and make the width of the video 25%. The poster image of the video is located at "http://www.pacheco-wilson.info/class.jpg". The video should be muted. And loop the video when it ends.
+Display the video that is located at the url "http://bryant-ruiz.net/town.mp4". Loop video at the end.
+Show the video located at the url "http://greene.net/consumer.mp4". Make the video 75% of the height of the screen. Video should loop when it reaches the end.
+Display the video that is located at the url "https://cardenas.com/public.mp4" and make the height of the video 25%. Automatically play the video when the app loads. The video should be muted.
+Show a video that is found at "http://carter.com/store.mp4". Automatically play the video and have it replay on a loop.
+Display the video that is located at the url "http://www.cannon-duffy.com/understand.mp4" and make the width 75% and the height 100% of the screen. Automatically play at the start of the app with a loop at the end.
+The video that is located at "https://davis-lam.com/including.mp4" should loop and have 75% the width of the screen.
+Display the video that is located at the url "http://johnson-brown.biz/herself.mp4" and video must be muted. Make the height 100% of the screen.
+The video will start when the app is loaded. Show a video that is at the url "https://foster-schwartz.biz/so.mp4". There should not be any audio in the video. The poster image is at "http://www.rangel-sullivan.com/plan.jpg".
+Display the video that is located at the url "https://stark.biz/bag.mp4". The poster image of the video is located at "http://www.hayes.com/any.png". Automatically play the video when the app loads. And make the width of the video 100% and height 25%.
+Show the video with a height of 100%. Show a video from the url "https://johnson-jennings.org/affect.mp4". When the app is started, play the video. The width will be "50%".
+Show the video that is at url "http://chavez.com/rule.mp4" Automatically play the video when the app loads. The video should be muted.
+Show the video located at the url "https://miller.com/board.mp4" and make it 25% the height of the screen. The poster image is located at "https://www.brown.biz/majority.png". Automatically play the video when app loads. This video is to be muted. Loop the video at the end.
+Show a video that is at the url "http://www.hale.com/occur.mp4". Automatically play the video when the app loads. The video should be muted. And make the width of the video 75% and height 50%.
+Show the video that is located at the url "https://www.martinez-miller.com/up.mp4" and make it 25% the width of the screen and 100% the height. The poster image is located at "https://morris.biz/hour.jpg". Automatically play the video when the app loads and make the video loop. The video should be muted.
+Show a video that is at the url "http://www.thomas.org/culture.mp4". The video should be muted and loop the video when it ends. And make the width of the video 75%.
+Display the video that is located at the url "http://anderson-hansen.org/yourself.mp4" and make it mute. The poster image is located at "https://www.bryant.net/individual.jpg". And make the height of the video 25%.
+Show the poster image that can be found at "https://www.thomas-mercer.com/however.png". The video height will be "75%". Show a video that is at the url "https://www.bauer-mcintyre.com/country.mp4". The video will start again, every time it is finished. The width will be "100%".
+Display the video that is located at the url http://www.george.com/particular.mp4".The poster image is located at "http://weaver-king.com/make.jpg". Automatically play at the start of the app.
+Show a video that is at the url "https://farmer.biz/long.mp4". Loop the video when it ends. And make the height of the video 100%.
+Display a video that is 50% the width of the screen and 25% the height. The source of the video is located at "https://www.riley-davis.com/government.mp4". Automatically play the video when the app loads. The video should be muted.
+Display a video located at the url "https://www.gonzalez.com/keep.mp4". Autoplay the video when it loads. And make the width of the video 75% and height 100% of the screen.
+Show the video located at the url "https://cochran.com/occur.mp4" and make it 100% the height of the screen. Automatically play the video when app loads. This video should be muted. Loop video when it reaches the end.
+Open the video that is located at the url "https://www.mathis.biz/street.mp4". The poster image of the video is located at "https://www.brooks-collins.com/citizen.jpg". Automatically play the video when the app loads. And loop the video.
+Show a video that is at the url "https://www.moore.com/quality.mp4". The video should be muted. And loop the video when it ends.
+Display the video that is located at the url "http://www.price-harris.com/whether.mp4" and make the height of the video 50% of the screen. The poster image of the video is located at "http://www.diaz-soto.com/read.jpg". The video should be muted. And loop the video when it ends.
+Display the video that is located at the url "https://www.ingram-lee.info/hear.mp4" and automatically play at the start of the app. Video must be muted. Repeat the video on loop. Display the video that is located at the url "http://duarte-garcia.biz/shoulder.mp4" and make both the width 50% and height 100% of the screen.
+Display the video that is located at the url "http://evans.com/recently.mp4". The poster image of the video is located at "https://whitehead.info/everyone.png".
+Display the video that is located at the url "http://mcdowell-chambers.org/present.mp4" and make the width of the video 25%. The poster image of the video is located at "http://www.clark.com/single.jpg". And loop the video when it ends.
+The video is at "https://daniels.com/western.mp4" and the poster image is located at "http://patterson.net/line.png". The video should be autoplay and be muted.
+Display the video that is located at the url 'http://richardson.net/they.mp4' with a width that is 0% of the screen. The video should be muted.
+Show a video that is at the url "https://allen.com/everybody.mp4". Loop the video when it ends. And make the width of the video 50%.
+Display the video located at the url "https://rodriguez.com/time.mp4". Mute the video and loop the video when it ends. And make the width of the video 100% and height 75% of the screen.
+The video will be started on its own. Display the video hosted at the url "http://knapp.com/fire.mp4".
+Show the video that is located at the url "http://pierce.com/use.mp4" and make it 100% the height of the screen. The poster image is located at "https://www.johnson.com/area.png".
+Display the video that is located at the url "https://moore.com/quickly.mp4". The poster image of the video is located at "https://lawson.com/grow.png". And loop the video when it ends.
+Display the video that is located at the url "https://hill.com/rock.mp4" and make the height of the video 50%. Automatically play the video when the app loads. The video should be muted. And loop the video.
+Show a video that is at the url "https://brown.com/economy.mp4". Make the width of the video 100px and also make the video automatically play when the app loads.
+Display the video that is located at the url "https://www.guerrero.com/develop.mp4" and make the width of the video 100%. The poster image of the video is located at "http://www.yates.net/summer.png". Automatically play the video when the app loads. The video should be muted. And loop the video.
+Automatically play the video located at the url "https://www.mahoney.com/account.mp4" when the app loads. The poster image is located at "https://www.martinez.com/know.jpg".
+Display the video that is located at the url "https://www.davis-schaefer.org/PM.mp4" and make the width of the video 100%. When the application loads, automatically play the video.
+Show the video that is located at the url "http://rodriguez.com/arrive.mp4" and make it 25% the width of the screen. The poster image is located at "https://www.bryant.com/student.png". Automatically play the video when the app loads. The video should loop.
+Display the video that is located at the url "http://castillo.org/hold.mp4" and make it 75% height of the screen. The video should be muted.
+Display the video that is located at the url "http://edwards-callahan.org/growth.mp4" and make the height of the video 75%. The poster image of the video is located at "https://stokes.net/war.jpg". Automatically play the video when the app loads. The video should be muted.
+Open a video located at the url "http://alvarez.com/soon.mp4". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the width of the video 25% and height 75% of the screen.
+Display a video that is half the height of the screen. The source of the video is located at "https://www.rivas.info/financial.mp4". The video should be muted.
+Display the video located at the url "https://stevens-hernandez.info/I.mp4". The video should be muted. And make the width and height of the video 50%.
+Show a video that is at the url "http://www.trevino-keith.org/south.mp4". Automatically play the video when the app loads and loop the video when it ends. The video should be muted. And make the width and height of the video 100%.
+Show a video that is at the url "http://www.riley.com/price.mp4" and make it 0px in width and 75% the height of the screen. The video should loop.
+The video is located at "https://woods-maldonado.org/example.mp4" and it should be muted. Make the width 25%.
+Display the video located at the url "http://www.wong-olson.com/sea.mp4". Loop the video when it ends. And make the width of the video 50% of the screen.
+Display the video that is located at the url "http://www.taylor.com/offer.mp4" and make the width of the video 700px. The poster image of the video is located at "http://www.adams.net/half.png". Automatically play the video when the app loads. The video should be muted.
+Display the video at half the height of the screen. The source of the video is located at the url "http://www.west-moore.com/to.mp4". The poster image is located at "https://williams-murray.com/spend.png". Automatically play video when app loads. This video should be muted. Loop video at the end.
+Display the video that is located at the url "https://garcia.com/nation.mp4". And make the video 50% of the height of the screen. Automatically play video when app loads. This video should be muted.
+Show a video that is at the url "http://www.andrade.com/black.mp4". The poster image is located at "https://www.parks-rodriguez.com/behind.jpg". The video should automatically play when the app loads and it should be muted. And make the width of the video 100%.
+Display the video located at the url "http://romero.com/project.mp4". This video is to be muted. Loop the video at the end.
+Show a video that is at the url "http://www.mcmahon.com/truth.mp4" and make it 900px in height. The video should automatically play when the app loads and it should be muted. And make the video loop.
+Open the video located at the url "http://www.graves.info/camera.mp4". Automatically play the video when the app loads. And make the width of the video 100px.
+Display the video that is located at the url "https://adams.org/agent.mp4". The poster image is located at "http://hughes.com/almost.jpg". This video should loop at the end.
+Show the video that is at url "http://reese.info/least.mp4" and make it 25% the height of the screen. Poster image is located at "https://hubbard-perry.com/suddenly.png. This video should be muted.
+The video width is 50% of the screen. Display the video found at "http://fisher.info/authority.mp4".
+Display the video that is located at the url "https://robinson-nichols.info/likely.mp4" and make the width 75% of the screen. Repeat video at the end.
+Display the video that is located at the url "https://robinson-nichols.info/likely.mp4" and make it 75% the width of the screen. The poster image is located at "http://schultz.com/range.png". The video should loop.
+Show a video that is at the url "https://www.saunders-velazquez.com/think.mp4". The video should be muted. And make the width of the video 75%.
+Display the video located at the url "https://estrada.com/explain.mp4". The video should be muted.
+Open the video located at the url "http://www.smith.com/ball.mp4". Autoplay the video when it loads. Loop the video when it ends. And make the width of the video 75%.
+Display the video at 50% the height of the screen and 600px wide. The source of the video is located at "https://english.com/natural.mp4". Automatically play the video when app loads. Loop the video at the end.
+Show a video that is at the url "http://richards-diaz.info/identify.mp4". Automatically play the video when the app loads. The video should be muted.
+Show the poster image that is found at "https://vazquez-smith.com/sea.jpg". Mute the video. Show the video that is found at "https://www.harding.info/result.mp4". The video will automatically start on its own. The video will be looped.
+As soon as the app is loaded the video will start and the video will start over when it reaches the end. Show a video from "https://www.morrison.info/worker.mp4". The video height will be "75%". There will be no sound in the video.
+Display the video that is located at the url "http://duarte-garcia.biz/shoulder.mp4" and make both the height and width 100% of the screen. Automatically play at the start of the app and video must be muted.
+Show a video that is at the url "https://evans.com/cultural.mp4". Loop the video when it ends. The video should be muted. And make the width of the video 25%.
+Show a video that is at the url "https://brown.info/character.mp4" and make it 300px in width. The video should automatically play when the app loads. The video should be muted.
+Display a video that is 100% the height of the screen, and 50% the width. The source of the video is located at "https://www.adams-williams.com/example.mp4". Automatically play the video when the app loads.
+Display a video that is half the width of the screen and 100% the height. Source of the video is located at "https://www.adams-williams.com/example.mp4". Automatically play the video when the app loads.
+Display the video that is located at the url "https://young.com/charge.mp4".The poster image is located at "https://chambers-smith.com/tree.jpg". video must be muted.
+Show the video that is located at the url "https://www.ortiz.com/where.mp4". The poster image is located at "https://www.rivers-johnson.com/recently.jpg". Automatically play video when app loads. This video should be muted. Loop this video at the end.
+The video should not have audio. The video will start on its own. Display a video from the url "https://www.thornton-cox.com/example.mp4". Show the video with a full screen height.
+Display the video that is located at the url "http://www.ortiz-perkins.net/us.mp4" and make the width of the video 100%. The poster image of the video is located at "http://www.bird-cummings.org/difficult.jpg". Automatically play the video when the app loads and loop the video.
+Display the video that is located at the url "http://www.morgan-foley.com/people.mp4". And use the poster image located at "https://myers.com/little.jpg".
+Display a video that is 100% the height of the screen and 500px wide. The source of the video is located at "http://www.davis.com/part.mp4". The poster image is located at "https://bryant-rose.com/state.jpg". The video should be muted.
+Display a video that is 50% the height of the screen 75% the width. The source of the video is located at "https://www.gonzalez.com/first.mp4". The poster image is located at "https://www.fisher.com/threat.png". The video should be muted. Loop this video at the end.
+Display the video that is located at the url "https://www.gould.org/maintain.mp4" and make the height of the video 75%. The poster image of the video is located at "https://campbell.net/total.jpg". Automatically play the video when the app loads and loop the video. The video should be muted.
+Display the video that is located at the url "https://hurley.com/care.mp4. The poster image is located at "https://www.freeman.biz/social.jpg". Automatically play at the start of the app and loop it when it ends.
+Display the video at 75% of the height of the screen and 25% wide. The source of the video is located at "http://www.wilson-hickman.com/from.mp4". This video should be muted.
+Show a video that is at the url "http://howe-mcpherson.info/piece.mp4" and has the poster image located at "http://tyler-johnson.com/any.png". Make the width of the video 25% and the height 75% of the screen. The video should loop.
+Display the video located at the url "http://www.romero-turner.com/happy.mp4". Loop the video when it ends. And make the height of the video 75% of the screen.
+Show a video that is at the url "http://www.morales.com/development.mp4". Automatically play the video when the app loads and loop the video when it ends. The video should be muted. And make the width of the video 75% and height 25%.
+Display the video at 75% of the height of the screen. Source of the video is located at "https://jones.com/world.mp4". The poster image is located at "https://beck.net/factor.png". Automatically play the video when app loads. Loop video at the end.
+Open the video that is located at the url "http://www.gonzalez.net/beyond.mp4" and make the height of the video 50%. The poster image of the video is located at "https://www.edwards.com/question.png". The video should be muted.
+Display the video that is located at the url "https://www.kane.com/than.mp4" and make it 50% the height of the screen. The video should be muted.
+Show a video that is at the url "https://buck-bartlett.org/drop.mp4". The video should be muted. And make the height of the video 100%.
+Show the video that is at the url "http://www.murray.com/reason.mp4". This video should be muted. Loop the video when it reaches the end.
+Display a video that is 75% the height of the screen. The source of the video is located at "http://bowers.net/add.mp4". The poster image is located at "https://www.wilson.org/present.jpg". Automatically play the video when the app loads.
+Display the video that is located at the url "https://floyd.com/vote.mp4". The poster image is located at "https://www.rice.com/end.png". Repeat the video on loop and video must be muted.
+Display the video that is located at the url "http://ellis.info/place.mp4". The poster image of the video is located at "http://sullivan-wood.info/campaign.jpg". The video should be muted. And loop the video.
+Display a video that is 900px in height, and 25% the width of the screen. The source of the video is located at "http://bush-montoya.net/office.mp4". The video should be muted.
+Show the video that is located at the url "http://www.garcia-davis.com/kitchen.mp4" and make it 25% the width of the screen and 25% the height. The poster image is located at "https://www.colon.com/continue.jpg". Automatically play the video when the app loads. The video should be muted.
+Display the video that is located at the url "https://www.wall-davis.biz/result.mp4" and make the width of the video 25%. The poster image of the video is located at "http://moore-ross.com/level.png". And loop the video when it ends.
+Show the video that is at the url "http://johnson.org/dark.mp4". The poster image is at "http://hernandez.com/international.png". The video should be muted and loop.
+Show a video that is at the url "http://www.smith.org/again.mp4". The video should be muted.
+Display the video located at url "http://montgomery.com/although.mp4" and make the width of the screen 75%. The poster image is located at "http://williams-williams.com/nor.jpg". Loop the video at the end.
+Automatically play the video that is located at the url "https://www.king.com/free.mp4" when the app loads. The video should be muted. And loop the video.
+Display the video that is located at the url "http://www.martin.info/why.mp4 and repeat the video on loop. The poster image is located at "https://www.ramirez.biz/successful.jpg". Make the screen width and height both at 25%.
+Display the video found at the url "http://www.flores.com/sound.mp4". The video should be muted. Show the poster image that is found at "http://www.anderson.com/doctor.jpg". The video will start on its own.
+Display a video that is located at the url "https://owens-garcia.com/bring.mp4" and make the width of the video 100%. The poster image of the video is located at "https://www.bowman.com/weight.png". Automatically play the video when the app loads. And loop the video.
+Display the video at 75% of the height of the screen. Source of the video is located at https://www.carrillo.info/green.mp4". The poster image is located at "https://valenzuela-west.org/important.png".
+Open the video located at the url "https://www.noble-norton.com/minute.mp4". The video should be muted. Loop the video when it ends. And make the height of the video 75% of the screen.
+Show a video that is at the url "http://www.daniels.info/mind.mp4". Automatically play the video when the app loads. The video should be muted.
+Display the video located at the url "https://www.fisher.net/least.mp4". Loop the video when it ends. And make the width of the video 100% and height 0px.
+The height of the video will be "300px". Display the poster image that is located at "https://www.kelly-gomez.com/face.jpg" and show the video that is at the url "https://www.allen-horn.info/mind.mp4". Mute the video and play it on a loop.
+Show a video that is at the url "http://huynh.com/much.mp4". The poster image of the video is located at "https://hughes.info/little.png". Automatically play the video when the app loads and loop the video when it ends. The video should be muted.
+Display the video that is located at the url "http://villanueva.com/check.mp4" and make the width of the video 400px and height 50%. The poster image of the video is located at "https://www.white.com/those.jpg". The video should be muted.
+Display the video that is located at the url "https://www.ward.info/agreement.mp4" and make it 25% the width of the screen. The poster image is located at "http://www.alexander-perez.com/stage.png". Automatically play the video when the app loads.
+Display the video that is located at the url "https://warren-anderson.com/future.mp4"/ The poster image is located at "https://www.hernandez.net/material.jpg" . This video is to be muted. Loop the video at the end.
+Display a video that is located at the url "https://www.keller.info/sort.mp4" and make the width of the video 25%. The poster image of the video is located at "https://mills.com/security.png". The video should be muted.
+Display the video with width set to half the screen. The video will loop. Display the video found at the url "https://www.williams.biz/experience.mp4". Keep the video muted.
+Display the video that is located at the url "https://www.rodriguez-morris.org/watch.mp4" and make it 50% the width of the screen. The poster image is located at "https://schultz.biz/attack.png". When the application loads, automatically play the video.
+When the application is started, play the video. The width will be "75%". The video will be played on a loop. Display the poster image that is found at "https://campbell.com/school.jpg". Mute the video. The height of the video will be "25%". Display a video sourced from "http://www.dixon-frank.biz/stay.mp4".
+Show a video that is at the url "https://www.parker-thompson.com/place.mp4" and make it 100% the width of the screen. The poster image is located at "https://frank.biz/lose.png". And make the video loop.
+Display the video that is located at the url "http://www.hansen.net/conference.mp4".The poster image is located at "https://jensen.com/poor.png". Automatically play at the start of the app. Make the width 100% of the screen.
+Show a video that is at the url "http://www.flores.com/cell.mp4". The height of the video should be 700px. The video should loop and be muted.
+Display the video located at the url "https://banks.com/similar.mp4". And autoplay the video when it loads.
+Display the video at the url "https://perkins.biz/husband.mp4" and make it 25% wide. This video should be muted.
+Display the video that is located at the url "http://www.cross-brown.com/support.mp4" and make the height of the video 100%. The poster image of the video is located at "http://www.lopez-lindsey.biz/pass.jpg". Automatically play the video when the app loads. And loop the video.
+Display the video that is located at the url "http://warren.com/third.mp4". The poster image of the video is located at "https://www.wright-king.com/continue.png". The video should be muted.
+Show the video at 100% of the height of the screen and make the width 400px. Source of the video is located at "https://marquez.org/send.mp4". The poster image is located at "http://www.baird-fisher.net/by.png". Automatically play the video when app loads.
+Display the video that is located at the url "http://brooks.info/be.mp4" and make it 100% the width of the screen. The poster image is located at "http://rios.info/dog.png". The video should loop.
+Display the video located at the url "http://smith.org/institution.mp4". Autoplay the video when it loads. And make the width of the video 50%.
+Embed the video sourced and perty.com using the rich.jpg poster from watson.net with controls showing and the video muted with 50% width.
+Show a video that is at the url "http://www.bishop.com/mouth.mp4". The poster image of the video is located at "http://norman.com/entire.jpg".
+Display the video that is located at the url "https://fox.net/question.mp4" and make the height of the video 100%. The poster image of the video is located at "http://www.gonzalez-olson.info/product.png". Automatically play the video when the app loads. The video should be muted.
+Display a video from "https://chapman.com/plant.mp4". Video should be automatically played when the app is loaded and muted.
+Display the video that is located at the url "https://www.page-daniels.com/enough.mp4 with the video muted and height at 75% of the screen. Loop video when it ends.
+Show a video that is at the url "https://www.jones-gonzalez.com/environmental.mp4". Automatically play the video when the app loads and loop the video when it ends. And make the width of the video 25%.
+Display the video that is located at the url "https://ramirez-singleton.com/discussion.mp4" and make it 25% the width of the screen and 100% the height. Automatically play the video when the app loads. The video should be muted and it should loop.
+Display the video that is located at the url "https://www.decker.com/area.mp4" and make it 75% the width of the screen and 100% the height. The video should be muted and should loop.
+Show a video that is at the url "https://www.wallace.net/individual.mp4". The video should be muted. And make the width of the video 100%.
+Show the video that is at the url "https://joseph.com/exist.mp4". Make the video 25% the height of the screen. This video is to be muted. Loop the video at the end.
+Display a video located at the url "http://www.gonzalez.com/national.mp4". Autoplay the video when it loads and Mute the video. And make the height of the video 75% of the screen.
+Display the video at half the height of the screen and 25% wide. The source of the video is located at "https://ferguson.info/simply.mp4". This video should be muted.
+Display the video that is located at the url "http://www.morales-vincent.org/finish.mp4" and make it 75% the width of the screen. The poster image is located at "http://www.mitchell.com/no.png". The video should be muted and it should loop.
+Display the video that is located at the url "http://www.gallagher-robbins.net/stage.mp4" and make the height of the video 25%. The poster image of the video is located at "https://www.daniels.com/project.jpg".
+Display the video that is located at the url "https://jones.com/develop.mp4" and make it 100% the width of the screen and 25% the height. The poster image is located at "http://gutierrez.biz/foot.png".
+Display the video at 100% the height of the screen and 100% wide. The source of the video is located at "https://www.horn-king.biz/between.mp4".
+Show a video that is at the url "http://jones-hill.info/it.mp4". The video should be muted. Automatically play the video when the app loads.Loop this video.
+Display a video located at the url "https://carroll-parker.com/marriage.mp4". The video should be muted. Loop the video when it ends. And make the width of the video 100% and height 25% of the screen.
+Display the video located at the url "https://short-lee.com/work.mp4". The poster image of the video is located at the url "http://www.lane-stone.com/religious.png". Mute the video when it loads. And make the width of the video 100% of the screen.
+Display the video that is located at the url "http://www.beck-adams.biz/medical.mp4" and make it loop. The video should be muted.
+Display a video that is located at the url "http://www.copeland-marsh.com/son.mp4". Automatically play the video when the app loads.
+Show a video that is at the url "http://franklin.com/show.mp4". The poster image is located at "http://brown.org/whether.jpg". Automatically play the video when the app loads. The video should be muted and loop.
+Display the video that is located at the url "http://www.long.com/she.mp4". Automatically play at the start of the app. Make it 75% width of the screen.
+Display the video that is located at the url "https://www.dougherty.com/lose.mp4" and make the width 100% of the screen. Repeat the video on loop.
+Open the video that is located at the url "https://www.page.biz/state.mp4". The poster image of the video is located at "https://herrera-medina.com/must.png". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the width of the video 100% and height 50% of the screen.
+Display the video that is located at the url "https://hubbard.com/different.mp4" and make 75% the width of the screen and 100% the height. The video should be muted.
+Display the video located at the url "http://buckley-freeman.com/car.mp4". The video should be muted and it should also loop.
+The video is located at "http://www.lee-christian.org/what.mp4" and the image for the poster is at "http://www.scott-sanders.info/where.jpg". It should play automatically and loop.
+Open the video located at the url "https://www.russo.com/single.mp4". Loop the video when it ends. And make the width of the video 75% and height 100% of the screen.
+The height of the video will be "75%". The video will play on a loop. Set the video width to "50%". Display a video from "http://lee.biz/art.mp4". Display the poster image that is found at "https://johnson.org/establish.jpg".
+Display the video located at the url "https://www.johnson-mays.biz/agree.mp4". Automatically play the video when it loads and Mute the video. Loop the video when it ends. And make the height of the video 100% of the screen.
+Display the video that is located at the url "http://www.gutierrez.net/opportunity.mp4" and make it 25% the width of the screen and 100% the height.
+The video located at "https://www.burns-barrett.com/list.mp4" should be played automatically when the app loads. The poster image is located at "https://www.weaver.net/dinner.jpg". And make the height of the video 900px.
+Display a video that is located at the url "https://roberts.com/participant.mp4" and make the height of the video 25%. The poster image of the video is located at "https://www.martinez-smith.com/law.jpg". Automatically play the video when the app loads. The video should be muted. And loop the video.
+Display a video located at the url "http://www.hall.com/remain.mp4". Autoplay the video when it loads. And loop the video when it ends.
+Display the video that is located at the url "http://mueller-may.com/pressure.mp4" and make the height 75% of the screen. The poster image is located at "https://www.jackson-robinson.biz/low.jpg". Repeat the video at the end. Video must be muted.
+Open the video that is located at the url "http://www.mills-boyer.com/relationship.mp4". The poster image of the video is located at "http://duffy.net/letter.png". Automatically play the video when the app loads. Loop the video when it ends. And make the width of the video 75% and height 50%.
+Display the video that is located at the url "https://www.acevedo-page.com/study.mp4" and make the height of the video 50%. The poster image of the video is located at "http://www.lane-collins.info/current.png". The video should be muted and loop the video when it ends.
+Show a video that is at the url "https://www.powers.com/college.mp4". Make the height of the video 75%. Automatically play the video when the app loads.
+Display the video that is located at the url "https://www.wells.net/simply.mp4" and make the width 50% of the screen. The poster image is located at "https://davis-hodges.info/physical.jpg". Automatically play at the start of the app with a loop at the end. Video must be muted.
+Display the video that is located at the url "https://www.lane.org/where.mp4" and make it 100% the width of the screen and 50% the height. When the application loads, automatically play the video.
+Display the video that is located at the url "https://nicholson.com/agent.mp4" and make the width of the video 50% and height 75%. The poster image of the video is located at "http://randall-brown.net/manager.jpg". Automatically play the video when the app loads. The video should be muted.
+When the application loads, automatically play the video that is at the url "https://fisher-vazquez.com/build.mp4". Make the height of the video 100% the height of the screen. And loop the video.
+The video will be started on its own. The video source is "https://www.wheeler.net/despite.mp4". The video will replay on a loop.
+The poster image is at "http://www.nolan-campbell.com/fire.png". Display a video from "http://zavala.com/size.mp4". The video will start automatically. Display the video with a height filling half the screen.
+Show a video that is at the url "http://www.webb.net/table.mp4". The poster image is located at "https://www.cooper.biz/important.jpg". Make the width of the video 25%. Automatically play the video when the app loads. And make the video loop.
+Display the video that is located at the url "http://www.conrad.info/example.mp4" and make it play automatically when the app loads. The video should loop.
+The video will start over again every time it is finished. Show a video from the url "https://www.molina-johnson.com/toward.mp4". Show the video at a width that takes up a quarter of the screen. The video height is "75%". Mute the video.
+Display the video that is located at the url "https://www.rivera.com/enjoy.mp4. The poster image is located at "http://www.webb-carson.info/tend.png" . Make the screen height of 50% and video must be muted.
+Show a video that is at the url "https://www.gilmore.biz/view.mp4". The poster image is located at "https://morris.net/song.jpg". Automatically play the video when the app loads. The video should loop.
+Display a video that is located at the url "https://www.ball-moreno.com/around.mp4" and make the width of the video 25%. The poster image of the video is located at "http://johnson-kramer.biz/somebody.jpg". Automatically play the video when the app loads. The video should be muted. And loop the video.
+The width will be "25%". Display the poster image that is at "http://www.snow.com/key.png". Show the video with a height of "75%". Show a video that is at the url "https://heath.info/machine.mp4". The video will be looped. The video should be muted.
+Show a video that is at the url "https://www.snyder-sanchez.biz/have.mp4". Automatically play the video when the app loads. The video should be muted. And make the width of the video 25%.
+Display the video that is located at the url "https://www.leblanc.com/data.mp4" and make the width of the video 0px. The poster image of the video is located at "https://www.hudson.com/father.jpg". The video should be muted. And loop the video when it ends.
+Display a video that is 75% the height of the screen. The source of the video is located at "https://www.jenkins-harrison.com/often.mp4". The video should be muted.
+Display the video at 75% the height of the screen and 50% the width. The source video is located at "https://stewart.com/artist.mp4". The poster image is located at "http://giles-valentine.com/full.jpg".
+Display the video that is located at the url "http://www.davis.net/on.mp4". And make the height of the video 100%.
+Display a video from the source "http://www.bennett.com/family.mp4". The video width will be set to "25%" and the height of the video will be "100%".
+Display the video at 75% the width of the screen. The source of the video is located at url "http://www.murphy.info/involve.mp4".
+Show a video that is at the url "http://ellis-zhang.com/individual.mp4". The poster image is located at "https://www.carr.net/over.png". Make the height of the video 50%. Automatically play the video when the app loads. The video should be muted and it should loop.
+Display the video located at the url "http://burns.org/imagine.mp4". Autoplay the video when it loads. Loop the video when it ends. And make the height of the video 100%.
+Display the video that is located at the url "https://burns.com/almost.mp4" and make the width of the video 75%. The poster image of the video is located at "http://www.boyd.com/push.jpg". Automatically play the video when the app loads.
+Show the video that is at the url "https://miller-miranda.info/Mr.mp4". The poster image is located at "https://www.barron.com/particular.png". The video should be muted. And make the width of the video 100%. Play the video again when finished.
+Display the video that is located at the url "https://turner.com/price.mp4". And loop the video when it ends.
+Show a video that is at the url "http://www.howard.biz/at.mp4". The video should have a width of 100% of that of the screen. The video should play automatically after the app loads. Use the poster image located at "http://www.calderon.net/stock.jpg".
+Show a video that is at the url "http://cole.org/by.mp4". Make the width of the video 50%. Also loop the video.
+Open the video that is located at the url "https://www.bowman.info/never.mp4" and make the width of the video 50% and height 800px. The poster image of the video is located at "http://kim.info/pay.png". Automatically play the video when the app loads.
+Display the video at a width of 75%. The video should be muted. Display a video from "https://kline.com/indicate.mp4". The height will be 100%. The video will replay by itself. When the application is started, play the video.
+Display a video that is 800px in height. The source of the video is located at "https://www.hoffman.com/father.mp4". The video should loop.
+Open the video that is located at the url "http://martinez-lyons.com/long.mp4".
+Display the video located at the url "http://fisher-robinson.com/subject.mp4". Automatically play the video when app loads. Loop the video at the end.
+Display the video that is located at the url "http://mendoza.com/knowledge.mp4" and make the width and height of the video 75%. The poster image of the video is located at "https://george-morgan.com/join.png". Automatically play the video when the app loads and loop the video when ends. The video should be muted.
+Show a video that is at the url "https://www.cruz-stafford.com/say.mp4". Automatically play the video when the app loads. And loop the video when it ends.
+Display the video found at "http://www.vaughn.net/compare.mp4" with the poster image that is found at "https://woodward-moore.com/get.jpg". The video will automatically replay in a loop. Show the video at height 100%.
+Automatically play the video located at the url "https://moses.net/company.mp4" when the app loads. And make the video mute and with a width of 50%.
+Mute the video. As soon as the app is loaded the video will start. Show a video that is at the url "https://www.williamson.org/sign.mp4". Set the video height to exactly "75%".
+Open the video that is located at the url "http://www.gilbert.com/expert.mp4" and make the height of the video 50%. The poster image of the video is located at "https://www.allen.com/describe.png". Automatically play the video when the app loads. The video should be muted.
+Show a video that is at the url "http://marks.net/culture.mp4". The video should be muted and it should play automatically when the app loads. And make the video loop.
+Show a video that is at the url "http://meyer-norton.com/truth.mp4" and has the poseter image located at "http://cole.net/identify.png".
+Display a video that is located at the url "https://tran.net/trial.mp4". The poster image of the video is located at "http://howard.com/particular.jpg". The video should be muted.
+Show the video that is at the url "http://www.cox.org/author.mp4". Automatically play the video when the app loads. The video should be muted. Make the width of the video 75% and the height 25%.
+Open the video that is located at the url "http://edwards-callahan.org/growth.mp4".
+Display the video that is located at the url "https://martin-patton.com/various.mp4". The poster image is located at "http://dudley.biz/Republican.png" Make the screen width 50% and height at 100px.
+The width will be 100%. The video will replay by itself and will start on its own. Show the poster image that is located at "https://www.hughes-ward.com/listen.png" and the video found at the url "http://blake-cruz.com/cut.mp4".
+Display a video from "http://smith-sandoval.com/chair.mp4". The video is muted. Set the video height to 100% of the screen.
+Show a video that is at the url "http://www.flores-johnson.com/form.mp4". The poster image is located at "https://www.todd.biz/American.jpg". Automatically play the video when the app loads. The video should loop.
+Display the video that is located at the url "http://www.smith.biz/machine.mp4" and has the poster image located at "http://smith.com/subject.png". The video should be muted and loop.
+Display the video located at the url "https://www.dunn.org/space.mp4". Autoplay the video when it loads. And loop the video when it ends.
+Display the video that is located at the url "https://www.jones-bates.com/avoid.mp4". The poster image of the video is located at "http://davis-hernandez.com/why.png". Automatically play the video when the app loads. And loop the video when it ends.
+Display the video that is located at the url "https://www.chung.biz/same.mp4". Automatically play video when app loads. This video should be muted. Loop video at the end.
+Show a video that is at the url "https://www.christensen.info/become.mp4". The video should be muted.
+Display the video that is located at the url "http://www.anderson.com/majority.mp4"and make the width 75% and the height 25% of the screen. The poster image is located at "http://www.cole-norton.com/me.png". Automatically play at the start of the app with a loop at the end.
+Display the video located at the url "https://www.lozano.org/student.mp4" and loop the video when it ends.
+Display the video located at the url "https://martin-anderson.net/worry.mp4". The video should be muted. And make the width of the video 50%.
+Open a video that is located at the url "http://www.hanna.info/prevent.mp4" and make the height of the video 25%. The poster image of the video is located at "https://www.smith.com/yet.jpg". The video should be muted. And loop the video.
+The video is located at "http://www.waters.net/learn.mp4" and the poster image is at "http://lawson-rodriguez.com/but.png". It should play on loading.
+Display the video that is located at the url "http://miller-carter.net/natural.mp4" and make the width of the video 25%. The poster image of the video is located at "http://www.smith-blackwell.biz/then.jpg". The video should be muted.
+Set the video width to full screen. The video will be autoplayed. Display the video from url "http://www.morrow-cowan.com/around.mp4".
+Show a video that is located at the url "https://kerr-burke.biz/benefit.mp4". The video should loop and play automatically when the application loads.
+Display the video located at the url "https://www.davies-miller.net/story.mp4". The video should be muted. Loop the video when it ends. And make the width of the video 50%.
+Show a video that is at the url "https://arroyo.com/suffer.mp4". And make the width and height of the video 50% of the screen.
+Display the video that is located at the url "http://marshall.biz/through.mp4". The poster image of the video is located at "http://www.wilson.net/drive.jpg". When the application loads, automatically play the video and loop the video. The video should be muted.
+Display a video that is located at the url "http://barnes.com/only.mp4" and make the height of the video 50%. Automatically play the video when the app loads. The video should be muted.
+Display a video located at the url "http://taylor.com/top.mp4". Autoplay the video when it loads and Mute the video. And make the height of the video 500px.
+Display a video that is half the height of the screen. The source of the video is located at "http://price-cardenas.com/radio.mp4". The video should be muted and it should loop.
+Display a video that is 100% height of the screen and 75% of the width. Source of the video is located at "http://www.aguilar.com/article.mp4". The poster image is located at "http://reed-hall.info/section.png". This video should be muted. Loop this video at the end.
+Display the video that is located at the url "https://www.orozco.com/leave.mp4" and make it 25% width of the screen.
+Display the video that is located at the url "https://blair-lewis.biz/short.mp4" and make the height of the video 25%. The poster image of the video is located at "http://www.tucker-fritz.com/rate.png". Automatically play the video when the app loads. And loop the video when it ends.
+Display the video that is located at the url "http://bass.org/former.mp4" and make the height 75% of the screen. The poster image is located at "http://dominguez.com/direction.jpg" The video needs to be muted and repeat the video on loop.
+Display the video that is located at the url "http://www.ryan-gardner.com/ball.mp4" and make the height 300px of the screen. Automatically play at the start of the app and video must be muted.
+Display the video that is located at the url "https://stuart-brown.com/whether.mp4". The poster image is located at "http://morse-ramos.net/news.jpg". The video should be muted. The video should loop. And make the width of the video 50% and it's height 75%.
+Display the video located at the url "http://vargas-wade.com/which.mp4". Loop the video when it ends. And make the width and height of the video 100% of the screen.
+Display the video that is located at the url "https://sanchez-brown.biz/trial.mp4" and automatically play at the start of the app. The video needs to be muted.
+Display the video that is located at the url "http://reed.net/also.mp4" and video must be muted. The poster image is located at "https://www.king.org/thousand.png".
+Display the video located at the url "http://anderson.info/entire.mp4" and make the video half the width of the screen. The poster image is located at "https://www.harris.biz/heart.png". Loop the video at the end.
+Show a video from "https://www.thomas.com/suddenly.mp4" and mute it.
+Show the video found at "http://kent-shepard.com/wall.mp4". Show the poster image found at "http://www.carpenter.com/school.jpg". The video should autoplay and should be muted. The width should be 50% and the height should be 25%.
+Display the video that is located at the url "http://brown.net/he.mp4" and make the width of the video 100% and height 50%. The poster image of the video is located at "http://www.nguyen.biz/throughout.png".
+Display the video located at the url "https://www.burch-johnson.biz/machine.mp4". Autoplay the video when it loads and Mute the video. Loop the video when it ends.
+Display the video that is located at the url "http://colon.org/fact.mp4"
+Display the video that is located at the url "http://www.carter-parker.net/agent.mp4" and make it 100% the height of the screen. The video should be on loop.
+Display the video that is located at the url "http://hansen-brown.com/wide.mp4" and make it 50% the height of the screen. The video should loop and it should also be muted.
+Display the video that is located at the url "http://pearson.net/executive.mp4" and make the width of the video 400px. The poster image of the video is located at "https://green.com/foreign.jpg".
+Display a video that is half the height of the screen and half the width. The source of the video is located at "https://lucas.info/commercial.mp4". Automatically play the video when the app loads.
+Open the video that is located at the url "https://www.johnson.com/mention.mp4" . The poster image of the video is located at "https://lynch.com/join.png". The video should be muted. And make the width and height of the video 25% of the screen.
+Automatically play the video that is at the url "https://hodges.com/college.mp4" when the app loads. And make the width of the video 25% and the height 25% of the screen.
+Show a video that is at the url "http://richmond.com/fine.mp4". The video should loop.
+Display the video located at the url "https://www.lee.net/day.mp4". The video should be muted. And make the height of the video 700px.
+Show a video that is at url "http://burgess.info/nor.mp4". Video should display at 100% the height of the screen and 25% wide.
+Display the video that is located at the url "http://bautista-hernandez.net/your.mp4" and make it 50% the height of the screen.
+Display the video that is located at the url "http://www.holt-olson.com/remain.mp4" and make it loop. The poster image is located at "https://www.malone.com/fish.jpg". The video should be muted.
+Display the video that is located at the url"https://willis.info/hair.mp4". This video should loop at the end.
+show the video that is at the url "https://www.rogers.com/us.mp4" The video should display at 100% of its width. Automatically play the video when the app loads. The video should be muted. Loop the video at the end.
+Display the video that is located at the url "https://www.acevedo-coffey.com/three.mp4" and make the width of the video 50%. The poster image of the video is located at "https://www.garcia-harris.org/center.jpg". Automatically play the video when the app loads. And loop the video.
+Display the video that is located at the url "https://www.kane.com/than.mp4" using a width of 50% of that of the screen. The poster image is located at "http://webster.com/politics.jpg".
+Display the video that is located at the url "https://www.pierce-benson.info/choose.mp4" and make the height of the video 75%. Automatically play the video when the app loads and loop the video. The video should be muted.
+show the video that is at url "http://www.durham.biz/better.mp4" and make it 75% the width of the screen. The poster image is located at "https://www.mckinney.org/place.jpg". Automatically play video when app loads.This video should be muted. Loop video at the end.
+Show a video that is at the url "http://carr.com/increase.mp4". The video should be muted, and loop the video. And make the width of the video 50% and height 100%.
+Show a video that is at the url "https://www.roman.com/charge.mp4". The poster image is located at "https://www.harper.com/reduce.jpg". Automatically play video when app loads.
+When the application loads, automatically play the video located at "https://www.turner.info/face.mp4". The poster image is located at "http://giles.com/stay.png". Make the height of the video 25%. And mute the video.
+Show the video that is located at "http://payne-larsen.com/your.mp4". The poster image is located at "http://adams.com/present.jpg". Make the width of the video 25%. Play the video again when finished.
+Display the video located at the url "http://www.norris-kelley.com/play.mp4". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the width and height of the video 25% of the screen.
+Display the video that is located at the url "http://www.holland.com/poor.mp4" and make the height of the video 75%. The poster image of the video is located at "http://www.smith.com/control.jpg". The video should be muted and loop the video.
+The video height will be 75% and displayed with width 25%. The video will start when the application is loaded. Display the video found at "https://www.lopez.com/soldier.mp4". The video should not have audio.
+Show a video that is at the url "https://www.adams.com/cold.mp4" and make it 100% height of the screen. Automatically play the video when the app is loaded.
+Show the video that is located at the url "https://www.avila-avery.com/particularly.mp4" and make it 100% the width of the screen and 50% the height. When the application loads, automatically play the video.
+Display the video that is located at the url "http://www.hansen.com/well.mp4" and make it 75% the width of the screen and 25% the height. The video should be muted.
+Display a video that is located at the url "https://harrison.org/check.mp4" and make the width of the video 25%. The poster image of the video is located at "https://www.davis.com/build.png". Automatically play the video when the app loads. The video should be muted. And loop the video.
+Display the video that is located at the url "http://www.estrada.com/science.mp4". The poster image is located at "https://cole.org/too.jpg". The video should be muted.
+Display the video that is located at the url "http://alvarez.com/visit.mp4" and make the width of the video 75%. The poster image of the video is located at "https://lambert.com/letter.jpg". Automatically play the video when the app loads. The video should be muted.
+Display the video that is located at the url "https://sullivan.com/pick.mp4". The poster image is located at "https://dixon.com/son.png". Automatically play the video when the app loads. The video should be muted and it should also loop.
+Display the video that is located at the url "https://www.kane.com/than.mp4" and make it 200px in width. Automatically play the video when the app loads.
+Show a video that is at the url "http://www.jensen-reid.com/have.mp4". The poster image is located at "https://johnson-harris.com/return.jpg". Automatically play the video when the app loads. And make the height of the video 25%.
+Display the video that is located at the url "http://www.johnson.info/condition.mp4" and automatically play at the start of the app. Make the height 700px of the screen and video must be muted.
+Show a video that is at the url "http://shaw.biz/white.mp4". When the application loads, automatically play the video.
+Display a video that the height of the screen is 0px. The source of the video is located at "https://www.wright.info/couple.mp4". Automatically play the video when the app loads. The video should be muted.
+Display the video that is located at the url "http://bridges-boone.com/soon.mp4" and automatically play at the start of the app.
+Display the video at a width of "300px" and height of "200px". As soon as the application is loaded the video will start. Display the video found at the url "https://www.pitts-gordon.org/rock.mp4".
+Display the video that is located at the url "http://www.chapman.biz/child.mp4" and make it 50% the width of the screen. The poster image of the video is located at "http://www.lee-torres.com/some.png".
+The video will automatically replay in a loop. Display a video from the url "https://www.mcintyre-vargas.net/upon.mp4". Show the poster image that can be found at "https://goodman.com/tough.jpg".
+Display the video located at the url "https://wallace.net/discover.mp4". Automatically play the video when it loads. And make the width of the video 75% of the screen.
+Display the video at 25% the height of the screen and 25% the width. The source of the video is located at url "https://www.gallagher.org/to.mp4". The poster image is located at "https://www.hansen.com/loss.jpg". Automatically play video when app loads.
+Open the video that is located at the url "https://www.moore.com/good.mp4" and make the width of the video 25% and height 100%. The poster image of the video is located at "https://www.wright-powers.net/section.jpg". Automatically play the video when the app loads. The video should be muted. And loop the video when it ends.
+Display the video that is located at the url "https://evans.com/executive.mp4" and make it 100% the width of the screen. The poster image is located at "http://griffith-farmer.com/under.jpg". And loop the video.
+Display the video that is located at the url "http://www.lucas.com/spring.mp4" and repeat at the end. Video must be muted. Repeat the video on loop. The poster image is located at "https://peterson-cohen.info/foot.jpg".
+Display the video located at the url "http://www.davidson-jones.com/audience.mp4". Loop the video when it ends.
+Show the poster image that is located at "https://lindsey.info/pick.jpg". The video will start over again, every time it is finished. Show the video at a 100% height. Display a video from "http://www.smith.com/rate.mp4". The width will be "75%".
+Open the video located at the url "http://www.reynolds.com/but.mp4". Mute the video and loop the video when it ends.
+Display the video at 75% of the width of the screen. Source of the video is at "https://gentry.com/situation.mp4". Automatically play video when app loads. This video should be muted.
+Display a video that is 75% the height of the screen and the width 100%. The source of the video is located at "http://www.mills.com/create.mp4". The poster location is at "http://www.perez-oneill.com/move.jpg". This video should be muted.
+Display the video that is located at the url "http://morales.com/key.mp4" and make it 50% the width of the screen. The video should be muted and loop.
+Show a video that is at the url "https://hughes.net/record.mp4" and make the width of the video 25%. And loop the video.
+Display the video that is located at the url "http://shepard-wilkerson.com/paper.mp4" and make it 50% the width of the screen and 25% the height. The poster image is located at "https://holmes-thomas.com/number.jpg". The video should loop.
+Automatically play the video located at the url "http://foley.com/line.mp4" when the app loads. Make the video 300px in width. The video should be muted.
+Show the video that is at the url "https://www.blankenship-nielsen.com/statement.mp4" and make the video width 75% of the screen. The poster image is located at "https://simpson-herrera.org/hotel.jpg". Automatically play video when app loads. Video should be muted. Loop video when it reaches the end.
+Display the video that is located at the url "http://myers.com/dark.mp4" and make the width of the video 75% of the screen. The poster image of the video is located at "https://www.munoz-soto.org/forget.png". The video should be muted.
+Play the video automatically. The width of the video will be full screen. Show a video that is at the url "https://www.blair.net/meet.mp4". There should not be audio in the video.
+Display a video that is located at the url "http://bridges-campbell.com/smile.mp4". The poster image of the video is located at "https://rowe.com/peace.jpg". The video should be muted. And loop the video.
+Display the video located at the url "http://www.johnston.com/sign.mp4". Loop the video when it ends. And make the height of the video 25% of the screen.
+Show a video that is at the url "http://hudson.biz/expert.mp4". Automatically play the video when the app loads. The video should be muted and loop when played.
+Display the video that is located at the url "https://www.carter.net/area.mp4" and make it 100% the height of the screen. The poster image is located at "https://www.barnett.com/leg.jpg". The video should be muted.
+Display the video that is located at the url "https://lee-ramirez.com/red.mp4". Automatically play the video when the app loads. The video should be muted. And loop the video when it ends.
+Display the video that is located at url "https://www.vaughn.com/real.mp4" make it half the width of the screen. Loop the video at the end.
+Display the video at 50% the width of the screen and the height 400px. The source of the video is located at "https://www.mclaughlin-carr.com/call.mp4". Automatically play the video when app loads. This video is to be muted.
+Display the video that is located at the url "https://www.flores-rodgers.com/economic.mp4" and make the width of the video 50% and height 25%. The poster image of the video is located at "http://www.davis.net/hand.png". Automatically play the video when the app loads. And loop the video.
+Open the video that is located at the url "http://www.cortez.info/describe.mp4" and make the height of the video 25%. The poster image of the video is located at "http://vargas.com/on.jpg". And loop the video when it ends.
+Show the video that is at the url "https://www.lowe.com/magazine.mp4". The poster image located at "https://www.barber.com/nor.jpg" This video should be muted. Loop this video at the end.
+Display the video that is located at the url "http://vasquez.info/society.mp4" and make it 75% the width of the screen. The video should be muted and it should automatically play when the app loads.
+Display the video at 75% of the width of the screen. The video is located at "https://www.stanley-mack.com/involve.mp4". Automatically start video when app loads. This video should be muted.
+Set the video width to "25%". The video height will be set to "25%". The video will start on its own. The video will not have audio. Show a video from the url "http://warren-johnson.org/total.mp4". Show the poster image that is located at "https://pope.com/recently.png".
+Display the video that is located at the url "https://green.net/become.mp4" and make the height of the video 50%. The poster image of the video is located at "https://www.williams-harrison.com/issue.jpg". Automatically play the video when the app loads. And loop the video.
+Display the video located at the url "https://santos.com/system.mp4". The poster image is located at "http://www.allen-underwood.biz/rule.png". Automatically display the video when app loads. Loop video at the end.
+Display the video located at the url "https://parker.com/nearly.mp4". Autoplay the video when it loads. And make the height of the video 100% of the screen.
+Display the video that is located at the url "https://trevino.com/push.mp4" and make the width and height of the video 100%. Automatically play the video when the app loads. The video should be muted. And loop the video.
+Display the video that is located at the url https://davis.com/third.mp4"and make the height 50% of the screen. The poster image is located at "http://foster.biz/top.png". Repeat the video at the end.
+Open the video located at the url "https://www.lee.org/state.mp4". Automatically play the video when the it loads. And make the width of the video 100%.
+Display the video that is located at the url "http://www.richardson.info/middle.mp4" and make the height of the video 100%. The poster image of the video is located at "https://berger.com/must.jpg". Automatically play the video when the app loads.
+Display the video located at the url "http://little.com/enough.mp4". Automatically play the video when it loads and Mute the video. Loop the video when it ends. And make the width of the video 100%.
+The video should be muted. Show a video that is found at "https://www.terrell.info/magazine.mp4". The video will autoplay. Display the video at a width of "200px" and a height of "700px".
+Display a video that is 25% the width of the screen. The source of the video is located at "https://www.rogers.biz/stay.mp4". The video should be muted.
+Display a video that is 100% the height of the screen, and 50% wide. how a video that is at the url "http://jones-jordan.com/skin.mp4". Automatically play the video when the app loads. This video should loop at end.
+Display the video at 100% of the height of the screen and 100% wide. The source of the video is located at "http://barber-chapman.org/away.mp4". The poster image is located at "https://casey.biz/make.jpg".
+Show a video that is at the following URL "http://thomas-taylor.com/participant.mp4" The poster image is at "http://www.smith.com/and.png". Make the video 75% width of the screen and 25% height.
+Show a video that is at the url "https://fisher.com/local.mp4". Automatically play the video when the app loads.
+Display the video that is located at the url "http://wright-decker.com/term.mp4" and make the width of the video 50%. The poster image of the video is located at "http://patterson.com/possible.jpg". The video should be muted.
+Display the video located at the url "https://montes.info/sing.mp4".
+Display the video that is located at the url "http://snyder.net/meet.mp4" and has the poster image located at "https://www.logan-evans.net/plant.jpg". The video should automatically when the app loads and it should be muted. And make the width of the video 25% and the height 75% of the screen.
+Show a video that is at the url "https://www.wilkins.com/charge.mp4".
+Display the video that is located at the url "https://schmidt.info/teach.mp4" and make it 25% the width of the screen and 75% the height. The poster image is located at "https://www.lam.info/kind.jpg". Automatically play the video when the app loads. The video should be muted and loop.
+Display the video that is located at the url "https://shaffer.net/total.mp4" and make the width of the video 75% and height 700px. The poster image of the video is located at "https://navarro.net/remain.png". And loop the video when it ends.
+Display the video that is located at the url "https://watkins-gray.com/change.mp4". Automatically play at the start of the app. Make the width 50% and height 50% of the screen.
+Display a video located at the url "https://richards.com/part.mp4". Autoplay the video when it loads and Mute the video.
+Display the video at the url "https://fuller-smith.net/newspaper.mp4" and make it 75% of the height of the screen. Loop when video reaches the end.
+The video will be looped. Use the video from the url "http://www.cross.com/consumer.mp4". Display the poster image that can be found at "https://prince.com/truth.png".
+The poster image is at "https://www.hudson-cook.info/level.jpg". The video will play when the application loads. The video will be played on a loop. Show a video from "http://www.garrett-welch.com/me.mp4". Mute the video.
+Display the video that is located at the url "https://www.woods-gould.com/market.mp4" and make the width of the video 100%. The video should be muted.
+Display the video that is located at the url "https://parker.com/what.mp4" and make it 100% the width of the screen.
+Display the video that is located at the url "http://www.carroll.com/race.mp4" and make the width of the video 25%. The poster image of the video is located at "https://www.peterson-walker.com/discover.png". And loop the video.
+Display a video that is 75% the width of the screen. The source of the video is located at "http://www.stevenson.biz/decide.mp4". The video should be muted.
+Show the video located at url "http://www.mckinney.com/step.mp4" and make the width of the screen 800px. Loop the video at the end.
+Display the video at half the width of the screen. The source of the video is at "http://www.wilson.com/beat.mp4". The poster image is located at "http://www.dominguez.org/field.jpg". This video should be muted.
+Open the video located at the url "https://massey-livingston.net/garden.mp4".
+Display the video at 25% of the width of the screen. The source of the video is located at "https://wilkins-sparks.com/everybody.mp4".When app loads, automatically start video.This video is to be muted, When video reaches the end, video should loop.
+Show a video that is at the url "http://house.info/size.mp4". The video should automatically play when the app loads and it should have 100% the width of the screen. The poster image is located at "https://mcgrath.com/happen.jpg".
+Display the video that is located at the url "http://www.fisher.com/family.mp4" and make the height of the video 25%. The poster image of the video is located at "https://anderson.biz/writer.jpg". Automatically play the video when the app loads. And loop the video when it ends.
+When the application loads, automatically play the video that is at the url "https://watson-rodriguez.com/week.mp4". The poster image is located at "https://wilson.org/already.jpg". The video should be muted, it should loop and it should have a height of 100%.
+Display the video that is located at the url "http://www.campbell.com/who.mp4" and make the width of the video 100%. The poster image of the video is located at "https://smith.com/view.jpg". Automatically play the video when the app loads. And loop the video.
+Display the video that is located at the url "https://wells-randolph.com/sort.mp4" and automatically play at the start of the app. The poster image is located at "http://myers.info/answer.png". Video must be muted.
+Display the video located at the url "http://www.brooks.net/or.mp4". Autoplay the video when it loads and Mute the video. And make the height of the video 75%.
+Display the video that is located at the url "https://walker-bowers.com/various.mp4". The poster image of the video is located at "https://phillips-mccarty.com/local.jpg". The video should be muted.
+Display a video that is 75% the height and 75% the width of the screen. The video that is located at the url "http://thomas.com/everyone.mp4" and the poster image is at "https://www.mercer.info/across.png".
+Display the video that is located at the url "http://perez.com/shake.mp4" and make the width 75% of the screen. The poster image is located at "https://www.ruiz-ortiz.info/around.png". Automatically play at the start of the app and video must be muted.
+Open the video that is located at the url "http://harrison.biz/one.mp4". The poster image of the video is located at "https://www.williams-mckenzie.net/whether.jpg". And make the width of the video 800px and height 75% of the screen.
+Open the video that is located at the url "http://thomas-campbell.info/dog.mp4". The poster image of the video is located at "https://www.boyle.com/election.png". Automatically play the video when the app loads. The video should be muted.
+Display the video that is located at the url "https://www.graham.com/quite.mp4" and make the width 25% of the screen. Automatically play at the start of the app.
+Display a video that is located at the url "http://salazar.com/determine.mp4" and make the width of the video 75%. The poster image of the video is located at "https://ford.com/sometimes.png".
+Display the video that is located at the url "https://www.beck-leon.org/social.mp4" and make it 75% the width of the screen and 100% the height. The video should be muted and it should loop when played.
+Show a video that is at the url "http://www.anderson-cunningham.com/thing.mp4". The poster image is located at "https://www.aguilar.com/her.jpg". Make the height of the video 800px. Automatically play the video when the app loads. The video should loop.
+Display the video located at url "http://nguyen.biz/sure.mp4" and make it 100% the width of the screen. The poster image is located at "https://www.white-sandoval.com/woman.jpg".
+Display the video at a full screen width. Show the poster image that is located at "http://www.hall.info/system.jpg". Display the video at a height of "75%". The video will start over again every time it is finished. Show the video that is found at "http://www.harris.com/cultural.mp4".
+Display the video that is located at the url "https://www.stevenson-grant.info/number.mp4". The poster image of the video is located at "http://www.hall-hull.com/executive.png". Automatically play the video when the app loads. The video should be muted.
+Show a video that is at the url "https://www.harrington-lucero.com/recent.mp4". Loop the video when it ends. And make the width of the video 50% and height 25%.
+Display the video located at the url "https://www.ingram.com/itself.mp4". The poster image of the video is located at the url "http://rice-todd.net/natural.png". And make the height of the video 25% of the screen.
+Display the video located at the url "https://www.huerta-suarez.com/name.mp4". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the width and height of the video 50% of the screen.
+Automatically play the video located at "https://santana-kline.com/around.mp4" when the app loads. The video should be muted.
+Display the video that is located at the url "http://mcmillan.biz/several.mp4" and video must be muted.
+Show the video that is located at the url "http://www.perkins.com/media.mp4". The poster image is located at "http://www.campbell.com/plan.png". Automatically play video when app loads.
+Display the video that is located at the url "http://vargas.com/Mrs.mp4" and make the width 50% of the screen. Automatically play at the start of the app with a loop at the end.
+Display the video at 100% the height of the screen and 50% the width. The source of the video is located at "https://moore.com/visit.mp4". The poster image is located at https://www.hoover.com/speak.jpg". This video should be muted.
+Display the video that is located at the url "https://www.leach.com/must.mp4". Automatically play video when app loads.
+Display the video located at the url "https://ray.org/bed.mp4". The poster image is located at "http://james-richardson.com/us.png". And make the width and height of the video 75% of the screen.
+Display a video that is half the width of the screen. The source of the video is located at "http://www.ball.com/until.mp4". The poster image is located at "https://www.harrell-anderson.com/life.png" . Automatically play the video when the app loads. The video should be muted. This video should loop at the end.
+Open the video that is located at the url "http://www.cooper.info/than.mp4" and make the width of the video 0px and height 25%. The poster image of the video is located at "https://smith-richards.com/person.jpg".
+Display the video located at the url "http://www.jones.com/agreement.mp4" and make the width of the screen 700px. The poster image is located at "https://blanchard.com/green.png". This video is to be muted. Loop this video at the end.
+Display a video that is 900px in width. The source of the video is located at "http://www.jones.com/agreement.mp4". The poster image is located at "https://blanchard.com/green.png". The video should be muted and loop.
+Show the video that is located at the url "https://simmons.info/environment.mp4" and make it 25% the width of the screen and 25% the height. The video should be muted and loop.
+Display the video that is located at the url "http://www.haynes.com/cost.mp4" and make the width of the video 50% and height 25%. The poster image of the video is located at "https://rodriguez.com/beat.png". Automatically play the video when the app loads. And loop the video when it ends.
+Display the video that is located at the url "http://murray-lam.com/month.mp4" and make the height of the video 75%. The video should be muted.
+Display the video that is located at the url "https://www.harvey.biz/team.mp4" and make it 100% the width of the screen and 75% the height. The video should be muted and loop the video when it ends.
+Display a video that is located at the url "http://lee-larsen.info/picture.mp4" and make the width of the video 25%. The poster image of the video is located at "https://benitez.net/administration.jpg".
+Show a video that is at the url "https://www.jordan.com/upon.mp4". The poster image is at "http://www.peterson.com/dream.jpg". And automatically play the video when the app loads.
+Display a video that is at the url https://www.johnson.com/conference.mp4. The post image is at https://moore.info/indicate.jpg. The video should be 800px wide and the height should be 25%. Loop the video.
+Display the video that is located at the url "http://soto.com/finish.mp4" Make the width 25% of the screen and 100% the height.This video should be muted.
+Display the video located at the url "http://cabrera.net/require.mp4" and make it 100% the height of the screen. Automatically play the video when the app loads. This video should be muted. Loop the video at the end.
+Display a video located at the url "https://www.barnett.info/his.mp4". Autoplay the video when it loads and Mute the video.
+Show a video that is located at the url "http://miller.biz/wife.mp4" and make it 50% the width of the screen and 25% the height. The video should be muted.
+Display a video that is at the url "http://guerrero.net/five.mp4". The video should be muted.
+Display the video that is located at the url "http://forbes-hall.com/certain.mp4" and make the height of the video 25%. The poster image of the video is located at "http://www.allison-hill.biz/job.png". The video should be muted.
+Display the video that is located at the url "http://washington.com/total.mp4". The poster image of the video is located at "https://www.williams.com/price.jpg". And loop the video when it ends.
+Show a video that is at the url "https://www.fuentes.com/I.mp4". The video should be 300px in width and 50% the height of the screen. When the application loads, automatically play the video. And loop the video.
+Display the poster image that is at "http://hudson.org/pressure.png". The height will be "100%". Show the video that is at the url "https://ortega.com/stop.mp4". Display the video with width "75%". The video will not have sound.
+Display a video that is located at the url "http://cox.org/against.mp4". The poster image of the video is located at "https://www.brooks.net/style.jpg". And loop the video when it ends.
+Show the video that is located at the url "http://barton.com/fact.mp4" and make it 25% the width of the screen. The poster image is located at "https://perez.com/author.png".
+Display the video that is located at the url "https://duncan.com/choose.mp4". The poster image of the video is located at "http://www.pierce.biz/show.jpg".
+Display the video that is located at the url "https://www.franklin.com/source.mp4" and make the width of the video 25% and height 100%. The poster image of the video is located at "https://jackson-goodwin.biz/speech.png". Automatically play the video when the app loads.
+Display the video that is located at the url "http://www.vargas.com/offer.mp4".The poster image is located at "http://www.johnston.com/identify.png". Automatically play at the start of the app and video must be muted.
+Show the video that is located at the url "https://www.dougherty.com/often.mp4" and make it 25% the height of the screen. The poster image is located at "http://huynh.net/population.png". The video should be muted.
+Display the video that is located at the url "http://www.douglas-phillips.biz/career.mp4". The poster image of the video is located at "https://www.edwards.com/bit.png". When the application loads, automatically play the video and loop the video.
+Display a video that is located at "https://moss.info/page.mp4". The poster image is located at "http://www.harris.net/let.jpg".
+Display a video from "http://www.ramos-jones.biz/health.mp4". The video will not have sound.
+Display the video that is located at the url "http://www.jordan.net/box.mp4" and make it 75% the width of the screen and 25% the height. The poster image is located at "http://www.moyer.org/question.jpg". When the application loads, automatically play the video. This video should be muted. Loop video at the end.
+Display the video that is located at the url "https://brown.com/catch.mp4". The poster image is located at "http://hebert.com/officer.jpg". The video needs to be muted and loop it when it ends. Make the screen width 100% of the screen.
+Display the video at url "https://brown.com/catch.mp4" and make the video 100% the width of the screen. The poster image location is at "https://moore.com/style.jpg". This video should be muted. Loop this video at the end.
+Show a video that is at the url "https://www.ross-trujillo.org/recently.mp4". The video should automatically play when loaded, but should be muted. And make the width of the video 50%.
+Display the video that is located at the url "https://www.ortega.com/guy.mp4. The poster image is located at "http://hebert.com/officer.jpg". Autimatically play the video when the app starts also mute the video.
+When the application loads, automatically play the video located at "https://www.ortega.com/guy.mp4". The poster image is located at "https://mann.biz/chair.jpg". The video should be muted.
+Display the video located at the url "https://www.miles.com/car.mp4". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the height of the video 25%.
+Open the video that is located at the url "http://lyons.com/list.mp4" and make the height of the video 50%. The poster image of the video is located at "https://daniel.com/record.jpg". The video should be muted. And loop the video when it ends.
+Automatically play the video that is located at "https://carlson.com/woman.mp4". And make the width of the video 100%.
+Show the video that is located at the url "https://malone.com/last.mp4" and When the application loads, automatically play the video, but it should be muted.
+Display the video located at the url "http://smith.com/vote.mp4". Loop the video when it ends. And make the width of the video 50% and height 200px.
+Show a video that is at the url "http://www.carr.biz/near.mp4". Loop the video when it ends. And make the height of the video 25%.
+Show a video that is at the url "http://www.stewart.com/while.mp4". The poster image is located at "https://taylor-jimenez.com/certain.jpg". The video should play automatically when the app loads. The width of the video should be 75% of the screen size.
+Display the video located at the url "http://johnson.com/mission.mp4". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the width of the video 100% of the screen.
+Show video that is at the the url "http://martinez.com/order.mp4" and make the height of the screen 220px. The poster image is located at "http://gardner-richardson.com/store.png". This video should be muted.
+Show the video that is at the url "http://long-castaneda.net/trial.mp4". There will be no sound in the video. The video will replay by itself. When the application is started, play the video. Show the video with a width of "700px".
+Display the video that is located at the url http://www.palmer.com/follow.mp4" and automatically play at the start of the app. Make the screen height 300px.
+Show a video that is at the url "https://sherman-hopkins.com/including.mp4". The poster image is located at "http://moon.com/specific.png". Make the height of the video 50%. Automatically play the video when the app loads. The video should be on loop.
+Display the video that is located at the url "https://davis.com/idea.mp4". Automatically play the video when app loads. This video should be muted. Loop at the end.
+Display the video that is located at the url "https://norris.biz/during.mp4". The poster image of the video is located at "http://www.castillo.com/fast.jpg". And make the width of the video 50% and height 100% of the screen.
+Display the video located at the url "https://www.figueroa.com/help.mp4". Automatically play the video when it loads. And make the height of the video 25% of the screen.
+Display the video that is located at the url "https://haynes.com/green.mp4" and make the height of the video 100%. The poster image of the video is located at "https://huff-arnold.com/kind.jpg". Automatically play the video when the app loads.
+Show a video that is at the url "https://villanueva-stone.com/south.mp4"and loop the video. Make the height of the video 300px.
+Display the video that is located at the url "https://miles.com/let.mp4" with loop at the end.
+Display the video at 50% the height of the screen and 100% wide. The source of the url is located at "https://king-bradford.info/seat.mp4".Automatically play video when app loads.This video should be muted.
+Show a video that is at the url "http://santos-holloway.net/indicate.mp4". Automatically play the video when the app loads. And make the width of the video 50% and height 700px.
+Show the video that is at the url "https://kennedy.com/rate.mp4" and make the height 25% of the screen and 100% of the width.
+Display the video that is located at the url "http://price-bryant.com/way.mp4" and make it 100% the width of the screen and 25% the height.
+Display the video that is located at the url "http://www.nielsen.com/development.mp4" and make the width of the video 300px. The poster image of the video is located at "http://eaton-wagner.com/decade.jpg". Automatically play the video when the app loads. The video should be muted.
+Show a video that is found at "https://newton.info/care.mp4" and mute it.
+Show a video that is at the url "http://watson.com/center.mp4". Play the video when the app is started. Show the video with a width of "25%". Show the poster image that can be found at "https://www.campos.info/sing.jpg". The video will start over when it reaches the end.
+Show the video that is located at the url "http://www.cox-sullivan.com/ever.mp4" and make it 75% the width of the screen. The video should be muted and it should play on loop.
+Display the video that is located at the url "https://www.duncan.info/them.mp4" and make the height of the video 100%. The poster image of the video is located at "https://www.potts.info/talk.jpg". And loop the video when it ends.
+Display the video that is located at the url "https://murphy.com/him.mp4" and make the width and height of the video 25%. The poster image of the video is located at "https://barnett.org/involve.png".
+Display the video that is located at the url "http://walker.biz/low.mp4". Use the poster located at "http://rivera-wells.com/quite.jpg". The video should be muted.
+When the application loads, automatically play the video located at "http://martinez-mahoney.com/example.mp4". And loop the video.
+Display a video that is 25% the height of the screen. The source of the video is located at "https://garcia.org/everyone.mp4". The poster image is located at "https://anderson.com/before.jpg". The video should be muted.
+Display the video located at the url "https://vega-miller.com/pattern.mp4". And make the height of the video 25% of the screen.
+Show a video that is at the url "https://smith.com/area.mp4" The video should be muted.Loop the video. And make the height of the screen 100%
+Show the video that is located at the url "https://russell-west.info/accept.mp4" and make it 75% the width of the screen. The poster image is located at "https://villanueva-brown.biz/see.jpg". Automatically play the video when the app loads.
+Display this video at half its width. The source of the video is located at "https://www.rogers.com/us.mp4". Loop this video at the end.
+Display the video located at the url "http://www.aguilar.biz/never.mp4". The video should be Muted. And make the width of the video 100% of the screen.
+Display a video that is half the height of the screen, and half the width. The source of the video is located at "https://guzman-duffy.com/on.mp4". The poster image is located at "http://pierce.biz/sell.png". The video should loop.
+Display the video that is located at the url "http://www.gross-morgan.com/successful.mp4 and automatically play the video at the stsrt of the app. Make the height at 50% of the screen.
+Display video that is located at the url "http://morales-montoya.com/since.mp4" and make the width of the video 50%. The poster image of the video is located at "http://rosales-buchanan.biz/across.png". Automatically play the video when the app loads. And loop the video when it ends.
+Display the video that is located at the url "http://www.thompson-brown.net/past.mp4" and make the width of the video 600px and height 50%. The poster image of the video is located at "http://kirby.com/everything.jpg". The video should be muted.
+Display a video that the height of the screen is 300px. The source of the video is located at "http://castro-melendez.info/rise.mp4". The poster image is located at "http://brooks.com/less.png". Automatically play the video when the app loads.
+Display the video located at the url "https://www.adams-smith.com/name.mp4". And Mute the video.
+Show a video that is at the url "https://santos.com/yard.mp4". The poster image is located at "https://www.mclean-nguyen.biz/performance.jpg" The video should be muted. And make the width of the video 75%.
+Display the video that is located at the url "https://santos.com/yard.mp4".The poster image is located at "https://www.mclean-nguyen.biz/performance.jpg". Automatically play at the start of the app and video must be muted. Make the width 75% of the screen.
+show video that is at the at url "http://www.cole.info/where.mp4". Automatically play the video when app loads. This video should be muted. And make the video at 75% of the height of the screen.
+Show a video that is at the url "http://www.sanchez.com/bad.mp4" and make it 25% the width of the screen and 25% the height. The poster image is located at "https://silva-griffith.com/court.png". And make the video mute.
+Display the video located at the url "https://jackson.biz/adult.mp4". The video should be muted. And make the width of the video 900px.
+Display the video that is located at the url "http://bartlett-foley.com/car.mp4". The poster image of the video is located at "http://www.barnett.com/leg.jpg". Automatically play the video when the app loads. The video should be muted. And loop the video when it ends.
+Display the video with a half screen height. The video will be autoplayed. Display the video with a width of 100%. The poster image is found at "https://fischer.com/time.jpg". Display the video from the url "http://www.morgan-carter.biz/paper.mp4".
+Display the video at 25% at the height of the screen. Source of the video is located at the url "http://johnson.com/hot.mp4". Automatically play the video when app loads. This video should be muted. Loop at end of the video.
+The video is located at "http://www.ortiz.com/short.mp4" and it should play automatically on loading. It needs to be muted at 75% width.
+Display a video that is located at the url "https://martin.com/true.mp4" and make the height of the video 50%. The poster image of the video is located at "http://hall.com/day.jpg". The video should be muted. And loop the video.
+Display the video located at the url "http://www.smith.com/court.mp4" and make it 100% the width of the screen. Automatically play the video when app loads. This video is to be muted. Loop video at the end.
+Show a video that is at the url "http://wilson.biz/explain.mp4". The poster image is located at "http://www.walsh-perkins.org/according.png". Make the width of the video 25%. The video should be muted and should loop.
+Display a video from the source located at "http://castro.com/international.mp4". Automatically play the video when the app loads and play it repeatedly.
+Display the video that is located at the url "https://kennedy.com/rate.mp4"and make it 75% of the width of the screen. When the app loads, automatically play the video. This video should be muted. Loop this video at the end.
+Display the video at a width of "25%". Display the video found at the url "https://west.com/property.mp4". The height will be full screen.
+Display the video located at the url "https://anderson.com/coach.mp4". Mute the video when it loads and loop the video when it ends. And make the width of the video 100% of the screen.
+Display the video located at the url "https://harrison-wallace.com/morning.mp4" and make the video 50% the width of the screen. The poster image is located at "https://www.salas.biz/appear.png". Loop the video at the end.
+Show a video that is located at the url "http://www.johnson.com/evidence.mp4". Make the video 25% the height of the screen. Automatically play the video when the app loads. The video should be muted and should loop.
+Display the video that is located at the url "http://jennings.com/radio.mp4" and make it loop.
+Display a video that is located at the url "https://anderson.com/here.mp4" and make the width and height of the video 75%. The poster image of the video is located at "http://ramirez.com/red.jpg". The video should be muted.
+Display the video that is located at the url "https://moore-watkins.com/share.mp4" and make the width 75% of the screen. The poster image is located at "https://www.smith.info/range.png". Automatically play at the start of the app and mute the video.
+Show a video that is at the url "http://robinson.info/piece.mp4". Automatically play the video when the app loads. And make the width of the video 25%.
+Display the video that is located at the url "https://harris.com/structure.mp4" Automatically play the video when the app loads.
+Display the video that is located at the url "http://wade-hernandez.biz/once.mp4" and make it 50% of the width of the screen. The poster image is located at "https://simmons.org/growth.png".This video should be muted. This video should loop at the end.
+Show a video that is at the url "http://tyler.com/out.mp4". Loop the video when it ends. And make the width of the video 100%.
+Display the video that is located at the url "http://bryant-marshall.com/drive.mp4" and make it loop. Automatically play the video when the app loads.
+Display a video that is located at the url "http://www.pierce-waters.com/against.mp4" and make the width of the video 25%. The poster image of the video is located at "http://rubio-dalton.com/morning.jpg". And loop the video.
+Display the video located at the url "https://miller.org/work.mp4". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the width of the video 100% and height 75% of the screen.
+When the application loads, automatically play the video that is located at the url "https://www.robinson.org/scientist.mp4". The video should be muted and loop. Make the width of the video 50%. The poster image is located at "https://heath-miller.com/information.jpg".
+Display a video from the url "http://www.berry-reyes.net/election.mp4". There will be no sound in the video. Play the video automatically. Display the video with a width of exactly 400px.
+Show a video that is at the url "https://www.brooks.biz/begin.mp4". The poster image is located at "https://roberts-brown.biz/glass.jpg". And make the height of the video 25%.
+Display the video at 25% of the width of the screen and height of 700px. Source of the video is located at "http://www.jensen.com/foot.mp4". When app loads, video will automatically play. Loop video when it ends.
+Display the video that is located at the url "http://www.white-murphy.com/morning.mp4" and make it 25% the width of the screen and 100% the height. And use the poster image located at "https://www.tran.com/stock.png".
+Show the video located at url "https://rose.net/old.mp4". The poster image is located at "https://munoz.org/run.jpg". This video should be muted.
+Set the video width to be 50%. The video will be played on a loop. The video will not have audio. Show a video from "https://garcia.biz/owner.mp4". Play the video automatically. Display the poster image that is found at "https://www.colon.org/tax.png".
+Display a video that has 25% the width of the screen. The source of the video is located at "http://www.vazquez.com/land.mp4". The poster image is located at "http://www.webb-arellano.com/she.png". The video should be muted. And make the video loop.
+Display the video that is located at the url "http://morrison.com/hand.mp4". loop video at the end. Make the width 50% and height 100% of the screen.
+Display the video that is located at the url "http://hughes.org/paper.mp4" and make it 0px wide. Automatically play the video when the app loads. The video should be muted.
+Display the video that is located at the url "http://www.decker.com/memory.mp4". Automatically play the video when the app loads. And loop the video.
+show the video that is located at url "https://payne-reed.com/none.mp4" and make the height of the screen 400px. Automatically play the video when app loads. This video should be muted.
+Display the video that is located at the url "https://gill.com/police.mp4". The poster image of the video is located at "http://singh-hill.com/back.png". The video should be muted.
+Display the video that is located at the url "https://hall.com/main.mp4" and mute it. The poster image is located at "http://carter.net/since.png". And make the width of the video 800px.
+Display the video located at the url "https://www.allison.net/rate.mp4". The video should be muted. And loop the video when it ends.
+Display the video located at the url "http://www.malone.com/some.mp4" and make the video 50% the width of the screen. The poster image is located at "http://beck.com/security.png"/ This video is to be muted.
+Show a video that is at the url "http://www.bennett.com/alone.mp4". The poster image is located at "http://hayden-shelton.com/speech.jpg". And loop the video.
+Display the video that is located at the url "https://thomas.net/leave.mp4" and make it 100% width of the screen. Automatically play at the start of the app. The video needs to be muted. Repeat the video on loop
+Display the video at 50% the height of the screen and 75% the width. The source of the video is located at "http://www.bauer-yates.com/happen.mp4". The poster image is located at "http://obrien.org/area.jpg". This video is to be muted.
+display the video located at url "http://nelson-cooper.com/herself.mp4" and make the width of the screen 100%. This video should be muted.
+Display the video that is located at the url "https://www.riggs.com/letter.mp4". The poster image of the video is located at "https://www.irwin.com/red.png".
+Display a video located at the url "https://mclaughlin.info/time.mp4". Autoplay the video when it loads and Mute the video.
+Show a video that is 100% the height of the screen and 75% wide. The source of the video is located at "https://parker.net/might.mp4". The poster of the video is located at "https://www.harrison.com/good.jpg". Automatically play the video when app loads. This video should be muted.
+Display the video that is located at the url "https://young-hall.com/window.mp4". The poster image is located at "http://www.bolton.com/his.png". Make it 100% the width of the screen and 100% the height. When the application loads, automatically play the video. The video should be muted.
+Display a video that is 900px in height, 50% the width of the screen and has the source at "http://miller-castillo.com/never.mp4". And use the poster image located at "https://chapman.com/hit.jpg".
+Display the video at half the width of the screen and the height 100%. The source of the video is located at "https://www.preston.com/administration.mp4". Automatically play the video when app loads. This video should be muted.
+Show a video that is at the url "https://burns.info/cost.mp4". The video should be muted. Automatically play the video when the app loads. Loop the video. And make the width of the video 25% of the screen.
+Display the video located at the url "https://www.carlson-martinez.com/I.mp4". The poster image is located at "https://nelson.com/player.jpg". Automatically play when the app loads. Loop the video at the end.
+Display the video found at url "https://collins-silva.info/anyone.mp4". The video should be muted.
+Display the video that is located at the url "https://www.bowen.com/fact.mp4". The poster image is located at "http://collier-white.com/answer.jpg". Automatically play the video when the app loads.
+Display a video that is located at the url "https://brooks.com/difficult.mp4" and make the width of the video 25% and height 50%. The poster image of the video is located at "https://edwards-rollins.com/Congress.png". Automatically play the video when the app loads. And loop the video.
+Display the video that is located at the url "https://wagner-nash.com/brother.mp4" and make it 25% the width of the screen and 25% the height. The poster image is located at "http://www.morris.biz/personal.png". The video should be muted and it should loop.
+Display the video that is located at the url "http://www.pena.info/together.mp4".The poster image is located at ""htps://lucas.org/ever.png". Automatically play at the start of the app with a loop at the end. Make the height 100% of the screen.
+Display a video at 75% of the height of the screen, and 400px wide. The source of the video is located at "https://salinas-garcia.info/you.mp4". The poster image is located at "https://smith.org/far.png". Automatically play the video when the app loads. The video should be muted.
+The video will play on a loop. Show the video "http://perry-white.com/Republican.mp4" and mute it.
+Display the video that is located at the url "https://jacobson.com/much.mp4" and make the width 75% and the height 25% of the screen. Repeat video at the end.
+Display a video that is located at the url "http://woodard-harris.biz/conference.mp4" and make it 25% the width of the screen, and 900px in height. The poster image is located at "https://www.stone-ferguson.com/it.jpg". The video should loop.
+Display the video located at the url "https://aguirre.biz/someone.mp4".
+Display the video that is located at the url "https://jones.biz/radio.mp4" and make it 25% the width of the screen and 100% the height. Automatically play the video when the app loads.
+Display the video that is located at the url "http://www.nixon.info/seek.mp4" and make both the width and height 25% of the screen. Repeat the video on loop.
+Display a video that is 400px in height. The source of the video is located at "https://johnson-brooks.info/today.mp4". Automatically play the video when the app loads. The video should loop and be muted.
+Display a video that is 100% the width of the screen. The source of the video is located at "http://www.barry.com/station.mp4". The poster image is located at "http://www.donovan.com/its.png". The video should be muted and loop.
+Display the video that is located at the url "https://cox-brandt.net/phone.mp4" and make the width of the video 25% and height 75%. The poster image of the video is located at "https://www.mitchell.com/year.jpg". Automatically play the video when the app loads. And loop the video.
+Display the video that is located at the url "https://butler.com/not.mp4" and make the height of the video 100%. The poster image of the video is located at "http://www.fuller.info/discuss.png". Automatically play the video when the app loads.
+Display a video that is located at the url "http://www.howard.org/better.mp4". The poster image of the video is located at "https://anderson.org/parent.png". Automatically play the video when the app loads. The video should be muted. And loop the video.
+Display video at 25% of the height of the screen. Source of the video is located at "http://www.fox-rivera.biz/including.mp4". Loop video when it reaches the end.
+Display the video that is located at the url "https://henderson.com/camera.mp4" and make the width of the video 75% and height 50%. The poster image of the video is located at "http://www.smith-graves.com/great.jpg". The video should be muted. And loop the video.
+Display the video at 25% the height of the screen and 50% the width. The source of the video is located at "https://www.marshall.biz/personal.mp4". The poster image is located at "http://www.white.info/parent.png". Loop the video when it reaches the end.
+Display the video that is located at the url "http://www.allen-williams.org/same.png". The poster image is located at "http://hebert.com/officer.jpg" Automatically play at the start of the app with a loop at the end.
+Display the video that is located at the url "http://scott.com/huge.mp4". Make the height 25% of the screen.
+Display a video that is located at the url "http://hudson.com/where.mp4" and make it 25% the width of the screen. The poster image is located at "https://www.brown.info/beat.jpg". The video should loop and play automatically when the app loads.
+Display the video located at the url "http://www.gibson.net/history.mp4". The poster image is located at "https://www.anderson.info/first.jpg". And make the width of the video 25%.
+When the application loads, automatically play the video that is located at the url "https://jones.com/approach.mp4". The video should be muted and it should loop.
+Display the video at 100% the height of the screen and 50% the width. The source of the video is located at "https://stafford.com/back.mp4".
+Show a video that is at the url "https://thomas.info/candidate.mp4". The video should be muted. Make the width of the video 50%. Make the height of the video 75%. When the application loads, automatically play the video.
+Display a video that is located at the url "http://www.palmer.com/all.mp4" and make the width of the video 50%. The poster image of the video is located at "http://www.barton-joyce.com/family.png". Automatically play the video when the app loads. The video should be muted.
+Display the video that is located at the url 'https://www.smith.com/road.mp4'. Automatically play the video when the app loads. The video should be looped.
+Display the video located at the url "http://stevenson.biz/knowledge.mp4". Display the video at 100% of the height of the screen. This video should be muted. Loop the video at the end.
+Display the video located at the url "http://www.novak.com/ability.mp4". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the height of the video 75% of the screen.
+Display the video that is at the url "http://wilson.com/interview.mp4". Automatically play video when app loads. This video should be muted.
+Display the video that is located at the url "http://www.howard.com/forget.mp4". Automatically play the video when the app loads. The video should be muted.
+Show a video that is at the url "http://www.allen-farmer.com/citizen.mp4". Make the width of the video 50%. The video should be muted.
+Display the video located at the url "http://www.mccullough-miller.org/second.mp4". Loop the video when it ends. And make the width of the video 100% of the screen.
+Display the video that is located at the url "http://www.bryan.com/very.mp4" and make it 50% the height of the screen. The poster image is located at "http://www.larson.info/couple.jpg". When the application loads, automatically play the video.
+Display the video that is located at the url "http://www.glenn.net/may.mp4". The poster image of the video is located at "http://silva-warren.org/country.png". Automatically play the video when the app loads. The video should be muted. And loop the video.
+Display a video located at the url "http://kennedy-morrison.info/away.mp4". Autoplay the video when it loads and Mute the video.
+The video will loop. Display the video from "https://www.peterson.biz/movement.mp4" with a height of "25%". Display the poster image that is at "https://perkins.com/prepare.png".
+Show a video that is at the url "https://sherman.info/pretty.mp4". The video should be muted. And make the height of the video 50%.
+Display the video that is located at the url "http://www.hayes.com/enter.mp4" and make it 100% the height of the screen. The poster image is located at "https://www.carter.org/culture.png". Automatically play the video when the app loads. The video should be muted.
+Display the video at 75% the width of the screen. The source of the video is located at url "https://www.green.com/ground.mp4". The poster image is located at "https://www.white-holt.biz/way.jpg". Loop this video at the end.
+Show the video that is at the url "https://miller.com/debate.mp4". Loop the video when it ends. The video should be muted. And make the width of the video 500px.
+Display the video that is located at the url "http://torres.com/citizen.mp4" and make the width 25% of the screen. Automatically play at the start of the app. The poster image is located at "https://www.gonzalez.org/enjoy.png". Repeat the video at the end.
+Display the video located at the url "https://www.clark-james.com/drug.mp4". The poster image is located at "https://www.rice-abbott.org/your.jpg". Automatically play the video when app loads. This video should be muted. Loop the video at the end.
+Show the video located at the url "https://www.anderson-harris.info/build.mp4". Loop the video at the end.
+Display the video that is located at the url "https://miranda-gonzalez.com/nation.mp4" and make it 75% the width of the screen and 25% the height. Automatically play the video when the app loads. The video should be muted.
+Display the video located at the url "https://www.curtis.biz/present.mp4". Autoplay the video when it loads. Loop the video when it ends. And make the width of the video 50% and height 100% of the screen.
+Display the video that is located at the url "https://baker.com/population.mp4" and make it 25% the height of the screen. When the application loads, automatically play the video. The video should be muted and it should loop.
+Display the poster image that is found at "https://www.ross-bates.com/stand.jpg". Show a video from the url "https://hess.biz/system.mp4".
+Display the video that is located at the url "http://clark.biz/toward.mp4" and make it 100% the width of the screen and 25% the height. The video should be muted and it should also loop. And use the poster image located at "https://wright.info/subject.jpg".
+Show the video located at the url "http://www.farley-stuart.com/seat.mp4" and make it 50% the width of the screen. The poster image is located at "http://davis.net/car.png". This video is to be muted.
+Display the video located at the url "http://marshall.org/skill.mp4". Autoplay the video when it loads and Mute the video. And make the height of the video 50% of the screen.
+Display a video that is 75% the width of the screen. The source of the video is located at "http://salinas.org/message.mp4". The poster image is located at "http://www.jackson-adams.com/why.jpg".
+Show the video at 25% the height of the screen. The source of the video is located at "http://www.parker-sanders.org/when.mp4". The poster image is located at "https://johnson.com/behind.jpg". Automatically play the video when app loads.
+Display the video that is located at the url "http://www.murphy.com/think.mp4". The poster image of the video is located at "https://long.org/foreign.jpg". Autoplay the video when it loads. And make the width of the video 75% and height 100%.
+Display a video from the url "http://williamson-hensley.net/ever.mp4". Play the video when the app is started.
+Display the video located at the url "https://villarreal.net/look.mp4" and make it 75% the width of the screen. The poster image is located at "https://www.sosa.com/even.jpg". this video should be muted.
+Display a video that is located at the url "https://www.allen-martinez.com/family.mp4" and make the height of the video 50%. The poster image of the video is located at "http://sullivan-mendez.info/make.jpg". Automatically play the video when the app loads. The video should be muted.
+Display the video that is located at the url "https://www.warren.biz/civil.mp4". The poster image of the video is located at "http://www.johns-thomas.info/benefit.png". Automatically play the video when the app loads. The video should be muted.
+Display the video at 100% the height of the screen and 100% wide. The source of the video is located at url "http://ford.com/career.mp4". The poster image is located at "https://macias-cruz.com/admit.png". Automatically play the video when the app loads. Loop the video at the end.
+Display the video that is located at the url "http://ford.com/career.mp4" and make the screen width and height both at 100%. Automatically play at the start of the app with a loop when it ends.
+Display a video that is located at the url "http://www.morrison-fuller.com/tough.mp4" and make the width of the video 50%. The poster image of the video is located at "http://ayala.info/provide.png". Automatically play the video when the app loads. The video should be muted. And loop the video.
+Display a video located at the url "http://www.briggs.org/middle.mp4". Automatically play the video when it loads.
+Show a video that is located at the url "https://www.warren.com/real.mp4".
+Show a video that is at the url "https://www.willis-brown.biz/skill.mp4". make the video 50% the width of the screen and 50% the height. The poster image is located at "http://www.diaz.info/thing.jpg". The video should be muted and it should loop.
+The video will not have sound. The video will be looped. Display the video with a width and height of "50%". Show a video that is found at "http://www.gilmore.com/bar.mp4".
+The poster image is found at "http://www.green.com/hundred.jpg". Show the video with a full screen width. Show the video from the url "http://www.gilbert.net/culture.mp4". The video will be autoplayed.
+When the application loads, automatically play the video that is located at the url "http://stanley.org/out.mp4". The video should be muted.
+When the application loads, automatically play the video located at the url "http://stephens.com/us.mp4". The poster image is located at "https://www.hart.info/push.png".
+Show a video that is at the url "https://ingram-brock.com/hotel.mp4".
+Display the video that is located at the url "https://cook.com/dream.mp4" and make it 100% the width of the screen and 75% the height. The poster image is located at "https://www.lane.info/see.jpg". The video should loop and be muted.
+Display the video located at the url "https://grimes-webb.com/gas.mp4".
+Use the poster image located at the url "http://mitchell.com/say.jpg" for the video located at "http://williams.com/nor.mp4". Make the video 50% the height of the screen. The video should automatically start when the app loads. The video should be muted and it should loop.
+Display a video that is located at the url "https://www.smith-hart.com/measure.mp4". The poster image of the video is located at "https://www.york.com/specific.png". Automatically play the video when the app loads. The video should be muted. And loop the video.
+Show a video that is at the url "https://www.fields.com/party.mp4". The video should be muted. And make the width of the video 50% and height 100% of the screen.
+Display the video located at the url "http://trevino.com/suffer.mp4". Autoplay the video when it loads and Mute the video. And loop the video when it ends.
+Show a video that is at the url "https://www.webb-smith.com/special.mp4". The video should be muted. And make the width of the video 100%.
+The video will automatically start and will loop. The poster image is found at "http://www.reese.com/cause.png". The video width is "75%". The video height is "100%". Display a video from the url "https://livingston.biz/TV.mp4".
+Display the video that is located at the url "https://www.holmes-scott.com/lawyer.mp4".The poster image is located at "https://stein.com/case.jpg". Loop video at the end.
+Display a video that is located at the url "https://martin-williams.com/trade.mp4". The video should be muted and when the app loads the video should automatically play.
+Open the video that is located at the url "http://osborne.com/represent.mp4" and make the width of the video 50%. The poster image of the video is located at "https://www.hawkins.org/may.jpg". And loop the video when it ends.
+Display video that is located at the url "https://www.lopez.info/both.mp4". The poster image is located at "https://www.garrett.biz/keep.png". Automatically play video when app loads.
+Display the video that is located at the url "https://parker.com/down.mp4" and make the width 75% and the height 100% of the screen. The poster image is located at "https://www.small.com/drive.jpg".
+Display the video that is located at the url "http://www.macias.com/popular.mp4" and make it 25% the height of the screen. Automatically play the video when the app loads. The video should be muted.
+Display the video located at url "https://www.fischer.com/say.mp4" and make the width of the screen 0px. The poster image is located at "http://henry-lopez.com/nation.png". Automatically play the video when the app loads. This video should be muted. Loop video at the end.
+Display a video that is located at the url "http://www.hamilton.info/suffer.mp4" and make the width of the video 50%. The poster image of the video is located at "http://hamilton.net/suggest.png". Automatically play the video when the app loads. The video should be muted. And loop the video.
+Display the video that is located at the url "http://www.smith-chapman.org/friend.mp4" and make the width of the video 50%. The poster image of the video is located at "https://brown.net/born.png". And loop the video when it ends.
+Display a video that is located at the url "http://www.moreno.com/again.mp4" and make the height of the video 100%. The poster image of the video is located at "https://mcdowell-boyle.com/network.png". The video should be muted. And loop the video when it ends.
+Display the video located at the url "https://alvarado.com/them.mp4" and make it 25% the height of the screen. The poster image is located at "http://mcneil.com/woman.jpg". This video is to be muted. Loop the video at the end.
+Display the video located at the url "http://www.mcdaniel.com/hit.mp4". Automatically play the video when it loads and Mute the video. And make the width of the video 100% and height 25% of the screen.
+Display the video located at the url "http://cook-rodriguez.com/suffer.mp4". The video should be muted. And make the width of the video 75% of the screen.
+Display a video that is 100% the height of the screen, and 50% wide. The source of the video is located at "http://middleton.com/policy.mp4". And make the video loop.
+Show the video that is at the url "http://www.boyer.com/study.mp4". Play the video again when finished.
+Show the video that is at url "https://rowe.com/class.mp4". Automatically play the video when the app loads. This video should be muted.
+Display a video that is 25% the width of the screen. The source of the video is located at "https://www.bradley.biz/adult.mp4". The poster image is located at "https://www.greer.net/machine.png" . Automatically play the video when the app loads. Loop the video.
+Display the video that is located at the url "http://www.kemp.com/hard.mp4". The poster image of the video is located at "http://www.norris.com/need.jpg".
+Display the video that is located at the url "https://wilson-miller.net/as.mp4" and make it 75% the width of the screen. Automatically play the video when the app loads and then loop. The video should be muted.
+Show a video that is at url "https://johnson-hernandez.net/school.mp4". Show the poster image that is located at "http://www.bennett.com/film.jpg". When the app is started play the video.
+Display the video that is located at the url "http://johnson-woods.com/girl.mp4". The poster image of the video is located at "http://www.johnson-pierce.org/case.png". And loop the video when it ends.
+Display a video that is 25% the height of the screen. The source of the video is located at "https://www.clarke.com/paper.mp4" and the poster image is located at "http://campos.com/green.png". The video should be muted. Also loop the video.
+Show a video that is at the url "https://www.acevedo-richards.org/attorney.mp4". Loop the the video when it ends. And make the width of the video 100%.
+Display the video located at the url "http://www.roberts.com/price.mp4". Autoplay the video when it loads and Mute the video. And make the height of the video 200px of the screen.
+When the application loads, automatically play the video located at "http://www.edwards.com/nearly.mp4". The poster image is at "http://www.mann.info/direction.png".
+Display the video that is located at the url "http://www.morgan.biz/oil.mp4" and make it 25% the width of the screen. The video should be muted and loop.
+Show a video that is at the url "http://dixon-colon.net/number.mp4". The video should be muted. And make the width of the video 25% and height 75%.
+Display the video that is located at the url "http://mason.com/least.mp4". The poster image of the video is located at "http://www.walker-miller.com/Mrs.png". And loop the video when it ends.
+Display the video that is located at the url "https://rivera.com/hit.mp4". The poster image is located at "https://henry.com/pattern.jpg". Make the screen height 50% and muted video.
+Show the video that is at the url "http://leonard-mendez.net/actually.mp4". The poster image is located at "https://www.glover.net/try.png". When app loads, automatically play the video. Loop video at the end.
+Show a video that is at the url "https://jones-johns.biz/air.mp4". Also loop the video.
+Show a video that is at the url "http://www.adams-phillips.biz/improve.mp4". And loop the video when it ends.
+Display the video that is located at the url "https://www.brown-ortiz.net/address.mp4" and make the width of the video 100%. The poster image of the video is located at "https://www.knight-padilla.biz/might.jpg". Automatically play the video when the app loads. The video should be muted.
+Display the video that is located at the url "https://www.elliott-conner.com/majority.mp4". Make it 100% the width of the screen and 75% the height. The poster image is located at "https://www.adams.com/year.png". The video should be muted.
+Display a video that is located at the url "http://campbell.com/need.mp4" and make the width of the video 25%. The poster image of the video is located at "http://www.allen.com/last.png". Automatically play the video when the app loads. The video should be muted. And loop the video.
+Display a video with the source "https://www.gamble.com/we.mp4" and a poster found at "https://travis-adams.com/whether.png". Make the video muted.
+Display a video that is 100% the height of the screen and is located at the url "http://santiago.info/star.mp4". The video should be muted. Automatically play the video when the app loads and loop the video.
+Show a video that is at the url "https://gordon.com/little.mp4" and display the poster image that is found at "https://www.woods.biz/anyone.jpg". Show the video with a height of "75%". The video will be looped.
+The video will loop. The video width will be half screen. Show the video that is at the url "https://curtis.com/information.mp4" and mute it.
+Display the video located at the url "http://www.jordan-miller.com/person.mp4". Automatically play the video when it loads and Mute the video. And make the width of the video 100% and height 50% of the screen.
+Display the video that is located at the url "https://hughes.biz/friend.mp4" and make the height of the video 25%. The video should be muted.
+Show a video that is at the url "https://brown.com/play.mp4". And loop the video.
+Display the video that is located at the url "https://www.bishop.com/common.mp4" and make it 25% the width of the screen. The poster image is located at "https://blevins.com/floor.jpg".
+Display the video that is located at the url "https://www.bishop.com/common.mp4" and make it 75% the width of the screen. The poster image is located at "https://blevins.com/floor.jpg".
+Show the video that is located at the url "https://craig.com/head.mp4". Make the height of the video 50%. And make the video loop.
+Display the video located at the url "https://www.howell.com/sister.mp4". Loop the video when it ends.
+Display the video that is located at the url "http://www.russell.biz/thing.mp4" The poster image is located at "http://davis-young.biz/artist.jpg". Automatically play at the start of the app with the screen width of 100% and height of 50%.
+Display the video that is located at the url "https://www.boyd-martinez.com/spring.mp4". Video must be muted. Make the height 300px of the screen.
+Show a video that is at the url "http://www.hogan.com/during.mp4". Loop the video when it ends. And make the width and height of the video 25% of the screen.
+Display a video that is located at the url "http://www.mccoy.com/sea.mp4" and make the height of the video 100%. The poster image of the video is located at "http://bailey.biz/theory.jpg". The video should be muted.
+Display the video located at the url "http://www.fernandez-wilson.com/station.mp4". Autoplay the video when it loads and Mute the video. And make the height of the video 25% of the screen.
+Display the video located at the url "https://green-lawson.net/serious.mp4". Loop the video when it ends. And make the height of the video 50% of the screen.
+Display the video located at the url 'https://www.levine-adams.com/production.mp4'. The poster image is located at 'http://www.douglas.com/still.jpg'. Make the video 50% the height of the screen. The video should be muted and playback should be looped.
+Display a video that is located at the url "http://rodriguez.com/idea.mp4". The poster image of the video is located at "http://williams.com/measure.png".
+Display the video at the url "http://cruz.com/indicate.mp4" and make the width of the screen 500px. Loop the video at the end.
+The video is located at "http://www.jones-escobar.com/pull.mp4" and it should be muted. It should loop and be 100% the width of the screen.
+The video will replay by itself. Show a video that is at the url "https://www.hughes.com/during.mp4". When the app is started play the video without audio.
+Display the video that is located at the url "http://dawson-vargas.com/budget.mp4" and make it 50% the width of the screen and 25% the height. The poster image is located at "https://www.garcia-taylor.org/reveal.jpg". The video should loop.
+Display a video that is 100% the height of the screen. The source of the video is located at "https://www.campbell-green.biz/word.mp4". The video should be muted and automatically played when the app loads. The video should loop.
+Display the video that is located at the url "https://www.powell.com/poor.mp4" and make it 75% the width of the screen and 25% the height. The poster image is located at "https://calderon-garcia.com/measure.png".
+Display the video at half the height of the screen and half the width. Source of the video is located at the url "https://www.miller-lynch.com/off.mp4". Automatically play video when app loads. This video should be muted.
+Display the video at the height of the screen of 200px and the width 300px. The source of the video is located at "https://johnson.com/walk.mp4".
+Display the video that is located at the url "https://www.jennings.com/weight.mp4". The poster image is located is at "https://www.white.org/want.jpg". This video should be muted. This video should loop at the end.
+Display the video located at the url "https://www.smith-sampson.com/fund.mp4". The video should be muted. Loop the video when it ends. And make the height of the video 75% of the screen.
+Display the video that is located at the url "http://crane-jones.com/machine.mp4". The poster image of the video is located at "https://kennedy.com/toward.png". Loop the video when it ends. And make the width of the video 25% and height 50% of the screen.
+Display the video that is located at the url "http://www.gillespie-green.com/animal.mp4" and make the width of the video 75%. The poster image of the video is located at "https://stokes.net/war.jpg". Automatically play the video when the app loads. The video should be muted.
+Display the video that is located at the url "http://weber.org/significant.mp4" and make the height of the video 50%. The poster image of the video is located at "https://www.williams.com/back.png". Automatically play the video when the app loads and loop the video. The video should be muted.
+Display a video that is located at the url "http://www.clark.info/its.mp4" and make the height of the video 25%. The video should be muted.
+Display a video that is located at the url "https://weaver.net/production.mp4" and make it 25% the width of the screen and 25% the height. The poster image is located at "http://collins-bell.net/born.png". The video should be muted and it should play automatically when the app loads.
+Display a video that is located at "https://www.thompson.info/begin.mp4". The poster image is located at "https://www.martinez.org/police.jpg". Automatically play the video when the app loads.
+Display the video that is located at the url "https://miller.net/war.mp4". The poster image of the video is located at "https://www.odonnell.biz/large.jpg". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the width of the video 75% and height 100% of the screen.
+Display the video located at the url "http://williams.com/guy.mp4". Autoplay the video when it loads. Loop the video when it ends. And make the width and height of the video 75% of the screen.
+Display the video that is located at the url "http://www.miller.org/behavior.mp4". Video must be muted. Loop video at the end. Make the width 100% and height 700px of the screen.
+Display the video that is located at the url "http://gaines.com/up.mp4".The poster image is located at "http://www.wagner-blake.biz/site.jpg". Automatically play at the start of the app. Video must be muted. loop video at the end. Make the height 400px and the width 100% of the screen.
+Display the video that is located at the url "http://www.mckinney-warren.com/assume.mp4". The poster image is located at "http://www.dickerson.com/television.png". Make the video 100% the width of the screen and 75% the height. Automatically play the video when the app loads.
+Open the video located at the url "https://www.evans.biz/protect.mp4". Mute the video. And loop the video when it ends.
+Display a video located at the url "http://www.butler-collins.com/perform.mp4". Autoplay the video when it loads. And make the width of the video 600px.
+Show the the video located at the url "https://www.clay.info/time.mp4". This video should be muted.
+Show a video that is at the url "http://owen.com/story.mp4". And loop the video.
+The video is located at "https://bradford-hunter.org/note.mp4" and it should play on loading. The video should loop and the height needs to bed set to 50%.
+The video will be autoplayed. Show the video that is at the url "http://watts-best.biz/try.mp4" with a height of "25%".
+Display the video that is located at the url "https://barnett-mitchell.info/various.mp4" and make it 25% the width of the screen and 50% the height. The video should be muted.
+Display the video located at the url "https://barnett-mitchell.info/various.mp4". The video should be muted. And make the width of the video 25% of the screen.
+Display a video that is half the height of the screen, and 100px wide. The source of the video is located at "http://carr-griffin.com/deep.mp4". The poster image is located at "https://bond.com/painting.png". The video should loop.
+Display the video that is located at the url "http://www.taylor.biz/modern.mp4" and make the width of the video 75%. The poster image of the video is located at "https://watson.info/bad.jpg". The video should be muted.
+Display the video that is located at the url "https://www.clark.com/others.mp4". The poster image of the video is located at "https://www.barrera.com/include.png". Automatically play the video when the app loads. The video should be muted.
+Display the video that is located at the url "https://www.wagner.info/small.mp4". The poster image of the video is located at "http://scott.com/surface.jpg". Automatically play the video when the app loads. And loop the video when it ends.
+Display the video at 100% of the height of the screen. Source of the video is located at "https://johnson-young.com/opportunity.mp4". The poster image is located at "https://www.vang.info/civil.png". Automatically play the video when app loads. Loop at the end of the video.
+Display a video that is 75% of the width of the screen. The source of the video is located at "http://www.norton-ballard.com/civil.mp4". The poster image is located at "http://www.burch.net/try.jpg" . Automatically play the video when the app loads. The video should be muted. And loop the video
+Display the poster image that is found at "https://www.gonzalez.net/per.png". Display a video from "http://www.wright.com/minute.mp4". The video height will be set to 75 percent.
+Display the video located at the url "http://hickman.net/threat.mp4". This video should be muted.
+Display the video located at the url "http://garcia-clark.com/officer.mp4". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the width of the video 100% of the screen.
+Display the video that is located at the url "http://www.maynard.com/least.mp4" and make the width of the video 100%. The poster image of the video is located at "http://www.chapman.net/watch.jpg". Automatically play the video when the app loads. The video should be muted.
+Open the video located at the url "https://www.williams-gentry.com/compare.mp4". Mute the video when it plays. Loop the video when it ends. And make the width and height of the video 75% of the screen.
+Show the video that is at the url "http://smith.com/or.mp4". The video should be muted and it should loop.
+When the application loads, automatically play the video located at the url "https://www.porter-castro.net/fly.mp4". The poster image is located at "https://miller.com/help.jpg". And make the video loop.
+The video is located at "http://www.berry-ruiz.com/reduce.mp4". It needs to be muted and should loop.
+Display the video at half the height of the screen and half the width. The source of the video is located at "http://hernandez.org/often.mp4". The poster image is located at "https://lynch.biz/report.png". When app loads, automatically play the video. Loop video at the end.
+Display a video located at the url "https://juarez.com/career.mp4". Autoplay the video when it loads and Mute the video. And loop the video when it ends.
+Display the video that is located at the url "http://www.dean.com/late.mp4" and make the height 50% and the width 25% of the screen. The video needs to be muted.
+Display a video that is located at the url "https://anderson-brown.org/itself.mp4". The poster image of the video is located at "https://anderson.com/industry.png". Automatically play the video when the app loads. And loop the video.
+Display the poster image that can be found at "https://torres.org/its.png". Show the video that is at the url "http://cox-taylor.com/yet.mp4". The video will not have sound.
+Display the video that is located at the url "https://perkins-bauer.com/fire.mp4" and video must be muted. Automatically play at the start of the app. The poster image is located at "http://www.gonzales.info/rock.png".
+Display a video from the url "http://www.reid-wagner.com/huge.mp4". The poster image is found at "https://johnson-bennett.net/law.png". Mute the video.
+Show a video that is at the url "https://warner.info/become.mp4". Make the video 300px in height. The poster image is located at "http://www.scott-jenkins.com/bed.jpg".
+Show a video that is at the url "http://nunez.biz/debate.mp4" and make it 100% the height. Automatically play the video when the app loads.
+Display the video that is located at the url "https://erickson.com/like.mp4" and make it 75% the height of the screen. When the application loads, automatically play the video. The video should loop.
+Display a video that is 75% the height of the screen, and make it loop. The source of the video is located at "https://www.bush.com/view.mp4". And make the video loop.
+Display the video located at the url "https://www.martinez.biz/fear.mp4" and make it 75% the width of the screen. This video is to be muted. Loop this video at the end.
+Display the video that is located at the url "https://cox.org/use.mp4". Automatically play the video when the app loads and loop the video. The video should be muted.
+Show the video located at the url "https://webb-randall.com/option.mp4". The poster image is located at "http://jackson.net/somebody.png". Automatically play the video when the app is loaded. Loop the video when the video reaches the end.
+Display a video that is 25% the height of the screen, and 75% the height. The source of the video is located at "http://www.mitchell.com/doctor.mp4". Make the video loop and automatically play the video when the app loads.
+Show the video that is at the url "http://sullivan.com/stop.mp4". This video should be muted. Loop the video when it reaches the end.
+Display the video located at the url "https://www.flowers.com/song.mp4". The video should be muted. Loop the video when it ends. And make the height of the video 75% of the screen.
+Show a video that is at the url "http://www.harrison.com/up.mp4". And make the width of the video 100%.
+Display the video that is located at the url "https://www.smith.com/today.mp4". Automatically play the video when the app loads. The video should loop.
+Show a video that is at the url "https://mendoza-jones.info/director.mp4". When the application loads, automatically play the video. And the video should be muted.
+Display the video at half the height of the screen. The source of the video is located at url "https://mata.org/threat.mp4". The poster image is located at "http://luna-brown.com/ground.png". This video is to be muted.
+Display the video at half its width. The source of the video is located at "http://cole-king.com/scientist.mp4" Loop this video at the end.
+Show a video that is at the url "http://www.carey.net/especially.mp4". Automatically play the video when the app loads and loop the video when it ends. The video should be muted. And make the height of the video 25%.
+Display the video that is located at the url "https://poole.com/police.mp4". The poster image of the video is located at "http://williams.info/human.jpg". Automatically play the video when the app loads. The video should be muted.
+Display a video that is 75% the height of the screen. The source video is located at "http://green.com/interview.mp4". Automatically play video when app loads.
+Display the video that is located at the url 'https://www.french.com/huge.mp4' with a width that is 75% of the screen. The video should play automatically and loop.
+Show the video that is located at the url "https://www.alexander-lambert.net/century.mp4". The poster image is located at "http://www.wood-carpenter.com/knowledge.png". Automatically play the video when the app loads. This video should be muted. Loop the video at the end.
+Display a video that is 25% the height of the screen. The source of the video is located at "http://cox-mahoney.biz/hour.mp4". Automatically play the video when the app loads.
+The video width is the entire screen. The video will replay by itself. Display a video from "http://thompson.net/drop.mp4".
+Open the video located at the url "https://www.nguyen-ramirez.com/security.mp4". Autoplay the video when it loads and Mute the video. And make the width of the video 75% of the screen.
+Display the video located at the url "http://www.jimenez.com/admit.mp4" and make it 100% the width of the screen. The poster image is located at "http://hoffman.com/next.jpg". Automatically play the video when the app loads. This video should be muted. Loop video when it reaches the end.
+As soon as the app is loaded the video will start. The video should be muted. Display a video sourced from the url "https://www.dickerson.info/common.mp4".
+Show the video that is located at the url "https://www.wilcox.com/idea.mp4" and make the height 100% of the screen. Automatically play the video when the app loads.
+Display the video that is located at the url "http://clark.info/hot.mp4". Mute the video when it loads and loop the video when it ends. And make the width of the video 75% and height 50% of the screen.
+Display the poster image that is located at "https://www.cox.com/international.png". Show the video with a width of "25%". The video is muted. Show the video from "http://www.watkins-lee.com/lot.mp4". The video will start when the app is loaded and will loop.
+Display the video that is located at the url "https://www.fletcher.com/movement.mp4" and make it 25% the width of the screen. The video should be muted.
+Display the video that is located at the url "https://www.alvarez.com/prepare.mp4" and make it 25% the height of the screen. The poster image is located at "https://www.lam.com/establish.jpg". Automatically play the video when the app loads. The video should loop.
+Open the video located at the url "https://mckenzie.com/same.mp4". Autoplay the video when it loads. And make the width of the video 25%.
+Display the video that is located at the url "https://williams.com/back.mp4". The poster image of the video is located at "https://stone-sullivan.info/sound.png". Automatically play the video when the app loads. Loop the video. And make the width of the video 25% and height 700px.
+Display the video that is located at the url "https://www.wagner-kaiser.com/tend.mp4". The poster image is located at "http://www.torres-shepherd.com/fish.png". And loop of the video.
+Display a video located at the url "https://www.mcgrath.net/behavior.mp4". Mute the video and loop the video when it ends. And make the height of the video 100% of the screen.
+Show a video that is at the url "http://www.weiss.biz/wish.mp4" that will autoplay and be muted. It should be 0 pixels wide and 25% of the screen high.
+Open the video that is located at the url "https://www.barber-decker.biz/join.mp4". The poster image of the video is located at "https://www.farley.com/produce.jpg". And loop the video when it ends.
+Display the video that is located at the url "https://curry.com/table.mp4". The poster image is located at "https://www.ramos-williams.biz/since.jpg" . Video must be muted.
+Display the video located at the url "http://roman.com/reality.mp4". Loop the video when it ends.
+Display the video located at the url "http://www.white.com/official.mp4" and make it 75% the width of the screen. The poster image is located at "http://jackson.com/everything.png". Loop when video reaches the end.
+Show the video located at url "https://figueroa-cole.com/TV.mp4". This video should be muted. Loop the video at the end.
+Display the video that is located at the url "http://www.buck.org/soon.mp4" and make it 25% the width of the screen and 75% the height. The poster image is located at "https://thomas.org/success.jpg". Automatically play the video when the app loads. The video should be muted.
+Display the video that is located at the url "http://cohen.biz/high.mp4". The poster image of the video is located at "http://www.craig.com/group.jpg". Autoplay the video when it loads and Mute the video. And make the width of the video 75% and height 25% of the screen.
+Display the video that is located at the url "http://www.perez-smith.info/news.mp4" and make the height of the video 75%. The poster image of the video is located at "http://clayton.com/protect.jpg". Automatically play the video when the app loads. The video should be muted. And loop the video.
+Display a video that is located at the url "https://www.love-lowe.biz/help.mp4" and make it 700px in height. Automatically play the video when the app loads. The video should be muted.
+Display the video located at the url "https://www.moore.org/pull.mp4" and make the video 25% the height of the screen. Automatically play the video when app loads. This video is to be muted. Loop video when it reaches the end.
+Display the video at half the height of the screen and half the width. The source of the video is located at url "http://www.walker-dillon.info/interest.mp4".
+Display the video located at the url "https://www.grant-johnson.com/fear.mp4" and make the video 100% the width of the screen. Automatically play the video when the app loads. This video is to be muted.
+Display the video that is located at the url "http://www.crosby.biz/send.mp4" and make it 100% the width of the screen and 100% the height. Automatically play the video when the app loads. The video should be muted.
+Display the video that is located at the url "https://www.hubbard.org/vote.mp4" . The poster image of the video is located at "https://garcia.com/system.png". Automatically play the video when the app loads.
+Show the video located at the url "https://vance.com/teach.mp4" and make it 25% the height of the screen.
+Display the video that is located at the url "http://www.roberson.org/board.mp4".The poster image is located at https://www.lopez-foster.com/whose.jpg". Loop video at the end. Make the width 100% of the screen.
+Display the video located at the url "http://www.torres-chavez.org/upon.mp4". Autoplay the video when it loads. And make the width of the video 100% of the screen.
+Display a video that is 75% the height of the screen and 75% the width of the screen. The source of the video is located at "https://hansen.com/stop.mp4". The poster image is located at "http://clark.org/true.png". The video should be muted and should also loop.
+Display the video located at the url "https://jackson-morgan.com/prepare.mp4". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the height of the video 75%.
+Show a video that is at the url "http://www.ramirez.com/imagine.mp4". Automatically play the video when the app loads. And loop the video when it ends.
+Show a video located at "https://www.taylor-figueroa.com/certain.mp4". The poster image is located at "http://www.deleon.com/cup.png".
+Display the video that is located at the url "http://jones.net/set.mp4" and make the height of the video 300px. The poster image of the video is located at "http://www.wallace.com/in.png". And loop the video when it ends.
+Display the video that is located at the url "https://www.ross.net/sing.mp4" and make it 100% the width of the screen and 25% the height. The video should automatically play when the application loads. And make the width of the video 100% the width of the screen and 25% the height.
+Display a video that is located at the url "http://www.miller.biz/run.mp4" and make the height of the video 25%. The poster image of the video is located at "http://hernandez.com/be.png". Automatically play the video when the app loads. The video should be muted.
+Show a video that is at the url "https://hall-walls.com/effort.mp4". The poster image of the video is located at "http://mcdonald.net/money.jpg". And loop the video when it ends.
+Display the video located at the url "https://www.king.com/experience.mp4". The video should be muted. Loop the video when it ends. And make the width of the video 100% of the screen.
+Display the video that is located at the url "http://www.gilbert.com/cup.mp4". The poster image is located at "https://www.davis.com/under.png". The video should be muted.
+Display the video located at the url "https://www.baldwin.info/century.mp4". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the height of the video 75% of the screen.
+Display the video that is located at the url "https://www.parker.com/executive.mp4" and make it 100% the width of the screen and 100% the height. The poster image is located at "https://www.tran-miller.org/have.png".
+show the video located at the url "https://www.parker.com/save.mp4". Automatically play when the app loads. This video is to be muted.
+Display a video that is 75% the height of the screen, and 75% in width. The source of the video is located at "https://www.richardson-phelps.info/decide.mp4". And loop the video.
+Display the video that is located at the url "https://lin-villanueva.biz/old.mp4" and make it 75% the width of the screen. When the application loads, automatically play the video.
+Display the video located at the url "https://hanson.com/development.mp4" and make the width of the screen 100%. The poster image is at "http://www.ray.com/voice.jpg". When app loads, automatically play the video.
+Display the video that is located at the url "http://williams-torres.info/third.mp4" and make it 700px in height.
+Show a video that is at the url "https://romero.com/money.mp4". The video should loop and be muted. The poster image is located at "http://www.mcfarland.com/fear.png".
+Display the video located at url "http://www.hampton-davis.com/student.mp4". Loop the video at the end.
+Display the video that is located at the url "http://whitehead-vargas.com/item.mp4" and make the width of the video 100px and height 100%. The poster image of the video is located at "http://www.campbell.com/voice.jpg". And loop the video when it ends.
+Show a video that is found at "https://www.rodriguez.net/TV.mp4". Display the poster image that can be found at "https://www.sullivan-kidd.com/brother.jpg". As soon as the application is loaded the video will start. The video will loop.
+Display a video that is located at the url "https://allison-michael.biz/husband.mp4" and make the height of the video 75%. The poster image of the video is located at "http://king.com/amount.jpg". And loop the video.
+Display the video that is located at the url "https://www.howard-horne.net/while.mp4". The poster image of the video is located at "http://www.snow.com/treat.png". The video should be muted. And loop the video when it ends.
+Show a video that is at the url "http://taylor.net/commercial.mp4". The poster image is located at "http://richard.com/church.png".
+Display the video that is located at the url "http://www.oconnell.biz/one.mp4". The poster image is located at "https://williams.com/security.jpg". The video needs to be muted.
+Display the video that is located at the url "https://www.edwards-mcdaniel.com/strong.mp4". Make the width of the video 50%. The poster image is located at "http://perez.com/fact.png". The video should loop and should be muted.
+Show a video that is at the url "https://smith-rangel.org/try.mp4". Make the width of the video 50%. The poster image is located at "http://www.richards.com/determine.jpg".
+When the application loads, automatically play the video located at the url "http://www.miller.net/above.mp4". The poster image is located at "http://www.steele-martinez.biz/recently.png". The video should be muted and it should have 100% the width of the screen.
+Display the video at half the height of the screen and 100% wide. The source of the video is located at url "http://price-haas.com/phone.mp4". The poster image is located at "https://www.mayo.net/suddenly.jpg". Loop the video at the end.
+Show a video that is at the url "http://www.watkins-soto.com/short.mp4". The video should loop. And make the width of the video 75% and the height 75%.
+Display the video located at the url "http://www.robertson.net/southern.mp4". The poster image of the video is located at the url "https://www.rodriguez.com/kind.jpg". Mute the video when it loads. And make the height of the video 75% of the screen.
+The video is located at "http://werner.com/nor.mp4". It needs to be muted and loop and have a height 50% of the screen.
+Display the video located at the url "http://peterson.org/single.mp4" and make it 100% the width of the screen. The poster image is located at "https://newton.org/without.png".Automatically play video when app loads. Loop at the end of the video.
+Display the video that is located at the url "http://www.brooks.com/mean.mp4". Make the height 100% of the screen.
+Show a video that is at the url "https://hammond-watts.com/might.mp4". Automatically play the video when the app loads. The video should be muted and loop. And make the width of the video 25%.
+Display the video that is located at the url "https://www.perez-bennett.biz/size.mp4" and make it 50% the width of the screen and 25% the height. When the application loads, automatically play the video.
+Display the video that is located at the url "https://franco-cochran.biz/born.mp4" and make both the width 25% and height 75% of the screen. The poster image is located at ""http://www.ramirez.com/use.jpg". The video needs to be muted.
+Display the video at 100% the width of the screen and the height is 0px. The source of the video is located at "http://www.valencia-williams.biz/today.mp4". When the app loads, automatically play the video. This video is to be muted.
+Display a video that is at the url "http://ali-castillo.biz/put.mp4".
+Display the video with a width set to 50%. Display the video found at "http://www.davis.com/fly.mp4". When the app loads, play the video.
+Display the video that is located at the url "https://evans-griffin.net/not.mp4" and repeat at the end. Video must be muted.
+Display the video at half the height of the screen and half the width. The source of the video is located at url "http://hill.net/someone.mp4". The poster image is located at "http://www.cook.biz/father.png". Automatically play the video when the app loads. Loop the video at the end.
+Show a video that is at the url "http://rivers-white.biz/training.mp4". The video should be muted. And loop the video when it ends.
+Open a video that is located at the url "http://jimenez.com/billion.mp4" and make the width of the video 25%. The poster image of the video is located at "http://hawkins-wright.com/fire.png". The video should be muted. And loop the video.
+Automatically play the video that is at the url "http://www.brooks.net/shoulder.mp4" when the app loads. The poster image is located at "http://www.benton-sanders.com/personal.jpg". The video should be muted and played on loop.
+Display the video that is located at the url "http://davidson.biz/position.mp4" and make both the width 100% and height 25% of the screen. Automatically play at the start of the app with a loop at the end and video must be muted.
+Display the video that is located at the url "https://monroe-hayden.com/candidate.mp4" and make it 25% the height of the screen. Automatically play the video when the app loads.
+Show a video that is at the url "https://www.howell.biz/sometimes.mp4". The video should be muted. And make the width of the video 75%.Loop the video.
+Display the video that is located at the url "http://www.mora-phillips.com/assume.mp4". The poster image of the video is located at "https://hendricks.com/show.jpg". And make the width of the video 25% and height 100% of the screen.
+Show a video from "https://www.tyler.com/political.mp4" and play it automatically. The poster image is found at "https://buckley-lopez.biz/risk.jpg".
+Display the video located at the url "http://www.schroeder.com/for.mp4". Mute the video when it loads. And make the width of the video 25% and height 75% of the screen.
+Display the video located at the url "https://www.reese.com/soldier.mp4". Loop the video when it ends. And make the width of the video 25% of the screen.
+Display a video located at the url "https://www.thomas-davidson.org/early.mp4". The video should be muted. And make the height of the video 75%.
+Display the video at 75% the height of the screen and 100% the width. The source of the video is located at "http://thomas.com/every.mp4". The poster image is located at "https://www.watson-andrews.biz/approach.png". This video should be muted.
+Show a video that is at the url "https://garcia.com/past.mp4". The video should be muted.
+Show a video that is at the url "http://parsons-gutierrez.com/talk.mp4". The poster image is located at "http://howell.com/together.png". And make the width of the video 100%.
+Show a video that is at the url "https://sullivan.com/exist.mp4". And make the width of the video 50% and height 75%.
+Show a video that is at the url "http://wood.com/bill.mp4". Make the width of the video 100px and the height 400px. Automatically play the video when the app loads. The video should be muted.
+Display the video that is located at the url "http://smith.com/investment.mp4".The poster image is located at "http://bailey.biz/nor.jpg". Automatically play at the start of the app. Video must be muted.
+Display the video located at the url "https://choi.com/career.mp4". Autoplay the video when it loads. Loop the video when it ends. And make the height of the video 100% of the screen.
+Display the video that is located at the url "https://sutton.com/third.mp4" and make the height of the video 50%. The poster image of the video is located at "https://www.white-davis.biz/industry.jpg". The video should be muted.
+Show the video that is at the url "http://copeland.com/law.mp4". Also use the poster image located at "https://www.preston-mcbride.com/remember.png". The video should be muted. The video should play automatically after the app loads and it should loop.
+Display the video located at the url "https://www.wood.com/available.mp4". Autoplay the video when it loads. Loop the video when it ends. And make the height of the video 100% of the screen.
+Open the video located at the url "http://www.williams.com/option.mp4". And autoplay the video when it loads.
+Display a video that is located at the url "http://thompson-thomas.com/last.mp4" and make the width and height of the video 50%. The poster image of the video is located at "https://www.munoz.net/within.jpg". Automatically play the video when the app loads. The video should be muted. And loop the video.
+Display the video that is located at the url "http://www.williams.com/catch.mp4". The video should be muted.
+Display the video found at the url "http://martinez.com/local.mp4". Show the poster image that is at "https://www.baker.info/too.png". There will be no audio in the video. The video will start over when it reaches the end.
+Show the video located at url "https://montgomery.com/seat.mp4" and make width of the video 25% of the screen. Loop the video when it reaches the end.
+Show a video that is at the url "http://moreno-drake.com/summer.mp4" and make it 50% the height of the screen. The poster image is located at "https://barton-gonzales.com/thing.png". The video should be muted.
+Show a video that is at the url "http://butler-smith.net/explain.mp4" and make it 75% the width of the screen. The video should be muted and play automatically when the app loads. And loop the video.
+Open the video located at the url "https://byrd.com/perhaps.mp4". Autoplay the video when it loads. And make the height of the video 100% of the screen.
+Display the video that is located at the url "http://wilson.biz/value.mp4" and make it 50% the width of the screen and 75% the height. When the application loads, automatically play the video.
+Display the video located at the url "https://duncan.com/usually.mp4". Autoplay the video when it loads. Loop the video when it ends. And make the width of the video 50% and height 100% of the screen.
+Display the video that is located at the url "http://martinez.com/about.mp4" and make it 50% the height of the screen. The video should be muted and also loop.
+Display the video located at the url "https://www.smith.com/born.mp4". And make the width of the video 75% of the screen.
+Display the video located at the url "http://www.wells-floyd.com/much.mp4". The video should be muted. Loop the video when it ends. And make the width of the video 50% and height 400px.
+Display the video that is located at the url "https://www.villanueva.com/use.mp4". The poster image is located at "https://schmidt.info/late.jpg". The video should be muted.
+Automatically play the video that is located at the url "http://www.solis-palmer.com/cell.mp4" and make it 100% the width of the screen. The poster image is located at "http://richards.com/national.png". The video should be muted.
+Display the video located at the url "https://www.graham-henderson.net/western.mp4". Autoplay the video when it loads and Mute the video. Loop the video when it ends. And make the width of the video 75% and height 50% of the screen.
+Display the video found at the url "https://mejia.com/try.mp4". The video will start over when it reaches the end.
+Display the video that is located at the url "https://www.melton.biz/despite.mp4".The poster image is located at "https://anderson.info/join.png". Automatically play at the start of the app and make it 100% width of the screen.
+Show the video that is located at the url "https://stanley.com/learn.mp4" and make it 75% the width of the screen. The poster image is located at "https://www.rich.biz/as.jpg". When the application loads, automatically play the video.
+Display the video that is located at the url "http://www.bond.com/life.mp4" and make it 25% the height of the screen. The poster image is located at "http://www.soto-morton.com/current.jpg" When the application loads, automatically play the video. Loop the video at the end.
+The video is located at "https://hernandez.biz/significant.mp4" and the image poster is at "https://wilson-greene.com/church.jpg". It should auto play and needs to loop.
+When the application is started, play the video. The video width is "25%". The video should be muted. The video is found at "http://jones.biz/necessary.mp4".
+Display the video at 100% of the width of the screen. The source of the video is located at "https://www.russell.com/ok.mp4". Automatically play the video when app loads.
+Display the video located at the url "https://www.baird-lutz.com/sell.mp4" and make the width of the video 25%. Automatically play the video when the app loads. Loop the video at the end.
+Show a video that is at the url "http://knight-fox.com/since.mp4". Make the width of the video 25%. Include the poster image located at "https://vargas.biz/environmental.jpg". And make the video loop.
+Display the video that is located at the url "https://bailey.com/cultural.mp4". The poster image is located at "https://odonnell.org/price.png". Automatically play the video when the app loads. The video should loop.
+Display the video that is located at the url "http://cunningham.com/show.mp4" and make the width of the video 75%. The poster image of the video is located at "https://www.ruiz-thomas.net/treat.png". Automatically play the video when the app loads. And loop the video when it ends.
+Display a video from "https://perez-sandoval.org/collection.mp4". The video will not have sound and will play automatically.
+Display the video that is located at the url "http://www.munoz-ritter.com/page.mp4" and make the width 100% of the screen. loop it when it ends.
+Show a video that is at the url "https://www.pierce-owens.com/accept.mp4" and has the poster image located at "https://www.brooks-aguirre.org/treatment.png". When the application loads, automatically play the video. The video should be muted and have the height of 25%.
+Show a video that is at the url "http://www.martin.com/wrong.mp4" and make it 100% the height of the screen. The video should loop.
+Display the video located at url "https://sanchez.com/still.mp4". This video should be muted.
+Show a video that is at the url "http://hughes.com/age.mp4". The poster image is located at "http://valencia.org/prove.jpg". And make the height of the video 25%.
+Display the video that is located at the url "http://woods-cowan.info/administration.mp4".The poster image is located at "https://howell.biz/mean.jpg". Automatically play at the start of the app and video must be muted. Make the width 100% and height 200px of the screen.
+Show a video that is at the url "https://www.brown-stone.net/great.mp4". Automatically play the video when the app loads. The video should be muted.
+Display the video located at the url "http://rios.com/hit.mp4". And loop the video when it ends.
+Display a video that is located at the url "http://rodriguez.info/believe.mp4" and make the width of the video 75% and height 25%. The poster image of the video is located at "https://smith.info/provide.png". Automatically play the video when the app loads. The video should be muted. And loop the video.
+display the video located at the url "http://johnson-newman.com/here.mp4" and make the the height of the screen 100%. Automatically play when app loads. This video is to be muted.
+Show the video that is located at the url "http://www.nguyen.com/race.mp4". Automatically play the video when the app loads. The video should be muted.
+Display the video that is located at the url "http://www.silva-williams.org/security.mp4".The poster image is located at "http://www.collins.com/stay.png". loop video at the end.
+Display the video that is located at the url "https://tucker.com/economic.mp4". The poster image is located at "https://www.garcia.org/two.png". Automatically play at the start of the app with a loop at the end. Video needs to be muted.
+Display a video that is half the height of the screen and is located at "https://pruitt.org/allow.mp4". The poster image is located at "http://hogan.biz/up.jpg". And loop the video.
+Display the video that is located at the url "https://www.bradley-marshall.biz/better.mp4" and has the poster image located at "http://pena.com/crime.png". The video should be muted and automatically play when the app loads. And loop the video.
+Display the video that is located at the url "http://mullen-smith.com/weight.mp4" and make it 75% the width of the screen and 100% the height. The poster image is located at "http://www.haynes-martin.info/should.png". The video should be muted. Automatically play the video when the application loads.
+display the video located at url "http://cain.org/teach.mp4".
+Display a video that is 25% the height of the screen. The source of the video is located at "http://www.perez-cruz.com/color.mp4". The poster image is located at "https://www.bryant-caldwell.com/first.jpg".
+The poster image is found at "https://www.taylor.com/newspaper.jpg". The video height is "75%". As soon as the application is loaded the video will start. Display a video from "http://www.cline.com/skill.mp4". The video will start over again every time that it is finished.
+Show a video that is at the url "http://powell-garcia.com/someone.mp4". The video should be muted.
+Display the video located at url "https://lee.com/serious.mp4" and make it 25% the width of the screen. The poster image is located at "https://good.com/team.png". Loop the video at the end
+Show a video that is at the url "http://gould-navarro.org/tell.mp4". The video should be muted.
+Show a video that is at the url "http://smith-harding.org/water.mp4". The video should be muted. Make the width of the video 25% and automatically play the video when the app loads..
+Show the video that is located at the url "http://sanders.com/nation.mp4" and make it 75% the height of the screen and 400px in width. And mute the video.
+Show the video that is located at "http://bernard.com/forget.mp4". The poster image is located at "https://www.smith-ho.com/her.png". Make the width of the video 75%. Automatically play the video when the app loads.
+Display the video located at "http://davis-li.com/wear.mp4". Loop the video at the end.
+Automatically play the video that is at the url "http://www.choi.com/dark.mp4" when the app loads. The video should loop.
+Automatically play the video that is located at the url "http://www.roach.com/protect.mp4" and make it 100% the width of the screen. The poster image is located at "https://burton-brown.com/movement.png". The video should be muted.
+Display the video that is located at the url "https://www.wolf-mathis.com/that.mp4". Automatically play at the start of the app. Make the height 75% of the screen.
+Display the video that is located at the url "http://navarro-davis.com/administration.mp4" and make the width 75% of the screen.
+show the video at 75% the width of the screen. The source of the video is located at url "http://www.kennedy.biz/able.mp4". Automatically play the video when app loads. This video should be muted. Loop the video at the end.
+Display the video that is located at the url "https://www.smith.com/information.mp4" and make it 100% the width of the screen.
+Display the video at 25% the height of the screen and 75% the width. The source of the video is located at "https://www.smith-patton.biz/beautiful.mp4". When app loads, automatically play the video. This video is to be muted. Loop the video when it reaches the end.
+Display the video that is located at the url "http://potter.com/administration.mp4" and make it 75% the width of the screen and 25% the height. When the application loads, automatically play the video.
+Display the video at 50% the height of the screen and 75% wide. The source of the video is located at "https://www.wheeler.com/light.mp4". Automatically play video when app loads. This video should be muted. Loop at the end.
