@@ -48,6 +48,7 @@ class VocabEntry(object):
 
     @staticmethod
     def from_corpus(corpus, size, freq_cutoff=0):
+        print('In Vocab#from_corpus with size: %d and freq_cutoff: %d' % (size, freq_cutoff))
         vocab_entry = VocabEntry()
 
         word_freq = Counter(chain(*corpus))
@@ -66,8 +67,9 @@ class VocabEntry(object):
                 else:
                     words_not_included.append(word)
 
+        print('all top_k words: %s' % top_k_words)
+        print('words included: %s' % vocab_entry.word2id)
         print('word types not included: %s' % words_not_included)
-
         return vocab_entry
 
 

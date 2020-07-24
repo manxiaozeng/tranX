@@ -27,6 +27,7 @@ class ConalaEvaluator(Evaluator):
 
         return ref_code_tokens == hyp_code_tokens
 
+    # _TODO_ This doesn't appear to be used anywhere
     def get_sentence_bleu(self, example, hyp):
         return sentence_bleu([tokenize_for_bleu_eval(example.meta['example_dict']['snippet'])],
                              tokenize_for_bleu_eval(hyp.decanonical_code),

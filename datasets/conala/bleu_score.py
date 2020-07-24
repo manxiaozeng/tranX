@@ -70,6 +70,7 @@ def compute_bleu(reference_corpus, translation_corpus, max_order=4,
       merged_ref_ngram_counts |= _get_ngrams(reference, max_order)
     translation_ngram_counts = _get_ngrams(translation, max_order)
     overlap = translation_ngram_counts & merged_ref_ngram_counts
+    print(overlap)
     for ngram in overlap:
       matches_by_order[len(ngram)-1] += overlap[ngram]
     for order in range(1, max_order+1):

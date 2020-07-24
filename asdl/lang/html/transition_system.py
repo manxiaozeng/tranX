@@ -20,6 +20,12 @@ class HtmlTransitionSystem(TransitionSystem):
 
         return soup1 == soup2
 
+    # should stabily print attrs in alphabetical
+    # order to ensure comparison between two asts is
+    # consistent regardless of order of attrs in the src code
+    def ast_to_bleu_str(self, ast):
+        soup_el = self.ast_to_soup(ast)
+        return soup_el.prettify()
 
     # Given source html, return an asdl ast
     # by first converting the html text to beatiful soup
@@ -68,6 +74,10 @@ class HtmlTransitionSystem(TransitionSystem):
     # by first converting asdl to beatiful soup
     #
     def ast_to_surface_code(self, asdl_ast):
+        el = self.ast_to_soup(asdl_ast)
+        return str(el)
+
+    def ast_to_soup(self, asdl_ast):
         soup = BeautifulSoup('', 'html5lib')
         body = soup.body
 
@@ -105,8 +115,52 @@ class HtmlTransitionSystem(TransitionSystem):
                 el = soup.new_tag(field.value)
                 break
         [process_field(field, el) for field in asdl_ast.fields if field.name != 'tag_name']
-        # _TODO_ does this need to support utf-8?
-        return str(el)
+        return el
+
+    # Given 2 asdl asts compute a partial comparison between 0-1
+    def partial_compare(self, ref_ast, hyp_ast):
+        ref_tag = self.ast_to_soup(ref_ast)
+        hyp_tag = self.ast_to_soup(hyp_ast)
+
+        points_scored = 0
+        total_possible_points = 0
+
+        # Check tag is the same
+        if ref_tag.name == hyp_tag.name:
+            points_scored += 1
+        total_possible_points += 1
+
+        # Check all fields
+        element_production = self.grammar.get_prod_by_ctr_name('Element')
+        for field in element_production.fields:
+            # TODO There will be a field tag_name which never exists on BS (its just 'name')
+            field_name = field.name
+            # Check that if the field is in ast1 its also in ast2
+            ref_has_field = ref_tag.has_attr(field_name)
+            hyp_has_field = hyp_tag.has_attr(field_name)
+
+            if ref_has_field:
+                total_possible_points += 2
+                if hyp_has_field:
+                    points_scored += 1
+                    # Now check if value is the same
+                    value_same = ref_tag[field_name] == hyp_tag[field_name]
+                    if value_same:
+                        points_scored += 1
+            else:
+                if hyp_has_field:
+                    # penalize for fields it shouldnt have
+                    total_possible_points += 1
+
+        # TODO: Penalize for fields that hyp_ast has that ref_ast doesnt
+        score = points_scored / float(total_possible_points) # force a float, python2...
+        print("scored ref and hyp: ")
+        print(ref_tag)
+        print(hyp_tag)
+        print("score: ")
+        print(score)
+        return score
+
 
     def get_primitive_field_actions(self, realized_field):
         # Mostly copy/pasted from the python example
@@ -128,20 +182,6 @@ class HtmlTransitionSystem(TransitionSystem):
 
 if __name__ == '__main__':
     #
-    # Test ast->source and source->ast translation
-    #
-
-    asdl_text = open('./html_asdl.txt').read()
-    grammar = ASDLGrammar.from_text(asdl_text)
-    src_html = '<video src="foo.com/vid.mp4" autoplay loop></video>'
-    transition_sys = HtmlTransitionSystem(grammar)
-    asdl_ast = transition_sys.surface_code_to_ast(src_html)
-
-    src_html_from_asdl = transition_sys.ast_to_surface_code(asdl_ast)
-
-    assert src_html == src_html_from_asdl, "Could not go from src to ast and back again"
-
-    #
     # Test get_actions and hypothesis generation
     #
     actions = transition_sys.get_actions(asdl_ast)
@@ -152,10 +192,3 @@ if __name__ == '__main__':
 
     assert src_html == src_html_from_asdl == src_from_hyp_tree, "Generated source codes did not all match"
     print("Success")
-
-    # Test 5k dataset output
-    # _TODO_
-    # decodes = pickle.load(open('../../../decodes/html/5k/model.sup.html.lstm.hidden256.embed128.action128.field64.type64.dropout0.3.lr0.001.lr_decay0.5.beam_size15.vocab.freq15.bin.train.bin.glorot.par_state_w_field_embe.seed0.bin.test.decode'))
-    # print(len(decodes))
-    # print(decodes[0])
-    # pdb.set_trace()

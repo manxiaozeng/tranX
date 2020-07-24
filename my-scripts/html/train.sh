@@ -32,6 +32,7 @@ exp_args=(
   --batch_size 2
   --asdl_file asdl/lang/html/html_asdl.txt
   --transition_system html
+  --evaluator 'html_evaluator'
   --train_file ${train_file}
   --dev_file ${dev_file}
   --vocab ${vocab}
@@ -45,7 +46,7 @@ exp_args=(
   --type_embed_size ${type_embed_size}
   --dropout ${dropout}
   --patience 5
-  --max_num_trial 5
+  --max_num_trial 10
   --glorot_init
   --lr ${lr}
   --lr_decay ${lr_decay}

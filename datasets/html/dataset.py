@@ -99,6 +99,7 @@ def make_train_data(data_name, max_query_len=70, vocab_freq_cutoff=10):
         else:
             test_examples.append(example)
 
+    # TODO Why size=5000?
     src_vocab = VocabEntry.from_corpus([e.src_sent for e in train_examples], size=50000, freq_cutoff=vocab_freq_cutoff)
     primitive_tokens = [map(lambda a: a.action.token,
                         filter(lambda a: isinstance(a.action, GenTokenAction), e.tgt_actions))

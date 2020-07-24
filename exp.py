@@ -90,6 +90,8 @@ def train(args):
     report_loss = report_examples = report_sup_att_loss = 0.
     history_dev_scores = []
     num_trial = patience = 0
+
+    print('Starting first epoch with args.patience: {}, args.max_num_trial {}'.format(args.patience, args.max_num_trial))
     while True:
         epoch += 1
         epoch_begin = time.time()

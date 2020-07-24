@@ -10,6 +10,7 @@ test_file="data/html/${data_name}/test.bin"
 exp_args=(
   --mode test
   --load_model $model_path
+  --evaluator 'html_evaluator'
   --beam_size 15
   --test_file ${test_file}
   --save_decode_to decodes/html/${data_name}/$(basename $model_path).test.decode

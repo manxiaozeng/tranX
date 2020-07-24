@@ -1,0 +1,84 @@
+from tests.html_test_helpers import make_transition_system, CODE_STRS
+# this import * is just to prevent the circular dependency
+# between HtmlEvaluator<->Evaluator in the import below
+from components import *
+from datasets.html.evaluator import HtmlEvaluator
+
+def test_partial_compare_basic():
+    code1 = "<video></video>"
+    code2 = "<video></video>"
+    tx_sys = make_transition_system()
+    ast1 = tx_sys.surface_code_to_ast(code1)
+    ast2 = tx_sys.surface_code_to_ast(code2)
+    score = tx_sys.partial_compare(ast1, ast2)
+    assert score == 1
+
+def test_partial_compare_one_field():
+    code1 = '<video src="foo"></video>'
+    code2 = '<video src="foo"></video>'
+    tx_sys = make_transition_system()
+    ast1 = tx_sys.surface_code_to_ast(code1)
+    ast2 = tx_sys.surface_code_to_ast(code2)
+    score = tx_sys.partial_compare(ast1, ast2)
+    assert score == 1
+
+def test_partial_compare_field_same_value_different():
+    code1 = '<video src="foo"></video>'
+    code2 = '<video src="WRONG"></video>'
+    tx_sys = make_transition_system()
+    ast1 = tx_sys.surface_code_to_ast(code1)
+    ast2 = tx_sys.surface_code_to_ast(code2)
+    score = tx_sys.partial_compare(ast1, ast2)
+    assert score < 1
+    assert score > 0.5
+
+
+def test_partial_compare_missing_field():
+    code1 = '<video src="foo"></video>'
+    code2 = '<video></video>'
+    tx_sys = make_transition_system()
+    ast1 = tx_sys.surface_code_to_ast(code1)
+    ast2 = tx_sys.surface_code_to_ast(code2)
+    score = tx_sys.partial_compare(ast1, ast2)
+    # Gets 'video' but misses src and src value
+    assert score < 0.5
+
+def test_partial_compare_bad_extra_field():
+    code1 = '<video></video>'
+    code2 = '<video src="foo"></video>'
+    tx_sys = make_transition_system()
+    ast1 = tx_sys.surface_code_to_ast(code1)
+    ast2 = tx_sys.surface_code_to_ast(code2)
+    score = tx_sys.partial_compare(ast1, ast2)
+    # Gets 'video' but misses src and src value
+    assert score == 0.5 # Gets 'video', penalized for src
+
+def test_bleu_basic_equality():
+    tx_sys = make_transition_system()
+    code1 = CODE_STRS['foo_src']
+    code2 = CODE_STRS['foo_src']
+
+    ast1 = tx_sys.surface_code_to_ast(code1)
+    ast2 = tx_sys.surface_code_to_ast(code2)
+
+    evaluator = HtmlEvaluator(tx_sys)
+
+    # hard coding to 3 b/c 4 fails
+    bleu = evaluator.calc_bleu([ast1], [ast2], 3)
+    assert isinstance(bleu, float)
+    assert bleu > 0 # bleu is 1 here
+
+def test_bleu_basic_equality():
+    tx_sys = make_transition_system()
+    code1 = '<video autoplay poster="2" src="3" width="4"></video>'
+    code2 = '<video src="3" width="4"></video>'
+
+    ast1 = tx_sys.surface_code_to_ast(code1)
+    ast2 = tx_sys.surface_code_to_ast(code2)
+
+    evaluator = HtmlEvaluator(tx_sys)
+
+    # hard coding to 3 b/c 4 fails
+    bleu = evaluator.calc_bleu([ast1], [ast2], 3)
+    assert isinstance(bleu, float)
+    assert bleu > 0
