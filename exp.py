@@ -54,18 +54,30 @@ def train(args):
         dev_set = Dataset.from_bin_file(args.dev_file)
     else: dev_set = Dataset(examples=[])
 
-    vocab = pickle.load(open(args.vocab, 'rb'))
+    if args.load_model:
+        # Load a previous model
+        params = torch.load(args.load_model, map_location=lambda storage, loc: storage)
+        transition_system = params['transition_system']
+        saved_args = params['args']
+        vocab = params['vocab']
+        saved_args.cuda = args.cuda
+        args.lang = saved_args.lang
+        parser_cls = Registrable.by_name(args.parser)
+        assert args.load_model
+        model = parser_cls.load(model_path=args.load_model, cuda=args.cuda)
+    else:
+        vocab = pickle.load(open(args.vocab, 'rb'))
+        grammar = ASDLGrammar.from_text(open(args.asdl_file).read())
+        transition_system = Registrable.by_name(args.transition_system)(grammar)
+        parser_cls = Registrable.by_name(args.parser)  # TODO: add arg
+        parser_cls = Registrable.by_name(args.parser)  # TODO: add arg
+        model = parser_cls(args, vocab, transition_system)
+        if args.cuda:
+            model.cuda()
 
-    grammar = ASDLGrammar.from_text(open(args.asdl_file).read())
-    transition_system = Registrable.by_name(args.transition_system)(grammar)
-
-    parser_cls = Registrable.by_name(args.parser)  # TODO: add arg
-    model = parser_cls(args, vocab, transition_system)
     model.train()
 
     evaluator = Registrable.by_name(args.evaluator)(transition_system, args=args)
-    if args.cuda:
-        model.cuda()
 
     optimizer_cls = eval('torch.optim.%s' % args.optimizer)  # FIXME: this is evil!
     optimizer = optimizer_cls(model.parameters(), lr=args.lr)

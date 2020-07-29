@@ -32,7 +32,6 @@ class HtmlEvaluator(Evaluator):
         return np.average(scores)
 
     # Get blue score for a set of example -> target asts
-    # DEPRECATED
     def calc_bleu(self, asts1, asts2, max_order=4):
         tx_sys = self.transition_system
 

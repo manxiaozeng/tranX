@@ -146,7 +146,12 @@ class HtmlTransitionSystem(TransitionSystem):
                     # Now check if value is the same
                     value_same = ref_tag[field_name] == hyp_tag[field_name]
                     if value_same:
-                        points_scored += 1
+                        # Give extra weight to getting a string correct
+                        if isinstance(ref_tag[field_name], str):
+                            points_scored += 3 # 2 points more than normal
+                            total_possible_points += 2 # above we assumed just 1, so bump up to get to 3
+                        else:
+                            points_scored += 1
             else:
                 if hyp_has_field:
                     # penalize for fields it shouldnt have
@@ -160,7 +165,6 @@ class HtmlTransitionSystem(TransitionSystem):
         print("score: ")
         print(score)
         return score
-
 
     def get_primitive_field_actions(self, realized_field):
         # Mostly copy/pasted from the python example

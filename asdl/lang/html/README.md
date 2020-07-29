@@ -4,6 +4,11 @@ This readme covers all changes relevant to the addition of HTML as a
 supported language. This includes some more general features like support
 for Floydhub.
 
+## Environment
+There is a conda environment `py2torch3`, use by:
+```
+$ conda activate py2torch3
+```
 
 ## Floydhub
 

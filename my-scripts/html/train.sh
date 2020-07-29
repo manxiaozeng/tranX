@@ -22,7 +22,7 @@ type_embed_size=64
 ptrnet_hidden_dim=32
 lr=0.001
 lr_decay=0.5
-beam_size=15
+beam_size=5
 lstm='lstm'  # lstm
 model_name=model.sup.html.${lstm}.hidden${hidden_size}.embed${embed_size}.action${action_embed_size}.field${field_embed_size}.type${type_embed_size}.dropout${dropout}.lr${lr}.lr_decay${lr_decay}.beam_size${beam_size}.$(basename ${vocab}).$(basename ${train_file}).glorot.par_state_w_field_embe.seed${seed}
 
@@ -54,6 +54,7 @@ exp_args=(
   --log_every 50
   --save_to saved_models/html/${data_name}/${model_name}
   --print_floydhub_metrics 'Yes'
+  # --load_model /previous_job/saved_models/html/${data_name}/${model_name}.bin # See launch.sh
 )
 
 if [ ! -z "$cuda" ]; then
