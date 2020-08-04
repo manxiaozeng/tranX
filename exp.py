@@ -117,6 +117,7 @@ def train(args):
             loss = -ret_val[0]
 
             # print(loss.data)
+            print("loss.data: ", loss.data)
             loss_val = torch.sum(loss).data[0]
             report_loss += loss_val
             report_examples += len(batch_examples)

@@ -1,7 +1,6 @@
 # coding=utf-8
 import pickle
 import math
-import nltk
 from components.action_info import get_action_infos
 from asdl.asdl import ASDLGrammar
 from asdl.lang.html.transition_system import HtmlTransitionSystem
@@ -11,6 +10,7 @@ from components.vocab import Vocab, VocabEntry
 from asdl.lang.py.py_utils import tokenize_code
 import argparse
 import os
+import re
 # For utf-8 encoding dance
 import io
 import sys
@@ -34,12 +34,36 @@ def tokenize_html(html_str):
             tokens.append(v)
     return tokens
 
-def canonicalize_english(utterance):
-    res = utterance.strip()
-    # Since this is raw use rinput,
+
+QUOTED_TOKEN_RE = re.compile(r"(?P<quote>''|[`'\"])(?P<string>.*?)(?P=quote)")
+# My custom tokenizer.
+# TODO Try using nltk selectively (doesnt handle file names & punctuation very well)
+def tokenize_english_utterance(utterance):
+    # Remove white space
+    str = utterance.strip()
+
+    # Since this is raw user input,
     # exchange 'fancy' quotes (like from MS machines) for normal ones
-    # _TODO_ What else should be sanitized?
-    res = res.replace("“", '"').replace("”", '"')
+    str = str.replace("“", '"').replace("”", '"')
+
+    split = str.split(' ')
+    res = []
+    for token in split:
+        # replace quoted values with the unquoted version so its
+        # easier for the model to copy the tokens
+        match = QUOTED_TOKEN_RE.match(token)
+        value = token
+        if match:
+            # its a quoted value, replace with just the value w/o the quotes
+            # if token is '"foo"' then match[1] is 'foo'
+            value = match.groups()[1]
+        else:
+            # Remove punctuation (but keep things like '%')
+            # _TODO_ should this instead add the punctuation as a separate
+            # token so the model can see the punctuation?
+            value = token.strip(",.;")
+        res.append(value)
+    res = filter(None, res)
     return res
 
 def make_train_data(data_name, max_query_len=70, vocab_freq_cutoff=10):
@@ -55,11 +79,10 @@ def make_train_data(data_name, max_query_len=70, vocab_freq_cutoff=10):
     examples = zip(io.open(english_file_path, encoding=SRC_ENCODING), io.open(html_file_path, encoding=SRC_ENCODING))
     shuffle(examples) # randomize order so file order doesnt impact distrubtion across test/train/dev sets
     for idx, (src_english, target_code) in enumerate(examples):
-        src_english = canonicalize_english(src_english)
         target_code = target_code.strip()
-        # _TODO_ Is there a better way to tokenize the english? I stopped using nltk.word_tokenize b/class
-        # it was causing too many splits like "http://etc" would get split into 4 -- start quote, http, :, rest, end quote.
-        src_tokens = src_english.split(' ')
+        src_tokens = tokenize_english_utterance(src_english)
+        # print("src_english: {}", src_english)
+        # print("src_tokens: {}", src_tokens)
 
         target_ast = transition_system.surface_code_to_ast(target_code)
         gold_source = transition_system.ast_to_surface_code(target_ast)

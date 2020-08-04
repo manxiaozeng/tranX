@@ -23,6 +23,7 @@ class HtmlTransitionSystem(TransitionSystem):
     # should stabily print attrs in alphabetical
     # order to ensure comparison between two asts is
     # consistent regardless of order of attrs in the src code
+    # NOTE: This is dead code now
     def ast_to_bleu_str(self, ast):
         soup_el = self.ast_to_soup(ast)
         return soup_el.prettify()

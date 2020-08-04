@@ -1,3 +1,5 @@
+# Script that will run on Floydhub to kick off training
+
 set -x
 
 export PYTHONPATH=/floyd/home

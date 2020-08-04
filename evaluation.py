@@ -25,7 +25,19 @@ def decode(examples, model, args, verbose=False, **kwargs):
             try:
                 hyps = model.parse(example.src_sent, context=None, beam_size=args.beam_size)
             except Exception as e:
+                print("*** Got exception calling model.parse")
                 print("Exception: ", e)
+                print("example.src_sent: ")
+                print(example.src_sent)
+                print("example.tgt_actions: ")
+                print(example.tgt_actions)
+                print("example.tgt_ast: ")
+                print(example.tgt_ast)
+                print("example.meta: ")
+                print(example.meta)
+
+                print("Traceback:\n")
+                traceback.print_exc()
                 raise e
         decoded_hyps = []
         for hyp_id, hyp in enumerate(hyps):

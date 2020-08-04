@@ -56,7 +56,6 @@ class VocabEntry(object):
         singletons = [w for w in word_freq if word_freq[w] == 1]
         print('number of word types: %d, number of word types w/ frequency > 1: %d' % (len(word_freq),
                                                                                        len(non_singletons)))
-        print('singletons: %s' % singletons)
 
         top_k_words = sorted(word_freq.keys(), reverse=True, key=word_freq.get)[:size]
         words_not_included = []
@@ -67,9 +66,6 @@ class VocabEntry(object):
                 else:
                     words_not_included.append(word)
 
-        print('all top_k words: %s' % top_k_words)
-        print('words included: %s' % vocab_entry.word2id)
-        print('word types not included: %s' % words_not_included)
         return vocab_entry
 
 

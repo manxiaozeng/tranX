@@ -53,6 +53,10 @@ def input_transpose(sents, pad_token):
     transform the input List[sequence] of size (batch_size, max_sent_len)
     into a list of size (max_sent_len, batch_size), with proper padding
     """
+    print("sents: ", sents)
+    print("pad_token: ", pad_token)
+    for s in sents:
+        print(s)
     max_len = max(len(s) for s in sents)
     batch_size = len(sents)
 
@@ -86,6 +90,9 @@ def to_input_variable(sequences, vocab, cuda=False, training=True, append_bounda
         sequences = [['<s>'] + seq + ['</s>'] for seq in sequences]
 
     word_ids = word2id(sequences, vocab)
+    print("vocab: ", vocab)
+    print("word_ids: ", word_ids)
+    print("vocab['<pad>']: ", vocab['<pad>'])
     sents_t = input_transpose(word_ids, vocab['<pad>'])
 
     sents_var = Variable(torch.LongTensor(sents_t), volatile=(not training), requires_grad=False)

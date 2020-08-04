@@ -45,7 +45,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault">
           <span class="navbar-toggler-icon"></span>
         </button>
-  
+
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -54,7 +54,7 @@
           </ul>
         </div>
     </nav>
-  
+
     <main role="main" class="container">
 
     <div class="starter-template">
@@ -102,6 +102,7 @@
             <div class="col">
             <div class="input-group">
                 <select class="form-control" id="sel_dataset">
+                    <option value="html">HTML</option>
                     <option value="atis">ATIS</option>
                     <option value="geo">GeoQuery</option>
                     <option value="django">Django</option>
@@ -137,12 +138,12 @@ asdfsda</pre>
                             </ul>
                         </div>
                     </div>
-                </div>    
+                </div>
             </div> -->
         </div>
     </div>
 
-    </main><!-- /.container -->  
+    </main><!-- /.container -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -177,9 +178,9 @@ asdfsda</pre>
             $.get(post_url, function(data){
                 //alert(data[0]['value'])
                 hypotheses = data['hypotheses']
-                for (i = 0; i < hypotheses.length; i++) { 
+                for (i = 0; i < hypotheses.length; i++) {
                     hyp = hypotheses[i]
-                    
+
                     action_seq_html = ''
                     for (t = 0; t < hyp['actions'].length; t++) {
                         action_t = hyp['actions'][t]
@@ -204,9 +205,9 @@ asdfsda</pre>
                                 <div id="tree_container_hyp${hyp['id']}"></div>
                             </div>
                         </div>
-                        
+
                     </div>
-                </div>    
+                </div>
             </div>`
 
                     $('.hypotheses').append(hyp_html)
@@ -215,7 +216,7 @@ asdfsda</pre>
                     var tree_json_data = parse(hyp['tree_repr'].replace(/\\/g, "\\\\"))
                     d3Tree(tree_json_data, hyp['id']);
                 }
-                
+
                 $('#btn_parse').prop('disabled', false)
                 $('#btn_parse').html('Parse')
             })

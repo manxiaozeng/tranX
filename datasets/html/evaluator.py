@@ -3,7 +3,6 @@ import numpy as np
 from components.evaluator import Evaluator
 from common.registerable import Registrable
 from datasets.conala.bleu_score import compute_bleu
-from datasets.html.dataset import tokenize_html
 
 @Registrable.register('html_evaluator')
 class HtmlEvaluator(Evaluator):
@@ -32,16 +31,16 @@ class HtmlEvaluator(Evaluator):
         return np.average(scores)
 
     # Get blue score for a set of example -> target asts
-    def calc_bleu(self, asts1, asts2, max_order=4):
-        tx_sys = self.transition_system
-
-        reference_code_strs = [tx_sys.ast_to_bleu_str(ast) for ast in asts1]
-        hyp_code_strs = [tx_sys.ast_to_bleu_str(ast) for ast in asts2]
-
-        ref_tokens = [tokenize_html(html_str) for html_str in reference_code_strs]
-        hyp_tokens = [tokenize_html(html_str) for html_str in hyp_code_strs]
-
-        # ref_tokens array of array (all examples, each tokenized)
-        bleu_tup = compute_bleu([ref_tokens], hyp_tokens, max_order)
-        bleu_score = bleu_tup[0]
-        return bleu_score
+    # def calc_bleu(self, asts1, asts2, max_order=4):
+    #     tx_sys = self.transition_system
+    #
+    #     reference_code_strs = [tx_sys.ast_to_bleu_str(ast) for ast in asts1]
+    #     hyp_code_strs = [tx_sys.ast_to_bleu_str(ast) for ast in asts2]
+    #
+    #     ref_tokens = [tokenize_html(html_str) for html_str in reference_code_strs]
+    #     hyp_tokens = [tokenize_html(html_str) for html_str in hyp_code_strs]
+    #
+    #     # ref_tokens array of array (all examples, each tokenized)
+    #     bleu_tup = compute_bleu([ref_tokens], hyp_tokens, max_order)
+    #     bleu_score = bleu_tup[0]
+    #     return bleu_score

@@ -482,11 +482,13 @@ class Parser(nn.Module):
         Returns:
             A list of `DecodeHypothesis`, each representing an AST
         """
+        # print("*** Beginning parse with src_sent: ", src_sent)
 
         args = self.args
         primitive_vocab = self.vocab.primitive
         T = torch.cuda if args.cuda else torch
 
+        # print("self.vocab.source: ", self.vocab.source)
         src_sent_var = nn_utils.to_input_variable([src_sent], self.vocab.source, cuda=args.cuda, training=False)
 
         # Variable(1, src_sent_len, hidden_size * 2)
@@ -624,6 +626,10 @@ class Parser(nn.Module):
             for hyp_id, hyp in enumerate(hypotheses):
                 # generate new continuations
                 action_types = self.transition_system.get_valid_continuation_types(hyp)
+                # print("action_types while generating new continuations: ")
+                # print(action_types)
+                # print("for hyp: ")
+                # print(hyp.tree)
 
                 for action_type in action_types:
                     if action_type == ApplyRuleAction:
@@ -707,6 +713,16 @@ class Parser(nn.Module):
                     k = (new_hyp_pos - len(applyrule_new_hyp_scores)) // primitive_prob.size(1)
                     # try:
                     # copy_info = gentoken_copy_infos[k]
+                    # print("\n")
+                    # print("*** Beginning gentoken_prev_hyp_ids ---------------")
+                    # print("token_id: ", token_id)
+                    # print("new_hyp_pos: ", new_hyp_pos)
+                    # print("new_hyp_score: ", new_hyp_score)
+                    # print("gentoken_prev_hyp_ids: ")
+                    # print(gentoken_prev_hyp_ids)
+                    # print("prev_hyp_id: ")
+                    # print(prev_hyp_id)
+
                     prev_hyp_id = gentoken_prev_hyp_ids[k]
                     prev_hyp = hypotheses[prev_hyp_id]
                     # except:

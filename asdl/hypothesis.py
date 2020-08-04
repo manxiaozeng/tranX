@@ -45,7 +45,8 @@ class Hypothesis(object):
                     end_primitive = False
                     if self.frontier_field.type.name == 'string':
                         if action.is_stop_signal():
-                            num_bools = len(filter(lambda v: isinstance(v, bool), self._value_buffer))
+                            bools = filter(lambda v: isinstance(v, bool), self._value_buffer)
+                            num_bools = len(list(bools))
                             if num_bools > 0:
                                 raise Exception("Found booleans in string value buffer: ", self, action)
                             self.frontier_field.add_value(' '.join(self._value_buffer))
