@@ -187,6 +187,14 @@ asdfsda</pre>
                         action_seq_html += `<li class="list-group-item">${action_t}</li>` + '\n'
                     }
 
+                    // To render html literals correctly replace them with html entities
+                    codeStr = hyp['value']
+                      .replace("&", "&amp;")
+                      .replace("<", "&lt;")
+                      .replace(">", "&gt;")
+                      .replace('"', "&quot;")
+                      .replace("'", "&#039;")
+
                     hyp_html = `<div class="row hypothesis">
                 <div class="col">
                     <div class="card text-left">
@@ -195,7 +203,7 @@ asdfsda</pre>
                             <a class="float-right" data-toggle="collapse" href="#hyp_${hyp['id']}_detail" role="button">[Show]</a>
                         </div>
                         <div class="card-body">
-                            <pre class="hyp-code">${hyp['value']}</pre>
+                            <pre class="hyp-code">${codeStr}</pre>
                             <div class="collapse multi-collapse hyp-detail" id="hyp_${hyp['id']}_detail">
                                 <h6 style="margin-top: 10px">Action Sequence</h6>
                                 <ul class="list-group">

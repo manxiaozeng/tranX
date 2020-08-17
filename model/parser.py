@@ -488,7 +488,6 @@ class Parser(nn.Module):
         primitive_vocab = self.vocab.primitive
         T = torch.cuda if args.cuda else torch
 
-        # print("self.vocab.source: ", self.vocab.source)
         src_sent_var = nn_utils.to_input_variable([src_sent], self.vocab.source, cuda=args.cuda, training=False)
 
         # Variable(1, src_sent_len, hidden_size * 2)
