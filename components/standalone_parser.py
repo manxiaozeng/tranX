@@ -35,8 +35,7 @@ class StandaloneParser(object):
         processed_utterance_tokens, utterance_meta = self.example_processor.pre_process_utterance(utterance)
         hypotheses = self.parser.parse(processed_utterance_tokens, beam_size=self.beam_size, debug=debug)
 
-        # valid_hypotheses = list(filter(lambda hyp: self.parser.transition_system.is_valid_hypothesis(hyp), hypotheses))
-        valid_hypotheses = hypotheses # TODO need to implement is_valid_hypothesisin html trans system
+        valid_hypotheses = list(filter(lambda hyp: self.parser.transition_system.is_valid_hypothesis(hyp), hypotheses))
         for hyp in valid_hypotheses:
             self.example_processor.post_process_hypothesis(hyp, utterance_meta)
 

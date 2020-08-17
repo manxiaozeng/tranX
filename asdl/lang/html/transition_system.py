@@ -167,6 +167,14 @@ class HtmlTransitionSystem(TransitionSystem):
         print(score)
         return score
 
+    def is_valid_hypothesis(self, hyp, **kwargs):
+        try:
+            hyp_code = self.ast_to_surface_code(hyp.tree)
+            self.surface_code_to_ast(hyp_code)
+        except:
+            return False
+        return True
+
     def get_primitive_field_actions(self, realized_field):
         # Mostly copy/pasted from the python example
         # But with the complexities removed, like handling cardinality > 1
