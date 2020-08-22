@@ -23,3 +23,24 @@ See `./launch_train_run.sh` in the root dir.
 Where `1h-vid` is a name of a dataset found in `./datasets/html/dev-data/`
 
 Manually edit that file to change between gpu/cpu.
+
+### Example data
+https://www.w3schools.com/html/mov_bbb.mp4
+
+### Running the server
+I modified the server to only display HTML as a supported language, and tweaked the styles a bit. Run the server with:
+```
+$ cd path/to/tranx
+$ python server/app.py --config_file data/server/config_py2.json
+```
+Where config_py2.json should include an entry for `html`, like:
+```
+"html": {
+  "parser": "default_parser",
+  "example_processor": "html_example_processor",
+  "model_path": "data/pretrained_models/html-162.bin",
+  "beam_size": 15
+}
+```
+
+The html-162.bin was downloaded from a training run on Floydhub.

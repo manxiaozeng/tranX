@@ -25,7 +25,7 @@ def init_arg_parser():
 
 @app.route("/")
 def default():
-    return render_template('default.html')
+    return render_template('lang-html.html') # Basically the same as default.html but just shows HTML as a lang
 
 
 @app.route('/parse/<dataset>/<utterance>', methods=['GET'])
