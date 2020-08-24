@@ -43,4 +43,4 @@ Where config_py2.json should include an entry for `html`, like:
 }
 ```
 
-The html-162.bin was downloaded from a training run on Floydhub.
+The html-162.bin was downloaded from a training run on Floydhub. See 162/files/saved_models/html/mturk-12k-fuzzed-simple-urls

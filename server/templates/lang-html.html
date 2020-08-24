@@ -12,14 +12,9 @@
     <title>tranX</title>
 
     <style>
-        body {
-            padding-top: 5rem;
-        }
-
         .starter-template {
             padding: 1.5rem 1.5rem;
             text-align: center;
-            margin-top: 50px;
         }
 
         .hyp-code {
@@ -40,39 +35,30 @@
     </style>
   </head>
   <body>
-	<a href="https://github.com/pcyin/tranX"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 1000000;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">tranX</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="https://github.com/pcyin/tranX">Project Homepage <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        </div>
-    </nav>
-
     <main role="main" class="container">
 
     <div class="starter-template">
-        <!-- <h1>Bootstrap starter template</h1> -->
-        <div class="row">
+        <div class="row" style="margin-bottom: 50px">
+          <div class="col" style="text-align: left; font-size: 13px;">
+            This is a fork of <a href="https://github.com/pcyin/tranX">TranX</a> modified to translate
+            English to HTML. It is an exploration of <a href="https://blog.antipa.io/the-dreamup/">The Dreamup: A codeless alternative to the Web</a>.
+          </div>
+        </div>
+        <div class="row" style="margin: 15px 0px">
             <div class="col">
               <div class="input-group">
                   <input type="text" class="form-control" id="inputUtterance" placeholder="Describe an HTML <video /> in English" style="width:70%;">
-                  <button type="button" class="btn btn-primary" id="btn_parse">Generate</button>
+                  <div class="input-group-append">
+                    <button type="button" class="btn btn-primary" id="btn_parse">Parse</button>
+                  </div>
               </div>
             </div>
         </div>
         <div class="row">
-          <div class="col" style="text-align: left; font-size: 12px; margin-top: 15px">
+          <div class="col" style="text-align: left; font-size: 13px; margin-top: 15px">
             <div>Try an example </div>
             <div class="card-text"><a href="#" onclick="parse_example(this, 'html');">Show a video with the source doctor.mp4</a></div>
-            <div class="card-text"><a href="#" onclick="parse_example(this, 'html');">Display a muted video from foo.mp4</a></div>
+            <div class="card-text"><a href="#" onclick="parse_example(this, 'html');">Display a muted video from foo.mp4 and automatically play it</a></div>
           </div>
         </div>
         <div class="hypotheses">
@@ -166,6 +152,9 @@
         }
 
         $('#btn_parse').click(on_parse)
+        $(function() {
+          $('#inputUtterance').focus();
+        })
     </script>
   </body>
 </html>
