@@ -24,6 +24,11 @@ Where `1h-vid` is a name of a dataset found in `./datasets/html/dev-data/`
 
 Manually edit that file to change between gpu/cpu.
 
+To launch and start the web server.
+```
+floyd run --env pytorch-0.3:py2 --cpu --mode serve
+```
+
 ### Example data
 https://www.w3schools.com/html/mov_bbb.mp4
 

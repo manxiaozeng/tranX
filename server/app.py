@@ -7,26 +7,21 @@ import json
 
 from components.standalone_parser import StandaloneParser
 
+print("Making app")
 app = Flask(__name__)
 parsers = dict()
 
+def get_app():
+    return app
 
 def init_arg_parser():
     arg_parser = argparse.ArgumentParser()
-
-    #### General configuration ####
-    arg_parser.add_argument('--cuda', action='store_true', default=False, help='Use gpu')
-    arg_parser.add_argument('--config_file', type=str, required=True,
-                            help='Config file that specifies model to load, see online doc for an example')
-    arg_parser.add_argument('--port', type=int, required=False, default=8081)
-
     return arg_parser
 
 
 @app.route("/")
 def default():
     return render_template('lang-html.html') # Basically the same as default.html but just shows HTML as a lang
-
 
 @app.route('/parse/<dataset>/<utterance>', methods=['GET'])
 def parse(utterance, dataset):
@@ -61,18 +56,19 @@ def parse(utterance, dataset):
 
     return jsonify(responses)
 
+@app.route("/ping")
+def ping():
+    return "pong"
 
-if __name__ == '__main__':
-    args = init_arg_parser().parse_args()
-    config_dict = json.load(open(args.config_file))
+# args = init_arg_parser().parse_args()
+config_dict = json.load(open("server/html-config.json"))
 
-    for parser_id, config in config_dict.items():
-        parser = StandaloneParser(parser_name=config['parser'],
-                                  model_path=config['model_path'],
-                                  example_processor_name=config['example_processor'],
-                                  beam_size=config['beam_size'],
-                                  cuda=args.cuda)
+for parser_id, config in config_dict.items():
+    # _TODO_ load model from previous floyd run
+    parser = StandaloneParser(parser_name=config['parser'],
+                              model_path=config['model_path'],
+                              example_processor_name=config['example_processor'],
+                              beam_size=config['beam_size'],
+                              cuda=False) # _TODO_ suppport cuda
 
-        parsers[parser_id] = parser
-
-    app.run(host='0.0.0.0', port=args.port, debug=True)
+    parsers[parser_id] = parser

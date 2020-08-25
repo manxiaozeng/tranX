@@ -52,3 +52,4 @@ beautifulsoup4==4.7.1
 asdl==0.1.5
 nltk==3.3
 tqdm==4.26.0
+flask
