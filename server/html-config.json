@@ -1,0 +1,8 @@
+{
+  "html": {
+    "parser": "default_parser",
+    "example_processor": "html_example_processor",
+    "model_path": "data/pretrained_models/html-162.bin",
+    "beam_size": 15
+  }
+}
